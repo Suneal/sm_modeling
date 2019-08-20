@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "name": "Tony_Test_light",
+      "appType": "setupApp",
+      "versions": [
+        {
+          "appData": {
+            "setupAppData": {
+              "type": "ocf",
+              "ocf": {
+                "mnId": "fCG5",
+                "setupId": "001"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

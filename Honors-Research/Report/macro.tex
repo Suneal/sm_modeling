@@ -1,0 +1,210 @@
+%----------------------
+%extra commands
+
+\usepackage{epsf}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{ifthen}
+\usepackage{array}
+\usepackage{comment}
+\usepackage{url}
+\usepackage{cellspace}
+\usepackage{latexsym}
+%\usepackage[margin=1in]{geometry}
+\usepackage{amsfonts}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{wrapfig}
+\usepackage{xspace}
+\usepackage{enumitem}
+\usepackage[compact]{titlesec}
+\usepackage{mathpazo,euler}
+\usepackage{footnote}
+\usepackage{gensymb}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{pdfpages}
+%\usepackage{algorithm}
+\usepackage[linesnumbered,ruled]{algorithm2e}
+\newboolean{showcomments}
+
+%%%%%%%%%%%%%% PGF Plots
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{pgfplots,pgfplotstable}\pgfplotsset{compat=1.9}
+\usetikzlibrary{external}
+\tikzexternalize[prefix=tikz/]
+%%%%%%%%%%%%%% PGF PLOTS
+
+\setboolean{showcomments}{true}
+
+\ifthenelse{\boolean{showcomments}}
+  {\newcommand{\nb}[2]{
+    \fbox{\bfseries\sffamily\scriptsize#1}
+    {\sf\small$\blacktriangleright$\textit{#2}$\blacktriangleleft$}
+   }
+   \newcommand{\cvsversion}{\emph{\scriptsize$-$Id: macro.tex,v 1.9 2005/12/09 22:38:33 giulio Exp $}}
+  }
+  {\newcommand{\nb}[2]{}
+   \newcommand{\cvsversion}{}
+  }
+\newcommand\KEVIN[1]{{\color{purple} \nb{KEVIN}{#1}}}
+\newcommand\revision[1]{{\color{blue}{#1}}}
+\newcommand\ADWAIT[1]{{\color{red} \nb{ADWAIT}{#1}}}
+\newcommand\SUNIL[1]{{\color{orange} \nb{SUNIL}{#1}}}
+\newcommand\DENYS[1]{{\color{blue} \nb{DENYS}{#1}}}
+\newcommand\TONY[1]{{\color{blue} \nb{TONY}{#1}}}
+\newcommand\TODO[1]{{\color{red} \nb{TODO}{#1}}}
+\newcommand\REF{{\color{blue}[REF]}\xspace}
+\newcommand{\tool}{{H$\epsilon$lion}\xspace}
+\newcommand{\tools}{{H$\epsilon$lion}'s\xspace}
+
+\newcommand\fix[1]{{\color{blue} \nb{FIX THIS}{#1}}}
+\newcommand{\here}{{\color{blue} \nb{***}{CONTINUE HERE}}}
+\newcommand{\re}{{\color{red} \textbf{[REFS]}}\xspace}
+\newcommand{\xy}{{\color{red} \textbf{XY}}\xspace}
+
+\newcommand{\ie}{\textit{i.e.},\xspace}
+\newcommand{\eg}{\textit{e.g.},\xspace}
+\newcommand{\etc}{\textit{etc.}\xspace}
+\newcommand{\etal}{\textit{et al.}\xspace}
+\newcommand{\aka}{\textit{a.k.a.}\xspace}	
+
+
+\newcommand{\taskref}[1]{{\em Task~{#1}}\xspace}
+\newcommand{\rc}[1]{{\bf RC$_{#1}$}\xspace}
+\newcommand{\rg}[1]{{\bf RG$_{#1}$}\xspace}
+\newcommand{\secref}[1]{Sec.~\ref{#1}\xspace}
+\newcommand{\figref}[1]{Fig.~\ref{#1}\xspace}
+\newcommand{\tabref}[1]{Table~\ref{#1}\xspace}
+\newcommand{\Phase}{{\sc Phase}\xspace}
+\newcommand{\Phases}{{\sc Phase's~}\xspace}
+\newcommand{\nest}{{NEST}\xspace}
+\newcommand{\hue}{{HUE}\xspace}
+\newcommand{\smartthings}{{SmartThings}\xspace}
+\newcommand{\ngram}{{n-gram}\xspace}
+\newcommand{\ngrams}{{n-grams}\xspace}
+\newcommand{\seqstart}{{\sf <s>}\xspace}
+\newcommand{\seqend}{{\sf </s>}\xspace}
+\newcommand{\sequence}[1]{{\em #1}}
+\newcommand{\sentence}[1]{\seqstart {\em #1}\seqend}
+\newcommand\pnumber[1]{{$\mathcal{P}_{#1}$}}
+
+
+	\newcommand{\emphquote}[1]{{\emph{`#1'}}\xspace}
+	\newcommand{\emphdblquote}[1]{{\emph{``#1''}}\xspace}
+	
+	\newcommand{\emphbrack}[1]{\emph{[#1]}\xspace}
+			
+\newcommand{\subj}{\emphbrack{subject}}
+	\newcommand{\act}{\emphbrack{action}}
+	\newcommand{\obj}{\emphbrack{object}}
+	\newcommand{\prep}{\emphbrack{preposition}}
+	\newcommand{\objtwo}{\emphbrack{object2}}
+
+	\newcommand*\ciclednum[1]{\raisebox{.5pt}{\textcircled{\raisebox{-.9pt}
+	{#1}}}}
+
+\newcommand{\projtodo}[1]{{\color{red}{\bf TODO:}#1}}
+
+
+\titlespacing{\section}{0pt}{2ex}{1ex}
+\titlespacing{\subsection}{0pt}{1ex}{0ex}
+\titlespacing{\subsubsection}{0pt}{0.5ex}{0ex}
+
+\newcounter{taskctr}
+\newcommand{\task}[1]{
+  \addtocounter{taskctr}{1}
+  \vspace{0.5em}\noindent{\bf Task \arabic{taskctr}.} ({\it #1})
+}
+
+\newcommand{\myparagraph}[1]{\vspace{0.5em}\noindent{\bf #1}:}
+
+\pagestyle{empty}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{shadecolor}{rgb}{0.95,0.95,0.95}
+\lstset{ % for our code environment
+        language=Java,
+        basicstyle=\ttfamily\footnotesize,
+        numbers=left,
+        numbersep=5pt,
+        numberstyle=\tiny,%\color{gray},
+        frame=single,
+        breaklines=true,
+        breakatwhitespace=false,
+        breakindent=3pt, % normally 20pt, but need this to be small for now
+        captionpos=b,
+        %eywordstyle=\bfseries,
+        commentstyle=\textit,
+        identifierstyle=\ttfamily,
+        keywordstyle=\ttfamily
+        %stringstyle=\bfseries
+}
+
+%----------------------
+
+%remove indentation of itemized/enumeration lists, reduce vertical spacing of bullets
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=1pt}
+\setlist[enumerate]{leftmargin=*, noitemsep, topsep=1pt}
+
+%spaces before the \paragraph commands
+\makeatletter
+\renewcommand{\paragraph}{%
+	\@startsection{paragraph}{4}%
+	{\z@}{0.5ex \@plus 0ex \@minus .2ex}{-1em}%
+	{\normalfont\normalsize\bfseries}%
+}
+\makeatother
+
+%heading spaces
+%\usepackage{titlesec} %TODO: move this one to the main file
+%\titlespacing\section{0pt}{10pt plus 0pt minus 0pt}{-4pt plus 0pt minus 0pt}
+%\titlespacing\subsection{0pt}{10pt plus 2pt minus 0pt}{-5pt plus 0pt minus 0pt}
+%\titlespacing\subsubsection{0pt}{3pt plus 0pt minus 5pt}{0pt plus 2pt minus 2pt}
+
+%formula spaces
+\makeatletter
+\g@addto@macro\normalsize{%
+	\setlength\abovedisplayskip{0pt}
+	\setlength\belowdisplayskip{0pt}
+	\setlength\abovedisplayshortskip{-10pt}
+	\setlength\belowdisplayshortskip{0pt}
+}
+\makeatother
+
+%----------------------
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+		\node[shape=circle,draw,inner sep=0.5pt] (char) {#1};}}
+
+\DeclareGraphicsExtensions{.pdf,.png}
+\graphicspath{{img/}}
+
+
+%NSF LaTeX Formatting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{plain}                                                      %%
+%%%%%%%%%% EXACT 1in MARGINS %%%%%%%                                   %%
+\setlength{\textwidth}{6.5in}     %%                                   %%
+\setlength{\oddsidemargin}{0in}   %% (It is recommended that you       %%
+\setlength{\evensidemargin}{0in}  %%  not change these parameters,     %%
+%\setlength{\textheight}{8.5in}    %%  at the risk of having your       %%
+\setlength{\textheight}{9.1in}    %%  at the risk of having your       %%
+\setlength{\topmargin}{0in}       %%  proposal dismissed on the basis  %%
+\setlength{\headheight}{0in}      %%  of incorrect formatting!!!)      %%
+\setlength{\headsep}{0in}         %%                                   %%
+\setlength{\footskip}{.5in}       %%                                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                   %%
+\newcommand{\required}[1]{\section*{\hfil #1\hfil}}                    %%
+\renewcommand{\refname}{{\hskip 0pt plus 0.1fil minus 0pt} References Cited\hfil}                   %%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

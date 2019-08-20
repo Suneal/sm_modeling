@@ -1,0 +1,11 @@
+{
+  "id": "com.example.stdevice.plugin.light",
+  "name": "com.example.stdevice.plugin.light",
+  "version": "1",
+  "versionName": "0.0.1",
+  "url": "ppks/com.example.stdevice.plugin.light_0.0.1.ppk",
+  "deviceType": "none",
+  "deviceSubType": "none",
+  "deviceManufacturer": "default.manufacturer",
+  "platformVersion": "1.0.0"
+}

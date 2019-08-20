@@ -1,0 +1,1 @@
+{ "model" : "backoff", "flavor" : "up", "history" : ["<Light_Bulb,colorValue,fixed_value>", "<Temperature_Sensor,temperature,greater>"], "length" : 2 }

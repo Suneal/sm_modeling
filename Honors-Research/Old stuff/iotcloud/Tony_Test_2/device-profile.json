@@ -1,0 +1,50 @@
+{
+  "name": "air conditioner 2",
+  "components": [
+    {
+      "id": "main",
+      "capabilities": [
+        {
+          "id": "airConditionerMode"
+        },
+        {
+          "id": "airQualitySensor"
+        },
+        {
+          "id": "energyMeter"
+        },
+        {
+          "id": "fanSpeed"
+        },
+        {
+          "id": "filterStatus"
+        },
+        {
+          "id": "relativeHumidityMeasurement"
+        },
+        {
+          "id": "switch"
+        },
+        {
+          "id": "temperatureMeasurement"
+        },
+        {
+          "id": "thermostatCoolingSetpoint"
+        }
+      ]
+    },
+    {
+      "id": "outdoor",
+      "capabilities": [
+        {
+          "id": "temperatureMeasurement"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "mnmn": "",
+    "vid": "SAMPLE-AIRCONDITIONER-001",
+    "deviceType": "AirConditioner"
+  }
+}

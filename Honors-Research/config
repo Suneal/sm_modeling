@@ -1,0 +1,5 @@
+host coffee
+   hostname rocco.cs.wm.edu
+   user rtang
+   port 7189
+   IdentityFile ~/.ssh/server

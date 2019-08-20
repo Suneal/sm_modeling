@@ -1,0 +1,91 @@
+ Welcome back, wmsmarthomeresearch@gmail.com
+Logout
+My Locations
+My Hubs
+My Devices
+My SmartApps
+My Device Handlers
+My Publication Requests
+Live Logging
+Documentation
+All
+Hello Home
+Motion Sensor
+Motion Sensor
+Smart APP 3
+Smart Home Monitor
+Security
+SM_APP1_Switch
+SM_switch1
+Outlet
+NST Manager
+Yale Lock
+Hue AEF2BE
+Camera
+Arlo (Connect)
+Office
+Ring (Connect)
+Multipurpose Sensor
+Smart APP Siren
+Base Station
+Smart APP 3
+Logs
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:49:33 PM: debug EVT in alarm = off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:49:21 PM: debug Turning lock on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:49:03 PM: debug Turning alarm off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:49:03 PM: debug EVT in alarm = siren
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:49:01 PM: debug Turning light off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:49:01 PM: debug Turning light off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:49:01 PM: debug Turning light on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:48:59 PM: debug Turning alarm on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:48:59 PM: debug Turning alarm on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:48:33 PM: debug EVT in alarm = off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:48:21 PM: debug Turning lock on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:48:03 PM: debug Turning alarm off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:48:03 PM: debug EVT in alarm = siren
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:48:01 PM: debug Turning light off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:48:01 PM: debug Turning light on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:47:59 PM: debug Turning alarm on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:47:32 PM: debug EVT in alarm = off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:47:21 PM: debug Turning lock on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:47:02 PM: debug Turning alarm off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:47:02 PM: debug EVT in alarm = siren
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:47:01 PM: debug Turning light off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:47:01 PM: debug Turning light on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:47:01 PM: debug Turning light on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:46:59 PM: debug Turning alarm on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:46:31 PM: debug EVT in alarm = off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:46:21 PM: debug Turning lock on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:46:02 PM: debug Turning light off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:46:02 PM: debug Turning light on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:46:01 PM: debug Turning alarm off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:46:01 PM: debug EVT in alarm = siren
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:45:59 PM: debug Turning alarm on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:45:23 PM: debug Turning lock on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:45:32 PM: debug EVT in alarm = off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:45:01 PM: debug Turning light off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:45:01 PM: debug Turning light off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:45:01 PM: debug Turning alarm off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:45:01 PM: debug EVT in alarm = siren
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:45:01 PM: debug Turning light on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:44:59 PM: debug Turning alarm on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:44:30 PM: debug EVT in alarm = off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:44:21 PM: debug Turning lock on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:44:01 PM: debug Turning light off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:44:01 PM: debug Turning light off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:44:01 PM: debug Turning light on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:44:00 PM: debug Turning alarm off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:44:00 PM: debug EVT in alarm = siren
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:43:59 PM: debug Turning alarm on
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:43:30 PM: debug EVT in alarm = off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:43:21 PM: debug Turning lock on
+
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:43:01 PM: debug Turning light off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:43:01 PM: debug Turning light off
+
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:43:00 PM: debug Turning alarm off
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:43:00 PM: debug EVT in alarm = siren
+
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:42:59 PM: debug Turning alarm on
+
+8819bced-68d0-4aef-b9ee-9f337c2c2591  3:42:21 PM: debug Turning lock on

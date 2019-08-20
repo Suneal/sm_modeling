@@ -1,0 +1,22 @@
+<s>	2
+a	2
+b	2
+c	2
+f	1
+<s> a	10
+<s> b	1
+a b	1
+a c	1
+b a	1
+b c	1
+b f	1
+c </s>	2
+f </s>	1
+<s> a b	10
+<s> b a	1
+a b c	7
+a b f	3
+a c </s>	1
+b a c	1
+b c </s>	7
+b f </s>	3

@@ -1,0 +1,96 @@
+\section{Additional Insights}
+\label{sec:insight} 
+
+% Give stats on survey (i.e., users, experience, etc.)
+%We used the survey methodology briefly described previously (and in detail in Appendix~\ref{app:survey_methodology} to collect routines, execution indicators, and additional information from 37 users, after discarding \xy surveys with random/incomplete responses.
+%population
+
+%While the prior sections examine how \tool can be used to analyze the naturalness/security flaws of home automation, 
+
+While the prior sections focused on the design and implementation of the generation of intermediate representation approach, this section describes several insights that can be drawn from the result of this approach with answers to a sereies of research qeustions (\textbf{RQ}). In order to get a more accurate grasp of the results, we use the manually generated intermediate representation.
+
+\myparagraph{RQ 1   - How diverse is our dataset, \ie how many unique routines?}
+
+One of the core features of the intermediate representation is its ability to abstract and characterize the given user-driven routine. We know that a routine consists if triggers and actions. We can  define a routine to be``unique'' if it is consisted of different combinations of intermediate representation. In other words, if two routines end up having the same trigger and action intermediate representations, they are considered equivalent. By using this approach, we created a dictionary that maps each routine with an aggregation of all of its intermediate representations. For example, an simple routine:   
+\noindent\fbox{%
+    \parbox{\linewidth}{%
+    If it is morning, then turn on the Coffee Maker.
+	}
+}
+would have the following aggregation: 
+\noindent\fbox{%
+    \parbox{\linewidth}{%
+    'Morning + switch + on + Coffee Maker + switch + on'
+	}
+}
+
+To count the total number of unique routine, we simply count the number of unique aggregations of intermediate representation. In the end, we found that there are \textbf{220} unique user-driven routines, or 88\%, in the dataset of 250. The approach we used is a overestimation that serve as the higher bound of measuring number of unique routines. An alternative method to perform the aggregation of intermediate representation is to only include the device names and device capabilities, without device variables. Intuition behind this is that device variables represents the state or the condition for the device's capability, as which does not offer much difference to a similar routine that uses the same device and capability. 
+
+
+\myparagraph{RQ 2   - Top 8 most common routines} 
+
+\input{tables/common_routines.tex}
+Using similar strategy as before, we create a mapping of the aggregated intermediate representation of each routine and a count variables. After iterate though the entire dataset, we present the most common routine that is used in our dataset as shown in Table.~\ref{tbl:top-8-routines}. It is quite interesting to observe that Air quality and temperature are the most common factor that the user most wanted to control. This result is helpful to for critical stakeholders such as platform vendors, end-users, and security researchers to prioritize analysis related to temperature control.
+
+\myparagraph{RQ 3   - What are the most common devices used by users?}
+
+\input{tables/device_user_want.tex}
+To get an insight on the devices being used by user, we look at the device name for each routine (both trigger and action) and increment the count once for each device being used by each user (we did not count multiple instances of the same device used by one user), as shown in Table.~\ref{tbl:top-8-devices}. This result is also interesting as it shows that, once again, user prefer to incorporate Air Conditioner(over 85\%) / Thermostat control in their home automation, supporting the previous finding in \textbf{RQ 2}.
+
+\myparagraph{RQ 4   - What are the most common trigger conditions?} 
+
+\input{tables/common_triggers.tex}
+We collect the number of triggers (aggregated device name and device capability of the intermediate representation), and we found out that most user (over 70\%) would utilize ``Mode'' as the trigger for their automation, as shown in Table.~\ref{tbl:top-8-trigger}
+
+\myparagraph{RQ 5   - What are the most common actions?} 
+
+\input{tables/common_actions.tex}
+Similar as the approach to \textbf{RQ 4}, we total the number of unique actions, based on the device name and device capability. And found out that Aic Conditioner is the most popular (over 75\%) action to perform, as shown in Table.~\ref{tbl:top-8-action}
+
+
+\myparagraph{RQ 6   - Can existing IoT marketplace apps satisfied most end-users' requirement? } 
+
+\input{tables/public_analysis.tex}
+One of our core arguments for a paradigm shift from the predominant trend of analyzing marketplace IoT apps is that marketplace IoT apps are constrained by the limited perspective of third-party developers. Often times, end-users' direct requirement are not satisfied. Therefore, a key research question we ask is that can existing IoT marketplace apps satisfied most end-users' requirement? 
+We conducted three experiments to assess our arguments. We first went over each routine using intermediate representation as a guide and manually determined whether if an existing IoT app can satisfy the end-user's requirements, we refer this as the ``Manual'' method. The manual method demonstrates that 107 out of 250, 42.8\%, of the user-driven routines cannot be represented with one of public smart apps from SmartThings. Since many user-driven routines are similar and might effect the ratio, we filter the result based on two method, one focus on Device Name and Device Capability, with 47.62\% cannot be represented by public IoT apps, while the other focus on all three intermediate representations, with 43.89\% cannot be represented (Table.~\ref{tbl:public-analysis}). For all three cases, there are more than 40\% of user-driven routines that cannot be represented with one of public smart apps from SmartThings. This further calls for a paradigm shift from the traditional focus of solely on marketplace IoT apps.
+
+
+
+
+%These results also reinforce the validity of \tools informed execution that makes use of these execution indicators.
+
+%More importantly, they are ``unsure'' in very few cases (\ie\ {\em at most 18.4\% for frequency}).  
+%On further examining the data, we discover that most of these unsure cases are caused by unpredictable triggers, such as CO leaks, smoke, and drastic temperature changes, which is understandable. 
+%More importantly, our survey clearly demonstrates that users are able to confidently predict a significant number of execution indicators, although some triggers may make this difficult.
+%%%%%%%%%%%%%%%
+
+%%% Interesting insights
+
+
+
+%%%
+
+% 3. What devices do users want in their homes? 
+%% light bulb 32,  ac 31, thermostat 28, sec camera 27, sec alarm 26, door lock 25, temperature sensor 23, smart audio player 22,  smart TV + Smart Speaker + Smoke Detector 21, garage door opener 20, 
+
+% 4. Push-Notified when routines are triggered  :
+%% Always (6 or 16), Very frequently (7 or 18), Occasionally (14 or 37), Rarely (6 or 16), Never (4 or 10)
+
+
+%% 5. Consider security when creating routines? VERIFY 
+% Always 17, Most of the time 14, 3 rarely or never (2+1)
+
+% 6. Trust routines by 3party devs: VERIFY
+%% sometimes (21), most of the time (6), rarely (7), never (4), always 0
+
+%7. Would you test your routines to make sure they execute as you want them to? VERIFY
+%% always 21, almost always 11, occasionally 5, never 1
+ 
+%%%%%%%%%%%%%%%%
+%%% Results to support the design
+
+% 11. Execution indicators
+%% 11.a) Time of day: not sure (6) mostly for air quality bad, motion or glass break detected, water leak or CO or smoke detected, temperature changes, certain (147), anytime (97)
+%% 11.b) Frequency: not sure (46), more factors (e.g., security camera takes picture, water leak, odorLevel of Gas Sensors), certain (204)
+%% 11.c) Weekday/Weekend: Not sure (21), throughout the week (171), weekday/weekend (57)
+

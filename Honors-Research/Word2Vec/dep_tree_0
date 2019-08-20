@@ -1,0 +1,22 @@
+digraph G{
+edge [dir=forward]
+node [shape=plaintext]
+
+0 [label="0 (None)"]
+0 -> 4 [label="root"]
+1 [label="1 (mode)"]
+2 [label="2 (is)"]
+3 [label="3 (Away)"]
+4 [label="4 (AND)"]
+4 -> 1 [label="nsubj"]
+4 -> 2 [label="cop"]
+4 -> 3 [label="compound"]
+4 -> 6 [label="acl:relcl"]
+5 [label="5 (time)"]
+6 [label="6 (is)"]
+6 -> 5 [label="nsubj"]
+6 -> 9 [label="dep"]
+8 [label="8 (after)"]
+9 [label="9 (sunset)"]
+9 -> 8 [label="case"]
+}

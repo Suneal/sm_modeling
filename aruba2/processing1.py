@@ -34,8 +34,9 @@ with open(OUTPUT_FILE, 'w') as toFile:
                 hour = datetime_object.hour
                 minute = datetime_object.minute
 
-                time_token = str(month) + '-' + str(day) + '-' + str(
-                    hour) + '-' + str(minute)
+                # time_token = str(month) + '-' + str(day) + '-' + str(
+                #     hour) + '-' + str(minute)
+                time_token =  str(hour)
                 # print(time_token)
                 token = '<'+ time_token + ',' + device + ',' + event.replace('\n','').replace(' ','').replace('\t','') + '>'
 
@@ -47,9 +48,6 @@ with open(OUTPUT_FILE, 'w') as toFile:
                         daily_token = ''
                         counter = 0
 
-
-
-
                 elif(global_day == 0):
                     daily_token += token
                     global_day = day
@@ -60,8 +58,3 @@ with open(OUTPUT_FILE, 'w') as toFile:
                     global_day = day
         toFile.write(daily_token + '\n')
         daily_token = ''
-        
-
-                    
-
-                #

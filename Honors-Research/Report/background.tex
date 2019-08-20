@@ -1,0 +1,22 @@
+\section{Background}
+\label{sec:background}
+
+%% Home automation security
+% 
+%This paper is motivated by a gap in the domain of home automation security, and resolves the gap using an approach inspired by prior treatment of software as a natural language.
+%This section attempts to address related work in both these domains. 
+
+%\myparagraph{1. Home automation security}
+One of the main challenges of analyzing user-driven routines is obtaining them from existing or potential users. To achieve this, we utilize an existing dataset of 250 user-driven routines collected from a concurrent work. Participants were given the option to select any number of smart home devices from a list of 70 for their ideal smart home setup. In addition of receiving a device list, participants were provided with a device-capability list to guide with the creation of routines. Most importantly, participants were able to create routines for their smart home in the form of plain English text, which overcomes the first challenge for this study (\ie data collection of user-driven routines).
+% ========== NLP TECHNOLOGIES ========== 
+\subsection{NLP Tools and Techniques}
+
+While the routine from our dataset is in a semi-structured format, parsing each one is still a non-trivial task. To analyze these phases, we rely on several existing natural language processing (NLP) tools and techniques.
+The first tool we tried to employ was NLTK, a Natural Language Toolkit written in Python ~\cite{nltk}. NLTK is a leading platform for building Python programs to work with data related to human languages. In addition to have more than 50 corpora such as WordNet, NLTK also provides a suite of libraries for stemming, tagging, tokenization, semantic reasoning, and pre-processing.
+
+It turns out that NLTK is excellent for pre-processing and tokenizing natural text, however, it is still lacking in correctly identifying the part of speech (POS) of each word.
+Part-of-Speech tagging is used to identify a word's part of speech based on its context and definition.  For instance, the NLTK POS tagger tagged ``thermostat'' as a ``JJ'' (Adjective). This is problematic since ``thermostat'' is device that is quite commonly used as a device. This prompted the need to search for an alternative tool to perform POS Tagging.
+
+Stanford CoreNLP, on the other hand, provides a more comprehensive library that does not only have a higher accuracy in POS tagging than NLTK, but also allows the parsing of syntactic dependencies of each word. This is particularly useful in that it helps us understand the grammatical structure of each sentence, and it is able to recognize different phases within a complex routine and pair subjects or objects with respect to the associated verb.
+
+

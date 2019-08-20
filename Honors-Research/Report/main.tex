@@ -1,0 +1,69 @@
+\documentclass[10pt,twocolumn,pdftex]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[pdftex,colorlinks=true,citecolor=black,filecolor=black,%
+            linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{times}
+
+\usepackage{amssymb}
+\usepackage{usenix2019_v3}
+
+\usepackage{enumitem}
+\include{macro}
+
+%\lstset{ % for our code environment
+%    language={},
+%    basicstyle=\ttfamily}
+%\let\code\lstinline
+
+\title{Leveraging NLP to Enable Analysis of User Driven Routines}
+\author{
+    {\rm Ruhao (Tony) Tang}\\
+    The College of William and Mary\\
+    {\rm Department of Computer Science}\\
+    {\rm \url{rtang@email.wm.edu}}
+}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+%-------------------------------------------------------------------------------
+
+\maketitle
+
+% Paper Body
+%-------------------------------------------------------------------------------
+\input{abstract}
+\input{intro}
+\input{background}
+\input{motivation}
+\input{design}
+%\input{implementation}
+\input{eval}
+\input{insight}
+\input{discussion}
+\input{related-work}
+\input{conc}
+%-------------------------------------------------------------------------------
+
+
+
+
+%-------------------------------------------------------------------------------
+\section*{Acknowledgments}
+I would like to express my sincere gratitude to my honors adviser, Professor Adwait Nadkarni, for his continuous support during my project. I would also like to thank Sunil Manandhar for his continuous support and valuable feedback during time of doubt. Lastly, I am grateful to my friends for their patience and encouragement that fueled me throughout the year.
+%-------------------------------------------------------------------------------
+
+
+
+\bibliographystyle{plain}
+\bibliography{bibliographies/os,bibliographies/semeru,bibliographies/iot,bibliographies/misc,bibliographies/phone,bibliographies/monkeylab}
+
+
+
+%-------------------------------------------------------------------------------
+\end{document}
+%-------------------------------------------------------------------------------
+
+

@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+
+\usepackage{tikz}
+\usepackage{pgfplots,pgfplotstable}\pgfplotsset{compat=1.9}
+\usetikzlibrary{pgfplots.groupplots}
+
+\usetikzlibrary{external}
+\tikzexternalize[prefix=tikz/]
+
+
+\title{Results}
+\author{Tony}
+\date{February 2019}
+
+\begin{document}
+
+\maketitle
+
+\pgfplotstableread[col sep = comma]{device_name_vs_num_users.csv}\SecurityDeviceStat
+
+\makeatletter
+\pgfplotsset{
+    /pgfplots/flexible xticklabels from table/.code n args={3}{%
+        \pgfplotstableread[#3]{#1}\coordinate@table
+        \pgfplotstablegetcolumn{#2}\of{\coordinate@table}\to\pgfplots@xticklabels
+        \let\pgfplots@xticklabel=\pgfplots@user@ticklabel@list@x
+    }
+}
+\makeatother
+
+\section{Device Name vs Number of Users }
+
+\begin{figure}
+    \centering
+        \begin{tikzpicture}
+        \begin{axis}[
+        ybar, ymin=0,
+        ymax=40,
+        xlabel=Device Name,
+        ylabel=Number of Users,
+        flexible xticklabels from table={device_name_vs_num_users.csv}{Device Name}{col sep=comma},
+        xticklabel style={text height=0.5ex}, % To make sure the text labels are nicely aligned
+        xtick=data,
+        x tick label style={rotate=55,anchor=east},
+        nodes near coords,
+        nodes near coords align={vertical}]
+        \addplot table[x expr=\coordindex,y=Number of Users]{\SecurityDeviceStat};
+
+        \end{axis}
+
+        \end{tikzpicture}
+\end{figure}
+
+
+\end{document}

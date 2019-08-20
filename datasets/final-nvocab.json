@@ -1,0 +1,2144 @@
+[
+ {
+  "<s>": [
+   "Start of the day",
+   "Start of the day"
+  ]
+ },
+ {
+  "</s>": [
+   "End of the day",
+   "End of the day"
+  ]
+ },
+ {
+  "<Air_Conditioner,temperature,greater>": [
+   "Air conditioner temperature is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Air_Conditioner,temperature,lesser>": [
+   "Air conditioner temperature is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Air_Conditioner,thermostat,auto>": [
+   "Air conditioner turns on and mode is set to auto",
+   "Turn the Air conditioner on and set mode to auto"
+  ]
+ },
+ {
+  "<Air_Conditioner,thermostat,decreased>": [
+   "Temperature of Air conditioner decreases",
+   "Decrease the temperature of Air conditioner"
+  ]
+ },
+ {
+  "<Air_Conditioner,thermostat,increased>": [
+   "Temperature of Air conditioner increases",
+   "Increase the temperature of Air conditioner"
+  ]
+ },
+ {
+  "<Air_Conditioner,thermostat,off>": [
+   "Air conditioner turns off",
+   "Turn Air conditioner off"
+  ]
+ },
+ {
+  "<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off>": [
+   "Air conditioner, Electric blanket, Robot vacuum and Oil warmer turn off",
+   "Turn Air conditioner, Electric blanket, Robot vacuum and Oil warmer off"
+  ]
+ },
+ {
+  "<Air_Conditioner-Fan,thermostat-switch,auto-on>": [
+   "Air conditioner and Fan turn on and mode of AC is set to auto",
+   "Turn Air conditioner and fan on and set mode of AC to auto"
+  ]
+ },
+ {
+  "<Air_Conditioner-Fan,thermostat-switch,off-off>": [
+   "Air conditioner and Fan turn off",
+   "Turn Air conditioner and fan off"
+  ]
+ },
+ {
+  "<Air_Conditioner-Heater,thermostat-switch,off-off>": [
+   "Air conditioner and Heater turn off",
+   "Turn Air conditioner and Heater off"
+  ]
+ },
+ {
+  "<Air_Conditioner-Light_Bulb,thermostat-colorValue,auto-fixed_value>": [
+   "Air conditioner turns on at a set temperature and color of the Light bulb changes",
+   "Turn Air conditioner on at a preset temperature and change the color of the Light bulb"
+  ]
+ },
+ {
+  "<Air_Conditioner-Light_Bulb,thermostat-colorValue,decreased-fixed_value>": [
+   "Temperature of Air conditioner decreases and color of the Light bulb changes",
+   "Decrease the temperature of Air conditioner and change the color of the Light bulb"
+  ]
+ },
+ {
+  "<Air_Conditioner-Light_Bulb,thermostat-switch,auto-on>": [
+   "Air conditioner and Light bulb turn on",
+   "Turn on Air conditioner and Light bulb"
+  ]
+ },
+ {
+  "<Air_Conditioner-Fan-Light_Bulb,thermostat-switch-switch,off-off-off>": [
+   "Air conditioner, Fan and Light bulb turn off",
+   "Turn Air conditioner, Fan and Light bulb off"
+  ]
+ },
+ {
+  "<Air_Conditioner-Oil_Warmer-Robot_Vacuum-Smart_TV,thermostat-switch-switch-switch,auto-on-on-on>": [
+   "Air conditioner, Oil warmer, Robot vacuum and Smart tv turn on",
+   "Turn on Air conditioner and set mode to auto, Oil warmer, Robot vacuum and Smart tv"
+  ]
+ },
+ {
+  "<Air_Conditioner-Refrigerator-Water_Heater,thermostat-thermostat-switch,off-decreased-off>": [
+   "Air conditioner turns off, Refrigerator temperature decreases and Water heater turns off",
+   "Turn Air conditioner off, decrease Refrigerator temperature and turn Water heater off"
+  ]
+ },
+ {
+  "<Air_Conditioner-Security_Camera,thermostat-switch,off-on>": [
+   "Air conditioner turns off and Security camera turns off",
+   "Turn Air conditioner off and turn Security camera on"
+  ]
+ },
+ {
+  "<Air_Conditioner-Shades/Blinds,thermostat-contact,decreased-closed>": [
+   "Temperature of Air conditioner decreases and Window Shades/Blinds closes",
+   "Decrease the temperature of Air conditioner and close window Shades/Blinds"
+  ]
+ },
+ {
+  "<Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-greater>": [
+   "Air conditioner turns on and temperature is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser>": [
+   "Air conditioner turns on and temperature is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Air_Conditioner-null,thermostat-time,auto-morning>": [
+   "Air conditioner turns on and Time is morning",
+   "-"
+  ]
+ },
+ {
+  "<Air_Conditioner-null,thermostat-time,auto-night>": [
+   "Air conditioner turns on and Time is night",
+   "-"
+  ]
+ },
+ {
+  "<Air_Conditioner-null,thermostat-time,off-evening>": [
+   "Air conditioner turns off and Time is evening",
+   "-"
+  ]
+ },
+ {
+  "<Air_Conditioner-null,thermostat-time,off-morning>": [
+   "Air conditioner turns off and Time is morning",
+   "-"
+  ]
+ },
+ {
+  "<Air_Purifier,airQuality,greater>": [
+   "Air quality is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Air_Purifier,airQuality,lesser>": [
+   "Air quality is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Air_Purifier,switch,off>": [
+   "Air purifier turns off",
+   "Turn Air purifier off"
+  ]
+ },
+ {
+  "<Air_Purifier,switch,on>": [
+   "Air purifier turns on",
+   "Turn Air purifier on"
+  ]
+ },
+ {
+  "<Air_Purifier-Button,switch-button,off-pushed>": [
+   "Air purifier turns off and a Button is pressed",
+   "Turn Air purifier off and press a Button"
+  ]
+ },
+ {
+  "<Air_Purifier-Light_Bulb,switch-switch,off-off>": [
+   "Air purifier and Light bulb turn off",
+   "Turn Air purifier and Light bulb off"
+  ]
+ },
+ {
+  "<Audio_Player,mute,muted>": [
+   "Audio player is muted",
+   "Mute the Audio player"
+  ]
+ },
+ {
+  "<Audio_Player,switch,off>": [
+   "Audio player turns off",
+   "Turn Audio player off"
+  ]
+ },
+ {
+  "<Audio_Player,switch,on>": [
+   "Audio Player turns on",
+   "Turn Audio player on"
+  ]
+ },
+ {
+  "<Audio_Player,volume,decreased>": [
+   "Volume of Audio player is decreased",
+   "Decrease the volume of Audio player"
+  ]
+ },
+ {
+  "<Audio_Player,volume,fixed_value>": [
+   "Volume of Audio player is a preset value",
+   "Change volume of Audio player"
+  ]
+ },
+ {
+  "<Audio_Player-Phone,switch-notification,on-notify>": [
+   "Audio player turns on and Phone receives a notification",
+   "Turn Audio player on and send a notification to Phone"
+  ]
+ },
+ {
+  "<Audio_Player-Light_Bulb-Phone-Shades/Blinds,switch-switch-notification-contact,on-on-notify-closed>": [
+   "Audio player and Light turn on, window Shades/Blinds are closed and Phone receives a notification",
+   "Turn Audio player and Light on, close window Shades/Blinds and send a notification to Phone"
+  ]
+ },
+ {
+  "<Audio_Player-Light_Bulb-Phone,switch-colorValue-notification,on-fixed_value-notify>": [
+   "Audio player turns on, color of the Light is changed and Phone receives a notification",
+   "Turn Audio player on, change the Light color and send a notification to Phone"
+  ]
+ },
+ {
+  "<Audio_Player-null,switch-time,on-night>": [
+   "Audio player turns on and Time is night",
+   "-"
+  ]
+ },
+ {
+  "<Beacon_Device,presence,not_present>": [
+   "Beacon device doesn't detect anyone present",
+   "-"
+  ]
+ },
+ {
+  "<Beacon_Device,presence,present>": [
+   "Beacon device detects presence",
+   "-"
+  ]
+ },
+ {
+  "<Beacon_Device-Light_Bulb,presence-switch,not_present-on>": [
+   "Beacon device doesn't detect anyone present and Light bulb turns on",
+   "-"
+  ]
+ },
+ {
+  "<Beacon_Device-Light_Bulb,presence-switch,present-off>": [
+   "Beacon device detects presence and Light bulb turns off",
+   "-"
+  ]
+ },
+ {
+  "<Beacon_Device-null,presence-time,present-evening>": [
+   "Beacon device detects presence and Time is evening",
+   "-"
+  ]
+ },
+ {
+  "<Blood_Pressure_Monitor,pressure,greater>": [
+   "Pressure detected by Blood pressure monitor is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Blood_Pressure_Monitor,pressure,lesser>": [
+   "Pressure detected by Blood pressure monitor is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Bread_Maker,switch,on>": [
+   "Bread maker turns on",
+   "Turn Bread maker on"
+  ]
+ },
+ {
+  "<Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,off-on-increased>": [
+   "Bread maker is off, Light bulb turns on and temperature of the Thermostat is increased",
+   "Turn off Bread maker, turn the Light bulb on and increase Thermostat temperature"
+  ]
+ },
+ {
+  "<Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,on-off-decreased>": [
+   "Bread maker turns on, Light bulb turns off and temperature of the Thermostat is decreased",
+   "Turn Bread maker on, turn the Light bulb off and decrease Thermostat temperature"
+  ]
+ },
+ {
+  "<Bread_Maker-null,switch-time,off-morning>": [
+   "Bread maker turns off and Time is morning",
+   "-"
+  ]
+ },
+ {
+  "<Button,button,pushed>": [
+   "Button is pushed",
+   "-"
+  ]
+ },
+ {
+  "<Button-Car_Automation,button-presence,pushed-present>": [
+   "Car is detected near the garage and a Button is pushed",
+   "-"
+  ]
+ },
+ {
+  "<Car_Automation,presence,present>": [
+   "Car is detected near the garage",
+   "-"
+  ]
+ },
+ {
+  "<CO_Detector,carbonMonoxide,detected>": [
+   "Carbon Monoxide is detected by CO Detector",
+   "-"
+  ]
+ },
+ {
+  "<CO_Detector-Gas_Sensor,alarm-alarm,siren-siren>": [
+   "CO Detector and Gas sensor alarms go off",
+   "Set CO Detector and Gas Sensor alarm to siren mode"
+  ]
+ },
+ {
+  "<CO_Detector-Gas_Sensor,carbonMonoxide-odorLevel,detected-greater>": [
+   "Carbon Monoxide is detected and the Gas level is detected to be above a threshold",
+   "-"
+  ]
+ },
+ {
+  "<CO_Detector-null,carbonMonoxide-locationMode,detected-not_vacation>": [
+   "Home is not in vacation mode and CO Detector detects Carbon Monoxide",
+   "-"
+  ]
+ },
+ {
+  "<CO_Detector-null,carbonMonoxide-locationMode,detected-vacation>": [
+   "Home is in vacation mode and CO Detector detects Carbon Monoxide",
+   "-"
+  ]
+ },
+ {
+  "<Car_Automation-Garage_Door_Opener,switch-contact,on-opened>": [
+   "Car is turned on and Garage door is open",
+   "Turn Car on and open the Garage door"
+  ]
+ },
+ {
+  "<Clothes_Dryer,completion,true>": [
+   "Clothes in the Dryer are completely dry",
+   "-"
+  ]
+ },
+ {
+  "<Clothes_Dryer,mode,ready>": [
+   "Clothes dryer is in 'ready' mode",
+   "Set Dryer to 'ready' mode"
+  ]
+ },
+ {
+  "<Clothes_Dryer,water,wet>": [
+   "Clothes in the Dryer are wet",
+   "-"
+  ]
+ },
+ {
+  "<Coffee_Maker,switch,off>": [
+   "Coffee maker turns off",
+   "Turn Coffee maker off"
+  ]
+ },
+ {
+  "<Coffee_Maker,switch,on>": [
+   "Coffee maker turns on",
+   "Turn Coffee maker on"
+  ]
+ },
+ {
+  "<Coffee_Maker,temperature,greater>": [
+   "Temperature detected by Coffee maker is above a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Coffee_Maker-Light_Bulb-Robot_Vacuum,switch-switch-switch,on-on-on>": [
+   "Coffee maker, Light bulb and Robot vacuum turns on",
+   "Turn on Coffee maker, Light bulb and Robot vacuum"
+  ]
+ },
+ {
+  "<Coffee_Maker-Light_Bulb-Thermostat,switch-colorValue-thermostat,on-fixed_value-increased>": [
+   "Coffee maker turns on, Light bulb changes color and temperature of the Thermostat increases",
+   "Turn on Coffee maker, change the color of the light and increase the Thermostat temperature"
+  ]
+ },
+ {
+  "<Coffee_Maker-null,switch-time,off-morning>": [
+   "Coffee maker turns off in the morning",
+   "-"
+  ]
+ },
+ {
+  "<Coffee_Maker-Shades/Blinds,switch-contact,on-opened>": [
+   "Coffee maker turns on and window shades are opened",
+   "Turn on Coffee maker and open the window shades"
+  ]
+ },
+ {
+  "<Coffee_Maker-Door_Lock-Garage_Door_Opener-Gas_Stove-Light_Bulb-Shades/Blinds-Smart_TV-Speaker,switch-lock-contact-switch-switch-contact-switch-switch,off-locked-closed-off-off-closed-off-off>": [
+   "Door is locked, window shades and Garage door are closed, Coffee maker, Gas stove, Light bulb, Smart tv and Speaker are turned off",
+   "Lock the Door, close the window shades and Garage door and turn off Coffee maker, Gas stove, Light bulb, Smart tv and Speaker"
+  ]
+ },
+ {
+  "<Contact_Sensor,contact,opened>": [
+   "Window opened",
+   "-"
+  ]
+ },
+ {
+  "<Contact_Sensor-null,contact-time,opened-night>": [
+   "Window opened at night",
+   "-"
+  ]
+ },
+ {
+  "<Dishwasher,mode,ready>": [
+   "Dishwasher is in ready mode",
+   "Set Dishwasher to 'ready' mode"
+  ]
+ },
+ {
+  "<Dishwasher,weight,greater>": [
+   "Weight of load in the dishwasher is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Door_Lock,lock,locked>": [
+   "Door is locked",
+   "Lock the door"
+  ]
+ },
+ {
+  "<Door_Lock,lock,unlocked>": [
+   "Door is unlocked",
+   "Unock the door"
+  ]
+ },
+ {
+  "<Door_Lock-Light_Bulb-Phone-Shades/Blinds-Smart_TV-Speaker,lock-colorValue-notification-contact-switch-volume,locked-fixed_value-notify-opened-on-fixed_value>": [
+   "Door is locked, Light bulb color is changed, window Shades/Blinds are opened, TV turns on, volume of the speaker is changed and user's phone receives a notification",
+   "Lock the Door, change color of Light, open window Shades/Blinds, turn TV on, change the volume of the speaker and send a notification to user's Phone"
+  ]
+ },
+ {
+  "<Door_Lock-Lighting_Remote-Robot_Vacuum-Thermostat,lock-switch-switch-thermostat,locked-off-on-auto>": [
+   "Door is locked, Lighting remote is off, Robot vacuum and Thermostat are turned on",
+   "Lock the door, turn Lighting remote off, turn on Robot vacuum and the Thermostat"
+  ]
+ },
+ {
+  "<Door_Lock-Phone,lock-notification,unlocked-notify>": [
+   "Door is unlocked and Phone receives a notification",
+   "Unlock the door and send a notification to user's Phone"
+  ]
+ },
+ {
+  "<Door_Lock-Phone-Shades/Blinds,lock-notification-contact,locked-notify-closed>": [
+   "Door is locked, window shades/blinds closes and Phone receives a notification",
+   "Lock the door, close Shades/blinds and send a notification to user's Phone"
+  ]
+ },
+ {
+  "<Door_Lock-Presence_Sensor-null,lock-presence-time,unlocked-not_present-night>": [
+   "Door is in unlocked state at night and no one is present",
+   "-"
+  ]
+ },
+ {
+  "<Door_Lock-null,lock-locationMode,unlocked-away>": [
+   "Door is unlocked and the user is away",
+   "Unlock the door and set mode to 'Away'"
+  ]
+ },
+ {
+  "<Door_Lock-null,lock-locationMode,unlocked-vacation>": [
+   "Door is unlocked and the user is in vacation",
+   "Unlock the door and set mode to 'Vacation'"
+  ]
+ },
+ {
+  "<Door_Lock-null,lock-time,unlocked-night>": [
+   "Door is unlocked at night",
+   "-"
+  ]
+ },
+ {
+  "<Door_Sensor,contact,opened>": [
+   "Door is opened",
+   "-"
+  ]
+ },
+ {
+  "<Door_Sensor-null,contact-locationMode,opened-away>": [
+   "Door is opened and user is away",
+   "-"
+  ]
+ },
+ {
+  "<Door_Sensor-null,contact-locationMode,opened-vacation>": [
+   "Door is opened in vacation mode",
+   "-"
+  ]
+ },
+ {
+  "<Door_Sensor-null,contact-time,opened-morning>": [
+   "Door is opened in the morning",
+   "-"
+  ]
+ },
+ {
+  "<Door_Sensor-null-null,contact-locationMode-time,opened-away-evening>": [
+   "Door is opened in the evening and user is away",
+   "-"
+  ]
+ },
+ {
+  "<Doorbell,button,pushed>": [
+   "Doorbell is pushed",
+   "-"
+  ]
+ },
+ {
+  "<Doorbell,motion,detected>": [
+   "Doorbell detects a motion",
+   "-"
+  ]
+ },
+ {
+  "<Dust_Detector,dust,detected>": [
+   "Dust is detected",
+   "-"
+  ]
+ },
+ {
+  "<Dust_Detector,dust,greater>": [
+   "Dust level is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Electric_Blanket,switch,on>": [
+   "Electric blanket turns on",
+   "Turn Electric blanket on"
+  ]
+ },
+ {
+  "<Energy_Meter,energy,greater>": [
+   "Energy consumed is greater than a preset v\u2202alue",
+   "-"
+  ]
+ },
+ {
+  "<External_API,news,notify>": [
+   "Daily news is reported to the user",
+   "Report daily news."
+  ]
+ },
+ {
+  "<External_API,traffic,notify>": [
+   "User is notified of the traffic",
+   "Report traffic."
+  ]
+ },
+ {
+  "<External_API-null,traffic-time,heavy-morning>": [
+   "Traffic is heavy in the morning",
+   "-"
+  ]
+ },
+ {
+  "<Fan,fanMode,medium>": [
+   "Fan is set at a medium mode",
+   "Fan is set to 'medium' mode"
+  ]
+ },
+ {
+  "<Fan,switch,on>": [
+   "Fan turns on",
+   "Turn Fan on"
+  ]
+ },
+ {
+  "<Fire_Sprinkler,switch,on>": [
+   "Fire sprinkler turns on",
+   "Turn Fire sprinkler on"
+  ]
+ },
+ {
+  "<Garage_Door_Opener,contact,closed>": [
+   "Garage door is closed",
+   "Close the Garage door"
+  ]
+ },
+ {
+  "<Garage_Door_Opener,contact,opened>": [
+   "Garage door opener is open",
+   "Open Garage door"
+  ]
+ },
+ {
+  "<Garage_Door_Opener,signalStrength,lesser>": [
+   "Garage door opener senses that the car is not nearby",
+   "-"
+  ]
+ },
+ {
+  "<Garage_Door_Opener-null,contact-locationMode,opened-away>": [
+   "Garage door opens and user is away",
+   "Open Garage door and set mode to 'Away'."
+  ]
+ },
+ {
+  "<Garden_Sprinkler,switch,on>": [
+   "Garden sprinkler turns on",
+   "Turn Garden sprinkler on"
+  ]
+ },
+ {
+  "<Gas_Sensor,odorLevel,greater>": [
+   "Gas level is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Gas_Sensor,odorLevel,lesser>": [
+   "Gas level is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Gas_Sensor-null,odorLevel-locationMode,greater-not_vacation>": [
+   "Gas level is greater than a preset value and user is not in vacation",
+   "-"
+  ]
+ },
+ {
+  "<Gas_Sensor-null,odorLevel-locationMode,greater-vacation>": [
+   "Gas level is greater than a preset value and user is in vacation",
+   "-"
+  ]
+ },
+ {
+  "<Gas_Stove-null,switch-locationMode,on-away>": [
+   "Gas stove turns on and user is away",
+   "Turn Gas stove on and set mode to 'Away'"
+  ]
+ },
+ {
+  "<Gas_Stove,switch,off>": [
+   "Gas stove turns off",
+   "Turn Gas stove off"
+  ]
+ },
+ {
+  "<Gas_Stove,switch,on>": [
+   "Gas stove turns on",
+   "Turn Gas stove on"
+  ]
+ },
+ {
+  "<Gas_Stove-null,switch-timer,on-completed>": [
+   "Gas stove is on and timer is completed",
+   "-"
+  ]
+ },
+ {
+  "<Glass_Break_Detector,shock,detected>": [
+   "Glass break detector detects a break",
+   "-"
+  ]
+ },
+ {
+  "<Glass_Break_Detector-null,shock-locationMode,detected-away>": [
+   "Glass break detector detects a break and user is away",
+   "-"
+  ]
+ },
+ {
+  "<Glass_Break_Detector-null,shock-locationMode,detected-night>": [
+   "Glass break detector detects a break at night",
+   "-"
+  ]
+ },
+ {
+  "<Glass_Break_Detector-null,shock-locationMode,detected-vacation>": [
+   "Glass break detector detects a break and user is in vacation",
+   "-"
+  ]
+ },
+ {
+  "<Heater,switch,off>": [
+   "Heater turns off",
+   "Turn Heater off"
+  ]
+ },
+ {
+  "<Heater,switch,on>": [
+   "Heater turns on",
+   "Turn Heater on"
+  ]
+ },
+ {
+  "<Humidifier,switch,on>": [
+   "Humidifier turns on",
+   "Turn Humidifier on"
+  ]
+ },
+ {
+  "<Humidity_Sensor,humidity,greater>": [
+   "Humidity is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Humidity_Sensor,humidity,lesser>": [
+   "Humidity is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>": [
+   "Humidity and temperature are greater than their preset values",
+   "-"
+  ]
+ },
+ {
+  "<Illuminance_Sensor,illuminance,greater>": [
+   "Illuminance is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Illuminance_Sensor,illuminance,lesser>": [
+   "Illuminance is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Illuminance_Sensor-Motion_Sensor,illuminance-motion,lesser-detected>": [
+   "Illuminance is lesser than a preset value and motion is detected",
+   "-"
+  ]
+ },
+ {
+  "<Illuminance_Sensor-null,illuminance-time,lesser-night>": [
+   "Illuminance is lesser than a preset value at night",
+   "-"
+  ]
+ },
+ {
+  "<Induction_Cooktop-null,switch-locationMode,on-away>": [
+   "Induction cooktop is on and user is away",
+   "-"
+  ]
+ },
+ {
+  "<Light_Bulb,colorValue,fixed_value>": [
+   "Color of Light bulb is changed",
+   "Change the light color"
+  ]
+ },
+ {
+  "<Light_Bulb,switch,off>": [
+   "Light bulb turns off",
+   "Turn Light bulb off"
+  ]
+ },
+ {
+  "<Light_Bulb,switch,on>": [
+   "Light bulb turns on",
+   "Turn Light bulb on"
+  ]
+ },
+ {
+  "<Light_Bulb-Motion_Sensor,switch-motion,off-detected>": [
+   "Light bulb is off and motion is detected",
+   "-"
+  ]
+ },
+ {
+  "<Light_Bulb-Motion_Sensor,switch-motion,off-not_detected>": [
+   "Light bulb is of and motion is not detected",
+   "-"
+  ]
+ },
+ {
+  "<Light_Bulb-Motion_Sensor,switch-motion,on-not_detected>": [
+   "Light bulb is on and motion is not detected",
+   "-"
+  ]
+ },
+ {
+  "<Light_Bulb-Phone,switch-notification,on-notify>": [
+   "Light bulb is on and Phone receives a notification",
+   "Turn Light bulb on and send a notification to user's Phone"
+  ]
+ },
+ {
+  "<Light_Bulb-Security_Alarm,mode-alarm,flash-strobe>": [
+   "Light bulb is flashing and Security alarm is in strobe mode",
+   "Put Light bulb in 'flashing' mode and strobe the Security alarm"
+  ]
+ },
+ {
+  "<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-closed>": [
+   "Color of Light bulb changes and window shades/blinds closes",
+   "Change the color of Light bulb and close window shades/blinds"
+  ]
+ },
+ {
+  "<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-opened>": [
+   "Color of Light bulb changes and window shades/blinds opens",
+   "Change the color of Light bulb and open window shades/blinds"
+  ]
+ },
+ {
+  "<Light_Bulb-Shades/Blinds,switch-contact,on-closed>": [
+   "Light bulb is on and window shades/blinds closes",
+   "Turn Light bulb on and close Shades/blinds"
+  ]
+ },
+ {
+  "<Light_Bulb-Smart_Assistant,switch-notification,off-notify>": [
+   "Light bulb is off and Alexa gets a notification",
+   "Turn Light bulb off and send a notification via Alexa"
+  ]
+ },
+ {
+  "<Light_Bulb-Smart_TV,switch-switch,off-off>": [
+   "Light bulb and TV turns off",
+   "Turn Light bulb and TV off"
+  ]
+ },
+ {
+  "<Light_Bulb-Speaker,colorValue-switch,fixed_value-on>": [
+   "Light bulb changes color and Speaker is on",
+   "Change the color of Light bulb and turn speaker on"
+  ]
+ },
+ {
+  "<Light_Bulb-Thermostat,switch-thermostat,off-auto>": [
+   "Light bulb is off and Thermostat is turned on and set to auto mode",
+   "Turn Light bulb off and turn on Thermostat and set it to auto mode"
+  ]
+ },
+ {
+  "<Light_Bulb-Thermostat,switch-thermostat,off-decreased>": [
+   "Light bulb is off and temperature of Thermostat decreases",
+   "Turn Light bulb off and decreases Thermostat temperature"
+  ]
+ },
+ {
+  "<Light_Bulb-Weather_Station,colorValue-weather,fixed_value-notify>": [
+   "Light bulb changes color and Weather station notifies the user of the weather",
+   "Change the light color and notify the user about the weather"
+  ]
+ },
+ {
+  "<Light_Bulb-null,switch-locationMode,on-away>": [
+   "Light bulb turns on and user is away",
+   "-"
+  ]
+ },
+ {
+  "<Microwave_Oven,switch,off>": [
+   "Microwave/oven turns off",
+   "Turn Microwave/oven off"
+  ]
+ },
+ {
+  "<Moisture_Sensor,moisture,greater>": [
+   "Moisture is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Moisture_Sensor,moisture,lesser>": [
+   "Moisture is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Moisture_Sensor,water,wet>": [
+   "Moisture sensor detects moisture",
+   "-"
+  ]
+ },
+ {
+  "<Moisture_Sensor,water,dry>": [
+   "Moisture is not detected",
+   "-"
+  ]
+ },
+ {
+  "<Motion_Sensor,motion,detected>": [
+   "Motion is detected",
+   "-"
+  ]
+ },
+ {
+  "<Motion_Sensor,motion,not_detected>": [
+   "Motion is not detected",
+   "-"
+  ]
+ },
+ {
+  "<Motion_Sensor-Security_Camera,motion-image,detected-take>": [
+   "Motion is detected and Security camera takes a picture",
+   "-"
+  ]
+ },
+ {
+  "<Motion_Sensor-Shades/Blinds-null,motion-contact-time,not_detected-closed-day>": [
+   "Motion is not detected and window Shades/blinds closes during the day",
+   "-"
+  ]
+ },
+ {
+  "<Motion_Sensor-null,motion-locationMode,detected-away>": [
+   "Motion is detected and user is away",
+   "-"
+  ]
+ },
+ {
+  "<Motion_Sensor-null,motion-locationMode,detected-vacation>": [
+   "Motion is detected and mode is 'Vacation'",
+   "-"
+  ]
+ },
+ {
+  "<Motion_Sensor-null-null,motion-locationMode-time,detected-home-night>": [
+   "Motion is detected at home during the night",
+   "-"
+  ]
+ },
+ {
+  "<Oil_Warmer,switch,on>": [
+   "Oil warmer turns on",
+   "Turn Oil warmer on"
+  ]
+ },
+ {
+  "<Phone,notification,notify>": [
+   "Phone receives a notification",
+   "Send a notification to user's Phone"
+  ]
+ },
+ {
+  "<Phone-Security_Alarm,notification-alarm,notify-siren>": [
+   "Security alarm is issuing a siren and Phone receives a notification",
+   "Set Security alarm to siren mode and send a notification to user's Phone"
+  ]
+ },
+ {
+  "<Phone-Security_Alarm,notification-alarm,notify-siren_strobe>": [
+   "Security alarm is strobing as well as issuing a siren and Phone receives a notification",
+   "Set Security alarm to strobe and siren mode and send a notification to user's Phone"
+  ]
+ },
+ {
+  "<Phone-Security_Camera,notification-switch,notify-on>": [
+   "Security camera turns on and Phone receives a notification",
+   "Turn the Security camera on and Send a notification to the user"
+  ]
+ },
+ {
+  "<Phone-Security_Camera,notification-video,notify-record>": [
+   "Security camera records a video and Phone receives a notification",
+   "Record video using the Security camera and Send a notification to the user"
+  ]
+ },
+ {
+  "<Phone-Thermostat,notification-thermostat,notify-auto>": [
+   "Thermostat turns on and is set to auto mode and phone receives a notification",
+   "Turn Thermostat on and set it to auto mode and send a notification to user's Phone"
+  ]
+ },
+ {
+  "<Presence_Sensor,presence,present>": [
+   "Presence sensor detects the presence of the user",
+   "-"
+  ]
+ },
+ {
+  "<Presence_Sensor,presence,not_present>": [
+   "Presence sensor doesn't detect that the user is present",
+   "-"
+  ]
+ },
+ {
+  "<Pulse_Monitor,pulse,greater>": [
+   "Pulse is higher than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Pulse_Monitor,pulse,lesser>": [
+   "Pulse is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Pulse_Monitor,switch,on>": [
+   "Pulse monitor is on",
+   "Turn Pulse monitor on"
+  ]
+ },
+ {
+  "<Refrigerator,filterStatus,replace>": [
+   "Filter of the refrigerator needs replacement",
+   "-"
+  ]
+ },
+ {
+  "<Refrigerator,switch,off>": [
+   "Refrigerator turns off",
+   "Turn Refrigerator off"
+  ]
+ },
+ {
+  "<Refrigerator,switch,on>": [
+   "Refrigerator turns on",
+   "Turn Refrigerator on"
+  ]
+ },
+ {
+  "<Refrigerator,temperature,greater>": [
+   "Refrigerator temperature is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Refrigerator-null,contact-time,opened-evening>": [
+   "Refrigerator is opened during the evening",
+   "-"
+  ]
+ },
+ {
+  "<Robot_Vacuum,switch,on>": [
+   "Robot vacuum turns on",
+   "Turn Robot vacuum on"
+  ]
+ },
+ {
+  "<Robot_Vacuum-Thermostat,switch-thermostat,off-auto>": [
+   "Robot vacuum turns off and Thermostat turns on and is set to auto mode",
+   "Turn Robot vacuum off and Thermostat is turned on and set to auto mode"
+  ]
+ },
+ {
+  "<Security_Alarm,alarm,off>": [
+   "Security alarm turns off",
+   "Turn Security alarm off"
+  ]
+ },
+ {
+  "<Security_Alarm,alarm,siren>": [
+   "Security alarm is in siren mode",
+   "Set Security alarm to siren mode"
+  ]
+ },
+ {
+  "<Security_Alarm,alarm,siren_strobe>": [
+   "Security alarm is strobing as well as issuing a siren",
+   "Set Security alarm to siren as well as strobe mode"
+  ]
+ },
+ {
+  "<Security_Alarm,alarm,strobe>": [
+   "Security alarm is strobing",
+   "Set Security alarm to strobe mode"
+  ]
+ },
+ {
+  "<Security_Alarm-null,alarm-locationMode,siren_strobe-away>": [
+   "Security alarm is strobing and issuing a siren and user is away",
+   "Set Security alarm to strobe and siren mode and set mode to Away"
+  ]
+ },
+ {
+  "<Security_Alarm-Security_Camera,alarm-switch,siren_strobe-on>": [
+   "Security alarm is strobing and issuing a siren and Security camera turns on",
+   "Strobe and issue a siren via Security alarm and turn Security camera on"
+  ]
+ },
+ {
+  "<Security_Camera,image,take>": [
+   "Security camera takes a photo",
+   "Take a photo via Security Camera"
+  ]
+ },
+ {
+  "<Security_Camera,switch,off>": [
+   "Security camera turns off",
+   "Turn Security camera off"
+  ]
+ },
+ {
+  "<Security_Camera,switch,on>": [
+   "Security camera turns on",
+   "Turn Security camera on"
+  ]
+ },
+ {
+  "<Security_Camera,video,record>": [
+   "Security camera records a video",
+   "Record a video via Security Camera"
+  ]
+ },
+ {
+  "<Security_Camera-null,image-locationMode,take-away>": [
+   "Security camera takes a photo when user is away",
+   "Take a photo via Security Camera and set mode to 'Away'"
+  ]
+ },
+ {
+  "<Security_Camera-null,image-time,take-night>": [
+   "Security camera takes an image at night",
+   "-"
+  ]
+ },
+ {
+  "<Security_Camera-null,switch-locationMode,off-vacation>": [
+   "Security camera is off in vacation mode",
+   "Set mode to 'Vacation' and turn Security camera off"
+  ]
+ },
+ {
+  "<Shades/Blinds,contact,closed>": [
+   "Shades/blinds closes",
+   "Close Shades/Blinds"
+  ]
+ },
+ {
+  "<Shades/Blinds,contact,opened>": [
+   "Shades/blinds opens",
+   "Open Shades/Blinds"
+  ]
+ },
+ {
+  "<Shades/Blinds,threeAxis,fixed_value>": [
+   "Shades/blinds is partially opened",
+   "Open Shades/Blinds partially"
+  ]
+ },
+ {
+  "<Shades/Blinds-Speaker,threeAxis-volume,fixed_value-fixed_value>": [
+   "Shades/blinds is partially opened and Speaker volume changes",
+   "Open Shades/Blinds partially and change the volume of the Speaker"
+  ]
+ },
+ {
+  "<Shades/Blinds-Speaker,threeAxis-mute,fixed_value-unmuted>": [
+   "Shades/blinds is partially opened and Speaker is unmuted",
+   "Open Shades/Blinds partially and unmute the Speaker"
+  ]
+ },
+ {
+  "<Shades/Blinds-null,contact-locationMode,opened-home>": [
+   "Shades/blinds opens and user is home",
+   "Open Shades/Blinds and set mode to 'Home'"
+  ]
+ },
+ {
+  "<Sleep_Monitor,sleeping,detected>": [
+   "User is sleeping",
+   "-"
+  ]
+ },
+ {
+  "<Sleep_Monitor,sleeping,not_detected>": [
+   "Sleep monitor doesn't detect that the user is sleeping",
+   "-"
+  ]
+ },
+ {
+  "<Sleep_Monitor,switch,on>": [
+   "Sleep monitor turns on",
+   "Turn Sleep monitor on"
+  ]
+ },
+ {
+  "<Smart_Assistant,notification,notify>": [
+   "Smart assistant notifies the user",
+   "Notify the user via Smart assistant"
+  ]
+ },
+ {
+  "<Smart_Assistant,voice,command>": [
+   "Smart assistant is given a voice command",
+   "-"
+  ]
+ },
+ {
+  "<Smart_Mirror,switch,off>": [
+   "Smart mirror turns off",
+   "Turn Smart mirror off"
+  ]
+ },
+ {
+  "<Smart_Mirror-Speaker,switch-switch,on-on>": [
+   "Smart mirror and Speaker turn on",
+   "Turn Smart mirror and Speaker on"
+  ]
+ },
+ {
+  "<Smart_TV,channel,fixed_value>": [
+   "Channel in TV is changed",
+   "Change the TV channel"
+  ]
+ },
+ {
+  "<Smart_TV,switch,off>": [
+   "TV turns off",
+   "Turn TV off"
+  ]
+ },
+ {
+  "<Smart_TV,switch,on>": [
+   "TV turns on",
+   "Turn TV on"
+  ]
+ },
+ {
+  "<Smoke_Detector,battery,lesser>": [
+   "Battery level in the Smoke detector is below a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Smoke_Detector,smoke,detected>": [
+   "Smoke is detected",
+   "-"
+  ]
+ },
+ {
+  "<Smoke_Detector,tamper,detected>": [
+   "Smoke detector is tampered with",
+   "-"
+  ]
+ },
+ {
+  "<Smoke_Detector-Temperature_Sensor,smoke-temperature,greater-greater>": [
+   "Smoke level and Temperature are greater than their preset values",
+   "-"
+  ]
+ },
+ {
+  "<Speaker,switch,on>": [
+   "Speaker turns on",
+   "Turn Speaker on"
+  ]
+ },
+ {
+  "<Sprinker,switch,on>": [
+   "Fire Sprinkler turns on",
+   "Turn Fire sprinkler on"
+  ]
+ },
+ {
+  "<Switches,switch,off>": [
+   "Switch turns off",
+   "Turn Switch off"
+  ]
+ },
+ {
+  "<Switches,switch,on>": [
+   "Switch turns on",
+   "Turn Switch on"
+  ]
+ },
+ {
+  "<Switches-null,switch-time,off-evening>": [
+   "Switch turns off in the evening",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor,temperature,equal>": [
+   "Temperature is equal to a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor,temperature,greater>": [
+   "Temperature is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor,temperature,lesser>": [
+   "Temperature is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-locationMode,greater-away>": [
+   "Temperature is greater than a preset value and user is away",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-locationMode,greater-home>": [
+   "Temperature is greater than a preset value and user is home",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-locationMode,greater-not_vacation>": [
+   "Temperature is greater than a preset value and user is not in vacation",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-locationMode,lesser-away>": [
+   "Temperature is lesser than a preset value and user is away",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-locationMode,lesser-home>": [
+   "Temperature is lesser than a preset value and user is home",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-locationMode,lesser-not_vacation>": [
+   "Temperature is lesser than a preset value and user is not in vacation",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-time,greater-night>": [
+   "Temperature is greater than a preset value at night",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-time,lesser-afternoon>": [
+   "Temperature is lesser than a preset value in the afternoon",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-time,lesser-morning>": [
+   "Temperature is lesser than a preset value in the morning",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-time,lesser-night>": [
+   "Temperature is lesser than a preset value at night",
+   "-"
+  ]
+ },
+ {
+  "<Thermostat,temperature,greater>": [
+   "Thermostat temperature is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Thermostat,temperature,lesser>": [
+   "Thermostat temperature is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Thermostat,thermostat,auto>": [
+   "Thermostat turns on and the mode is set to auto",
+   "Turn Thermostat on and set mode to auto"
+  ]
+ },
+ {
+  "<Thermostat,thermostat,decreased>": [
+   "Thermostat temperature decreases",
+   "Decrease Thermostat temperature"
+  ]
+ },
+ {
+  "<Thermostat,thermostat,increased>": [
+   "Thermostat temperature increases",
+   "Increase Thermostat temperature"
+  ]
+ },
+ {
+  "<Thermostat,thermostat,off>": [
+   "Thermostat turns off",
+   "Turn Thermostat off"
+  ]
+ },
+ {
+  "<Thermostat-Water_Heater,thermostat-switch,increased-on>": [
+   "Temperature of Thermostat is increased and Water heater is turned on",
+   "Increase the temperature of Thermostat and turn on the water heater"
+  ]
+ },
+ {
+  "<Washer,completion,true>": [
+   "Washer completes its task",
+   "-"
+  ]
+ },
+ {
+  "<Water_Heater,switch,off>": [
+   "Water heater turns off",
+   "Turn Water heater off"
+  ]
+ },
+ {
+  "<Water_Heater,switch,on>": [
+   "Water heater turns on",
+   "Turn Water heater on"
+  ]
+ },
+ {
+  "<Water_Leak_Detector,water,wet>": [
+   "Water leak is detected",
+   "-"
+  ]
+ },
+ {
+  "<Water_Leak_Detector-null,water-locationMode,wet-not_vacation>": [
+   "Water leak is detected and user is not in vacation",
+   "-"
+  ]
+ },
+ {
+  "<Water_Leak_Detector-null,water-locationMode,wet-vacation>": [
+   "Water leak is detected and user is in vacation",
+   "-"
+  ]
+ },
+ {
+  "<Water_Valve,contact,closed>": [
+   "Water valve closes",
+   "Close Water valve"
+  ]
+ },
+ {
+  "<Weather_Station,cold,true>": [
+   "Weather is cold",
+   "-"
+  ]
+ },
+ {
+  "<Weather_Station,rain,true>": [
+   "It is raining",
+   "-"
+  ]
+ },
+ {
+  "<Weather_Station,weather,notify>": [
+   "Weather station declares the weather",
+   "Notify the user about the weather"
+  ]
+ },
+ {
+  "<Weather_Station-null,rain-locationMode,true-home>": [
+   "It is raining and user is home",
+   "-"
+  ]
+ },
+ {
+  "<Weather_Station-null,rain-time,false-morning>": [
+   "It is not raining in the morning",
+   "-"
+  ]
+ },
+ {
+  "<Weather_Station-null,rain-time,true-morning>": [
+   "It is raining in the morning",
+   "-"
+  ]
+ },
+ {
+  "<Weather_Station-null,rain-time,false-night>": [
+   "It is night and not raining",
+   "-"
+  ]
+ },
+ {
+  "<Weather_Station-null,rain-time,true-night>": [
+   "It is raining at night",
+   "-"
+  ]
+ },
+ {
+  "<null,locationMode,away>": [
+   "User is away",
+   "Set mode to 'Away'."
+  ]
+ },
+ {
+  "<null,locationMode,home>": [
+   "User is home",
+   "Set mode to 'Home'."
+  ]
+ },
+ {
+  "<null,locationMode,night>": [
+   "Mode is night",
+   "Set mode to 'Night'."
+  ]
+ },
+ {
+  "<null,locationMode,vacation>": [
+   "User is at vacation",
+   "Set mode to 'Vacation'."
+  ]
+ },
+ {
+  "<null,time,afternoon>": [
+   "Time is afternoon",
+   "-"
+  ]
+ },
+ {
+  "<null,time,day>": [
+   "Time is day",
+   "-"
+  ]
+ },
+ {
+  "<null,time,evening>": [
+   "Time is evening",
+   "-"
+  ]
+ },
+ {
+  "<null,time,morning>": [
+   "Time is morning",
+   "-"
+  ]
+ },
+ {
+  "<null,time,night>": [
+   "Time is night",
+   "-"
+  ]
+ },
+ {
+  "<null,time,noon>": [
+   "Time is noon",
+   "-"
+  ]
+ },
+ {
+  "<null-null,locationMode-time,away-evening>": [
+   "Time is evening and user is away",
+   "-"
+  ]
+ },
+ {
+  "<null-null,locationMode-time,away-morning>": [
+   "Time is morning and user is away",
+   "-"
+  ]
+ },
+ {
+  "<null-null,locationMode-time,away-night>": [
+   "Time is night and user is away",
+   "-"
+  ]
+ },
+ {
+  "<null-null,locationMode-time,home-day>": [
+   "Time is day and user is home",
+   "-"
+  ]
+ },
+ {
+  "<null-null,locationMode-time,vacation-morning>": [
+   "Time is morning and user is in vacation",
+   "-"
+  ]
+ },
+ {
+  "<null-null,locationMode-time,vacation-night>": [
+   "Time is night and user is in vacation",
+   "-"
+  ]
+ },
+ {
+  "<null-null,locationMode-time,home-night>": [
+   "Time is night and user is home",
+   "-"
+  ]
+ },
+ {
+  "<Door_Lock-Thermostat,lock-thermostat,locked-increased>": [
+   "Door is locked and Thermostat temperature increases",
+   "-"
+  ]
+ },
+ {
+  "<Door_Lock-Thermostat,lock-thermostat,locked-auto>": [
+   "Door is locked and Thermostat turns on and set to auto mode",
+   "-"
+  ]
+ },
+ {
+  "<Weather_Station,temperature,greater>": [
+   "Weather is cold",
+   "-"
+  ]
+ },
+ {
+  "<Garage_Door_Opener-null,contact-locationMode,closed-home>": [
+   "Garage Door is closed and user is home",
+   "-"
+  ]
+ },
+ {
+  "<Garage_Door_Opener-null,contact-locationMode,opened-home>": [
+   "Garage Door is open and user is home",
+   "-"
+  ]
+ },
+ {
+  "<Air_Cooler,switch,on>": [
+   "Air cooler turns on",
+   "Turn Air cooler on"
+  ]
+ },
+ {
+  "<Air_Cooler-Audio_Player-Phone-Shades/Blinds,switch-switch-notification-contact,off-on-notify-opened>": [
+   "Air cooler turns off, Audio player turns on, window shades are opened and Phone receives a notification",
+   "Turn off Air cooler, turn on Audio player, open window Shades and send a notification to the Phone"
+  ]
+ },
+ {
+  "<Light_Bulb-Shades/Blinds-Sleep_Monitor-Smart_Assistant,switch-contact-switch-notification,off-closed-on-notify>": [
+   "-",
+   "Turn Light bulb off, Sleep Monitor on, close window Shades and notify the user via Smart assistant"
+  ]
+ },
+ {
+  "<Speaker-Thermostat,switch-thermostat,on-auto>": [
+   "Speaker is on and Thermostat is in auto mode",
+   "Turn Speaker on and set Thermostat to auto mode"
+  ]
+ },
+ {
+  "<Smart_Assistant-Phone,notification-notitication,notify-notify>": [
+   "-",
+   "Notify the user via Smart assistant and Phone"
+  ]
+ },
+ {
+  "<Moisture_Sensor-Weather_Station,water-rain,dry-false>": [
+   "It is not raining and moisture is not detected",
+   "-"
+  ]
+ },
+ {
+  "<Dehumidifier,switch,on>": [
+   "Dehumidifier turns on",
+   "Turn Dehumidifier on"
+  ]
+ },
+ {
+  "<Thermostat,thermostat,homeaway>": [
+   "Thermostat is in energy saving mode",
+   "Set Thermostat to energy saving mode"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-locationMode,equal-home>": [
+   "Temperature is equal to a preset value and the user is home",
+   "-"
+  ]
+ },
+ {
+  "<Light_Bulb-Shades/Blinds-Sleep_Monitor-Smart_Assistant,switch-contact-switch-notification,off-closed-on-notify>": [
+   "-",
+   "Turn Light bulb off, Sleep Monitor on, close window Shades and notify the user via Smart assistant"
+  ]
+ },
+ {
+  "<Speaker-Thermostat,switch-thermostat,on-auto>": [
+   "Speaker is on and Thermostat is in auto mode",
+   "Turn Speaker on and set Thermostat to auto mode"
+  ]
+ },
+ {
+  "<Smart_Assistant-Phone,notification-notitication,notify-notify>": [
+   "-",
+   "Notify the user via Smart assistant and Phone"
+  ]
+ },
+ {
+  "<Moisture_Sensor-Weather_Station,water-rain,dry-false>": [
+   "It is not raining and moisture is not detected",
+   "-"
+  ]
+ },
+ {
+  "<Dehumidifier,switch,on>": [
+   "Dehumidifier turns on",
+   "Turn Dehumidifier on"
+  ]
+ },
+ {
+  "<Shades/Blinds-Smart_TV,contact-switch,closed-on>": [
+   "TV turns on and window Shades/Blinds closes",
+   "Turn on the TV and close window Shades/Blinds"
+  ]
+ },
+ {
+  "<Door_Lock-Garage_Door_Opener-Security_Camera-null,lock-contact-switch-locationMode,unlocked-opened-off-home>": [
+   "Door is unlocked, Garage door is opened, Security camera is off and user is home",
+   "Unock the Door, open Garage door, turn the Security camera off and set mode to Home"
+  ]
+ },
+ {
+  "<Presence_Sensor-null,presence-locationMode,not_present-not_vacation>": [
+   "User is not present at home and home is not in vacation mode",
+   "-"
+  ]
+ },
+ {
+  "<Door_Lock-Garage_Door_Opener-Security_Camera-null,lock-contact-switch-locationMode,locked-closed-on-away>": [
+   "Door is locked, Garage door is closed, Security camera is on and user is away",
+   "Lock the Door, close Garage door, turn on the Security camera and set mode to Away"
+  ]
+ },
+ {
+  "<null-null,locationMode-time,morning-not_vacation>": [
+   "It is morning and home is not in vacation mode",
+   "-"
+  ]
+ },
+ {
+  "<null-null,locationMode-time,night-not_vacation>": [
+   "It is night and home is not in vacation mode",
+   "-"
+  ]
+ },
+ {
+  "<Door_Lock-Garage_Door_Opener-Security_Camera-Thermostat,lock-contact-switch-thermostat,locked-closed-on-auto>": [
+   "Door is locked, Garage door is closed, Security camera is on and Thermostat is in auto mode",
+   "Lock the Door, close Garage door, turn on the Security camera and set Thermostat to auto mode"
+  ]
+ },
+ {
+  "<Speaker,mute,muted>": [
+   "Speaker is muted",
+   "Mute the speaker"
+  ]
+ },
+ {
+  "<Presence_Sensor-null,presence-time,present-night>": [
+   "User is present at home during the night",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-Presence_Sensor,temperature-presence,greater-present>": [
+   "Temperature is greater than a preset value when user is present at home",
+   "-"
+  ]
+ },
+ {
+  "<Dishwasher-null,mode-time,auto-morning>": [
+   "Dishwasher is in auto mode in the morning",
+   "-"
+  ]
+ },
+ {
+  "<Dishwasher,mode,start>": [
+   "Dishwasher is started",
+   "Start the dishwasher"
+  ]
+ },
+ {
+  "<Fan,switch,off>": [
+   "Fan turns off",
+   "Switch fan off"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null,temperature-time,greater-evening>": [
+   "Temperature is greater than a preset value in the evening",
+   "-"
+  ]
+ },
+ {
+  "<Robot_Vacuum,switch,off>": [
+   "Robot vacuum turns off",
+   "Turn Robot vacuum off"
+  ]
+ },
+ {
+  "<Garden_Sprinkler-null,switch-time,on-evening>": [
+   "Garden sprinkler is on in the evening",
+   "-"
+  ]
+ },
+ {
+  "<Garden_Sprinkler,switch,off>": [
+   "Garden sprinkler is off",
+   "Turn Garden sprinkler off"
+  ]
+ },
+ {
+  "<Temperature_Sensor-Smoke_Detector,temperature-smoke,greater-not_detected>": [
+   "Temperature is greater than a preset value and smoke is not detected",
+   "-"
+  ]
+ },
+ {
+  "<CO_Detector,alarm,siren_strobe>": [
+   "CO Detector is issuing an alarm",
+   "Issue a security alarm"
+  ]
+ },
+ {
+  "<CO_Detector,battery,lesser>": [
+   "Battery of CO Detector is lesser than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Light_Bulb-Shades/Blinds-Smart_TV,switch-contact-switch,off-closed-on>": [
+   "Light bulb is off, window Shades is closed and TV is on",
+   "Turn Light off, TV on and close window Shades/Blinds"
+  ]
+ },
+ {
+  "<Shades/Blinds-Speaker,contact-switch,opened-on>": [
+   "Window Shades/Blinds are open and Speaker is on",
+   "Open window Shades/Blinds and turn on Speaker"
+  ]
+ },
+ {
+  "<Phone-Security_Camera,notification-image,notify-take>": [
+   "Phone receives a notification and Security camera takes a picture",
+   "Send notification to user's phone and send take a picture using the Security Camera"
+  ]
+ },
+ {
+  "<Presence_Sensor-null,presence-time,not_present-night>": [
+   "User is not present at home at night",
+   "-"
+  ]
+ },
+ {
+  "<Audio_Player-Doorbell,switch-button,on-pushed>": [
+   "Audio player is on and Doorbell rings",
+   "-"
+  ]
+ },
+ {
+  "<Doorbell-null,button-time,pushed-night>": [
+   "Doorbell rings at night",
+   "-"
+  ]
+ },
+ {
+  "<Air_Conditioner-Door_Lock-Garage_Door_Opener-Light_Bulb-Security_Camera-Shades/Blinds,thermostat-lock-contact-switch-switch-contact,off-locked-closed-off-on-closed>": [
+   "Air conditioner and light bulb is off, Security camera is on, window Shades and Garage door are closed and Door is locked",
+   "Turn off Air Conditioner and Light Bulb, switch on Security Camera, close window Shades/Blinds and Garage Door and lock the Door"
+  ]
+ },
+ {
+  "<Weather_Station-null,weather-time,sunny-morning>": [
+   "Weather is sunny and time is morning",
+   "-"
+  ]
+ },
+ {
+  "<Door_Lock-Garage_Door_Opener,lock-contact,unlocked-opened>": [
+   "Door is unlocked and Garage door is opened",
+   "Unlock Door lock and open the Garage door"
+  ]
+ },
+ {
+  "<null,locationMode,movie>": [
+   "Home is in movie mode",
+   "Set home mode to 'movie'"
+  ]
+ },
+ {
+  "<Audio_Player-Smart_TV-Speaker,switch-switch-switch,on-on-on>": [
+   "Audio player, tv and Speaker are on",
+   "Turn on Audio player, TV and Speaker"
+  ]
+ },
+ {
+  "<Door_Lock-Garage_Door_Opener-Thermostat,lock-contact-thermostat,locked-closed-off>": [
+   "Door is locked, Garage door is closed and Thermostat is off",
+   "Lock the Door, close Garage Door and turn Thermostat off"
+  ]
+ },
+ {
+  "<Door_Lock-Light_Bulb-Security_System,lock-switch-mode,locked-off-armed>": [
+   "Light is off, Door is locked and Security system is in 'armed' mode",
+   "Turn off Light bulb, lock the Door and set the Security system to 'armed' mode"
+  ]
+ },
+ {
+  "<Rice_Cooker,switch,on>": [
+   "Rice cooker turns on",
+   "Turn on Rice cooker"
+  ]
+ },
+ {
+  "<Clothes_Dryer,mode,heat>": [
+   "Dryer is in heat mode",
+   "Set mode of Dryer to heat"
+  ]
+ },
+ {
+  "<Door_Lock-Motion_Sensor,lock-motion,unlocked-detected>": [
+   "Door is unlocked and motion is detected",
+   "-"
+  ]
+ },
+ {
+  "<Motion_Sensor-Water_Heater-null,motion-temperature-time,detected-lesser-night>": [
+   "Motion is detected at night and temperature of water is less than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Door_Lock,timer,completed>": [
+   "Lock code of the Door has expired",
+   "-"
+  ]
+ },
+ {
+  "<Smoke_Detector-Temperature_Sensor,smoke-temperature,detected-greater>": [
+   "Smoke is detected and temperature is greater than a preset value",
+   "-"
+  ]
+ },
+ {
+  "<Security_Alarm-Light_Bulb,alarm-colorValue,siren-fixed_value>": [
+   "Security alarm is issuing a siren and the color of Light changes",
+   "Issue a siren and change the color of the Light bulb"
+  ]
+ },
+ {
+  "<Motion_Sensor-null,motion-time,not_detected-night>": [
+   "Motion is not detected and time is night",
+   "-"
+  ]
+ },
+ {
+  "<Lighting_Remote,switch,off>": [
+   "Lighting remote is off",
+   "Turn Lighting remote off"
+  ]
+ },
+ {
+  "<Weather_Station-null,snow-time,true-morning>": [
+   "It is snowing in the morning",
+   "-"
+  ]
+ },
+ {
+  "<Temperature_Sensor-null-null,temperature-locationMode-time,greater-away-morning>": [
+   "Temperature is greater than a preset value in the morning and user is away",
+   "-"
+  ]
+ },
+ {
+  "<Air_Conditioner-Fan-Light_Bulb-Shades/Blinds,thermostat-switch-switch-contact,off-off-off-closed>": [
+   "Air conditioner, Fan and Light Bulb are off and window Shades/Blinds are closed",
+   "Turn off Air conditioner, Fan and Light bulb and close window Shades/Blinds"
+  ]
+ },
+ {
+  "<Smoke_Detector-null-null,smoke-locationMode-time,not_detected-away-evening>": [
+   "User is away in the evening and smoke is not detected",
+   "-"
+  ]
+ },
+ {
+  "<Door_Lock-Security_Camera,lock-switch,locked-on>": [
+   "Door is locked and Security camera is turned on",
+   "Lock the door and turn on Security camera"
+  ]
+ },
+ {
+  "<Presence_Sensor-null-null,presence-locationMode-time,not_present-not_vacation-evening>": [
+   "User is away in the evening and home is not in vacation mode",
+   "-"
+  ]
+ },
+ {
+  "<Air_Conditioner-Light_Bulb-Rice_Cooker,thermostat-colorValue-switch,auto-fixed_value-on>": [
+   "Air conditioner is in auto mode, light color is changed and Rice cooker is on",
+   "Turn on Air conditioner in auto mode, change Light color and turn on Rice cooker"
+  ]
+ },
+ {
+  "<Smart_Feeder,weight,lesser>": [
+   "Food amount in the Pet feeder is low",
+   "-"
+  ]
+ },
+ {
+  "<Smart_Feeder-null-null,weight-locationMode-time,lesser-not_vacation-afternoon>": [
+   "Pet feeder is low on supply in the afternoon and home is not in vacation mode",
+   "-"
+  ]
+ },
+ {
+  "<Smart_Printer,ink,low>": [
+   "Printer is low on ink",
+   "-"
+  ]
+ },
+ {
+  "<Smart_Printer,switch,on>": [
+   "Printer is on",
+   "Turn on Printer"
+  ]
+ },
+ {
+  "<Door_Lock-null,lock-timer,unlocked-completed>": [
+   "Door is unlocked for a period of time",
+   "-"
+  ]
+ },
+ {
+  "<Smart_TV-null,switch-time,on-evening>": [
+   "TV is on in the evening",
+   "-"
+  ]
+ },
+ {
+  "<Clothes_Dryer,contact,closed>": [
+   "Dryer is closed",
+   "Close the clothes Dryer"
+  ]
+ },
+ {
+  "<Coffee_Maker,waterLevel,lesser>": [
+   "Water level in Coffee maker is empty",
+   "-"
+  ]
+ },
+ {
+  "<Bath_Tub,water,warm>": [
+   "Water in the Bath tub is warm",
+   "Fill bath tub with warm water"
+  ]
+ },
+ {
+  "<Smart_Feeder,food,fill>": [
+   "-",
+   "Fill Smart feeder with food"
+  ]
+ },
+ {
+  "<Smart_Assistant-Phone,notification-notification,notify-notify>": [
+   "Smart Assistant and phone receive notifications",
+   "Notify the user via phone and Smart assistant"
+  ]
+ },
+ {
+  "<Motion_Sensor-null,motion-time,detected-afternoon>": [
+   "Motion sensor senses motion in the afternoon",
+   "-"
+  ]
+ },
+ {
+  "<Motion_Sensor-null,motion-time,detected-night>": [
+   "Motion sensor senses motion at night",
+   "-"
+  ]
+ },
+ {
+  "<Garage_Door_Opener-Robot_Vacuum,contact-switch,closed-on>": [
+   "Garage Door Opener is closed and Robot Vacuum is on",
+   "-"
+  ]
+ },
+ {
+  "<Security_System,mode,armed>": [
+   "Security System is armed",
+   "Arm the Security System"
+  ]
+ },
+ {
+  "<null,locationMode,party>": [
+   "Mode is party",
+   "Set mode to Party"
+  ]
+ },
+ {
+  "<Garage_Door_Opener-Light_Bulb,contact-switch,closed-on>": [
+   "Garage Door Opener is closed and Light Bulb is on",
+   "-"
+  ]
+ },
+ {
+  "<Security_System,mode,unarmed>": [
+   "Security system is unarmed",
+   "Unarm the Security System"
+  ]
+ },
+ {
+  "<Water_Filter,filterStatus,replace>": [
+   "Filter of the refrigerator needs replacement",
+   "-"
+  ]
+ }
+]

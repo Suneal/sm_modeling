@@ -1,0 +1,18 @@
+\begin{algorithm}
+	\caption{Extracting device name from user-driven routine}
+    \label{alg:device-name}
+
+    \SetKwInOut{Input}{Input}
+    \SetKwInOut{Output}{Output}
+
+    \underline{function Euclid} $(a,b)$\;
+    \Input{Two nonnegative integers $a$ and $b$}
+    \Output{$\gcd(a,b)$}
+    \eIf{$b=0$}
+      {
+        return $a$\;
+      }
+      {
+        return Euclid$(b,a\mod b)$\;
+      }
+\end{algorithm}

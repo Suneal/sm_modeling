@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{colortbl}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{pgfplots,pgfplotstable}\pgfplotsset{compat=1.9}
+\usetikzlibrary{pgfplots.groupplots}
+
+\usetikzlibrary{external}
+\tikzexternalize[prefix=tikz/]
+
+
+\title{Results}
+\author{Tony}
+\date{February 2019}
+
+\begin{document}
+
+\maketitle
+
+\pgfplotstableread[col sep = comma]{device_name_vs_num_users.csv}\SecurityDeviceStat
+
+\makeatletter
+\pgfplotsset{
+    /pgfplots/flexible xticklabels from table/.code n args={3}{%
+        \pgfplotstableread[#3]{#1}\coordinate@table
+        \pgfplotstablegetcolumn{#2}\of{\coordinate@table}\to\pgfplots@xticklabels
+        \let\pgfplots@xticklabel=\pgfplots@user@ticklabel@list@x
+    }
+}
+\makeatother
+
+\section{Device Name vs Number of Users }
+
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{{\small Selection of specific ranges, any time, or not sure options for
+execution indicators, by number of routines.}}
+\label{tbl:indicators}
+\begin{tabular}{r|c|c|c}
+ \Xhline{2\arrayrulewidth}
+{\bf }    & {\bf Source}    & {\bf Number of User} & {\bf Percentage}\\
+ \Xhline{2\arrayrulewidth}
+ 1 & Tech Websites & 18 & 48.64\% \\
+ 2 & News & 10 & 27.02\% \\
+ 3 & Forums & 11 & 29.72\% \\
+ 4 & Mobile Apps & 7 & 18.91\% \\
+ 5 & Personal Requirements & 31 & 83.78\% \\
+ 6 & Requirements of the customer or architects & 1 &2.70\% \\
+ \Xhline{2\arrayrulewidth}
+ \end{tabular}
+\end{table}
+
+
+
+
+\end{document}
+
+
+

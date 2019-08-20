@@ -1,0 +1,14 @@
+\begin{algorithm}
+	\caption{Generating typed dependency graph from user-driven routine}
+    \label{alg:typed-dependency}
+
+    \SetKwInOut{Input}{Input}
+    \SetKwInOut{Output}{Output}
+
+    \underline{function generateDependency} $(UDT)$\;
+    \Input{UDT or UTA, Set of User-Driven Triggers or User-Driven Actions}
+    \Output{T or A, Set of pre-processed Trigger or Action phrases}
+    \For{$i\leftarrow $  $l$}{
+        Use Stanford CoreNLP Parser to perform Type Depency Graph on each UDT
+    }
+\end{algorithm}

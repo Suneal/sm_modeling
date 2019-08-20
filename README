@@ -3,3 +3,5 @@ SETUP:
 export PYTHONPATH=$PYTHONPATH:/Users/sunilmanandhar/Documents/SecurityResearch/paper2/experiments/python-daemon-2.2.3/
 export PYTHONPATH=$PYTHONPATH:/Users/sunilmanandhar/Documents/SecurityResearch/paper2/experiments/python-daemon-2.2.3/daemon/
 export PATH=$PATH:/Users/sunilmanandhar/Documents/SecurityResearch/paper2/experiments/mitlm/
+python processing1.py
+estimate-ngram -t motion_only.tsv -write-vocab motion2.vocab 

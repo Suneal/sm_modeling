@@ -1,0 +1,47 @@
+
+\documentclass{article}
+
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{filecontents}
+
+\begin{filecontents}{testdata.csv}
+category, value
+cat aaaaaaaaaaa,    1  
+cat b,    2  
+cat aaaaaac,    3  
+cat d,    4  
+cat e,    5  
+cat f,    6  
+cat g,    7  
+\end{filecontents}
+
+\pgfplotstableread[col sep=comma]{testdata.csv}\datatable
+\makeatletter
+\pgfplotsset{
+    /pgfplots/flexible xticklabels from table/.code n args={3}{%
+        \pgfplotstableread[#3]{#1}\coordinate@table
+        \pgfplotstablegetcolumn{#2}\of{\coordinate@table}\to\pgfplots@xticklabels
+        \let\pgfplots@xticklabel=\pgfplots@user@ticklabel@list@x
+    }
+}
+\makeatother
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[
+ybar, ymin=0,
+xlabel=Xstuff,
+ylabel=Value,
+flexible xticklabels from table={testdata.csv}{category}{col sep=comma},
+xticklabel style={text height=1.5ex}, % To make sure the text labels are nicely aligned
+xtick=data,
+x tick label style={rotate=90,anchor=east},
+nodes near coords,
+nodes near coords align={vertical}]
+\addplot table[x expr=\coordindex,y=value]{\datatable};
+
+\end{axis}
+
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,5 @@
+Model Explanation:
+
+When we are running our lightweight static analysis, there are three main categories that we are focusing on. The first is the potential for permission misuse, the second is general HTTPS vulnerability, and the last is interface vulnerability. We propose a novel approach that combines these three categories into a unified diagram. (See Figure 5) 
+The main idea of this approach is to have a higher level view of how each application is working together inside an environment. In our case, we put Internet permission as the root of the graph, symbolizing the potential sources of leaked sensitive user data. This root node is connected to the rest of dangerous permissions. Each link is a representation of the accessibility of the communication between the two apps. 
+As a security analyst who is trying to analyze a system environment, who is focusing on the inter-application communication, would be able to utilize our tools to explore the possibilities of potential confidentiality threats the system is facing.

@@ -1,0 +1,15 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Background}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{NLP Tools and Techniques}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{Motivation}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Motivating Examples}{section.3}% 5
+\BOOKMARK [1][-]{section.4}{Design and Implementation}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Design choices}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Preprocessor}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.3}{NLP Parser}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.4}{Intermediate Representation Mapping}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Evaluation}{}% 11
+\BOOKMARK [1][-]{section.6}{Additional Insights}{}% 12
+\BOOKMARK [1][-]{section.7}{Discussion}{}% 13
+\BOOKMARK [1][-]{section.8}{Related Work}{}% 14
+\BOOKMARK [1][-]{section.9}{Conclusion}{}% 15

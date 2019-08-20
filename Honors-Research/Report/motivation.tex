@@ -1,0 +1,28 @@
+\section{Motivation}
+\label{sec:motivation}
+
+\input{tables/complex_user_routine.tex}
+
+
+In order to obtain unconstrained user-driven routines from users, participants provided routine in plain English text. While this approach provides maximum flexibility and reflects \textit{direct} users' requirements, there are several complications that make \textit{automatic} analysis of user-driven routines a non-trivial task.
+We can summarize the complications as the follows:
+\begin{itemize}
+    \item \textbf{Complication 1:} Many desired behaviors for one smart home automation can involve more than one smart device. Specifically, some trigger or action or a combination of both might can incorporate multiple devices.
+
+    \item \textbf{Complication 2:} In practice, users often combine multiple triggers in a large number of unique ways. For example, user can specify to turn off the security camera when user is at home AND it is morning. 
+
+    \item \textbf{Complication 3:} Since routines are written in plain text, key device attributes and state variables are often \textit{implicit}. For example, one user created the following routine: If the temperature is low, then change the thermostat mode to cold. In this case, there is no references of a device name in the trigger part of the routine. 
+\end{itemize}
+
+\subsection{Motivating Examples}
+We introduce three noticeable samples of user-driven triggers for exposition and illustration (Table.~\ref{tbl:complex-routines}). Each of these routines demonstrated one or more complications describe above. For example, the first user-driven trigger is:
+\noindent\fbox{%
+    \parbox{\linewidth}{%
+(The presence sensor is not detected for more than 1 hour OR the time is between 1AM and 5:30AM) AND the door is unlocked.
+	}
+}
+
+To begin, this trigger requires multiple devices (Challenge 1) separated by conjunction ``AND'' and ``OR''. In addition, although the fact that the trigger ``door is unlocked'' is referring to door lock is obvious to us, a traditional script will not be able to recognize it since smart door does not 'exist', and the only commercially available parts relating to door are door lock, or doorbell. 
+
+Based on these observations, a general static analysis script without using NLP would not be \textit{effective} in automatically gather and output the desired intermediate representations of user-driven routines. Therefore, we propose the following framework that leverages state-of-art NLP toolkits and techniques to perform the transformation of user-driven routine to intermediate representations. (Figure.~\ref{fig:nlp-framework})
+

@@ -1,0 +1,9 @@
+\begin{abstract}
+
+    Routines are trigger-action programs that user create when automating their home. While routine itself offers a wide variety of utilities with a simple conditional format: if \textit{trigger} then \textit{action}, misconfigured or conflicting routines can be potentially dangerous.
+    In order to fully analyze home automation, we should not only be required to examine IoT apps, which are routine created by third-party developers, but should also analyze routines from users' perspective, also known as \textit{user driven routine}.
+    However, a direct analysis of user driven routines is non-trivial if routines are expressed in natural language, \ie without any constraints on what the user can express. In this paper, we propose an approach that utilize Natural Language Processing (NLP) to automatically transform user driven routines expressed in natural language into intermediate representation, which can later be automatically analyzed. 
+    We evaluate this approach with a dataset of 250 user driven routines from a concurrent work. Specifically, we extracted device names (\ie Light Bulb), device capabilities (\ie switch), and device variables (\ie on or off) from user driven routines. This approach produced an accuracy of 80.64\% in one of the intermediate representations transformation. 
+These results demonstrated that our approach can efficiently help identifying key device properties from \textit{natural} user driven routines. Furthermore, we separately analyze our intermediate representations to provide additional insights on the characteristic and composition of routines from the end-users' perspective. Finally, we describe some challenges to this approach and propose several potential improvements for future work.
+\end{abstract}
+

@@ -1,0 +1,55 @@
+\begin{thebibliography}{1}
+
+\bibitem{cmt18}
+Z.~Berkay Celik, Patrick McDaniel, and Gang Tan.
+\newblock {Soteria: Automated IoT Safety and Security Analysis}.
+\newblock In {\em 2018 {USENIX} Annual Technical Conference ({USENIX} {ATC})},
+  pages 147--158, 2018.
+
+\bibitem{dh18}
+Wenbo Ding and Hongxin Hu.
+\newblock {On the Safety of IoT Device Physical Interaction Control}.
+\newblock In {\em Proceedings of the 2018 ACM SIGSAC Conference on Computer and
+  Communications Security (CCS)}, pages 832--846, October 2018.
+
+\bibitem{iot-adoption}
+{Gartner}.
+\newblock {Gartner Says 8.4 Billion Connected Things Will Be in Use in 2017, Up
+  31 Percent From 2016}.
+\newblock \url{https://www.gartner.com/newsroom/id/3598917}, Accessed June
+  2018.
+
+\bibitem{kmm+19}
+Kaushal Kafle, Kevin Moran, Sunil Manandhar, Adwait Nadkarni, and Denys
+  Poshyvanyk.
+\newblock {A Study of Data Store-based Home Automation}.
+\newblock In {\em Proceedings of the 9th ACM Conference on Data and Application
+  Security and Privacy (CODASPY)}, March 2019.
+\newblock To Appear.
+
+\bibitem{Manning2014}
+Christopher~D Manning, Mihai Surdeanu, John Bauer, Jenny~Rose Finkel, Steven
+  Bethard, and David McClosky.
+\newblock The stanford corenlp natural language processing toolkit.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics}, pages 55--60, 2014.
+
+\bibitem{nltk}
+Bird Steven, Edward Loper, and Ewan Klein.
+\newblock {\em {Natural Language Processing with Python}}.
+\newblock 2009.
+
+\bibitem{sab+17}
+Milijana Surbatovich, Jassim Aljuraidan, Lujo Bauer, Anupam Das, and Limin Jia.
+\newblock {Some Recipes Can Do More Than Spoil Your Appetite: Analyzing the
+  Security and Privacy Risks of IFTTT Recipes}.
+\newblock In {\em Proceedings of the 26th International Conference on World
+  Wide Web}, pages 1501--1510, April 2017.
+
+\bibitem{tzl+17}
+Yuan Tian, Nan Zhang, Yueh-Hsun Lin, XiaoFeng Wang, Blase Ur, XianZheng Guo,
+  and Patrick Tague.
+\newblock Smartauth: User-centered authorization for the internet of things.
+\newblock In {\em Proceedings of the 26th USENIX Security Symposium}, 2017.
+
+\end{thebibliography}

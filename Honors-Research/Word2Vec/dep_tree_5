@@ -1,0 +1,20 @@
+digraph G{
+edge [dir=forward]
+node [shape=plaintext]
+
+0 [label="0 (None)"]
+0 -> 2 [label="root"]
+1 [label="1 (temperature)"]
+2 [label="2 (<)"]
+2 -> 1 [label="nsubj"]
+2 -> 7 [label="ccomp"]
+3 [label="3 (60F)"]
+4 [label="4 (AND)"]
+5 [label="5 (mode)"]
+5 -> 3 [label="nummod"]
+5 -> 4 [label="compound"]
+6 [label="6 (is)"]
+7 [label="7 (Home)"]
+7 -> 5 [label="nsubj"]
+7 -> 6 [label="cop"]
+}

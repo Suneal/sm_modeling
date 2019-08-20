@@ -1,0 +1,31 @@
+\section{Evaluation Overview}
+\label{sec:eval_overview}
+Accordingly,
+%, we evaluate \tool along these dimensions. 
+%First, 
+%when applied to improving the security of home automation.
+%of the naturalness of home automation event sequences and the ability of \tools model to capture this naturalness (Section~\ref{sec:cross-entropy-natural}). 
+%Second, we offer an \textit{extrinsic} evaluation aimed at validating the utility of  \tool when applied to improving the security of home automation (Section~\ref{sec:case_studies}).
+Finally, Sec.~\ref{sec:survey} provides additional insights derived from the collected data that further support the motivation and our design choices.
+
+
+%% Data Collection and statistics
+\subsection{Dataset Construction}
+\label{sec:data_collection}
+For collecting routines and execution indicators, we collected routines and execution indicators using a survey methodology that is in principle similar to the approach taken by Ur et al.~\cite{ump+14}, except for the following additions: {\sf (1)} we created a rich device taxonomy and device-attribute mapping to provide users with the necessary information for creating routines, and {\sf (2)} there was no hard limit on how many or how few routines users could create.
+We describe our survey methodology in Appendix~\ref{app:survey_methodology}.
+%, and additional insights that can be directly drawn from the survey data in Section~\ref{sec:survey}.
+
+\myparagraph{Tokenizing}
+Our survey resulted in 250 routines collected from 37 users, after discarding 5 surveys with random/incomplete responses.
+Users entered routines in plain language; which were transformed into an intermediate trigger-action format, and then tokens, using the syntax described in Sec.~\ref{sec:modeling}.  
+We tokenized the triggers/actions into 224 unique tokens, considering two additional factors: (1) if the trigger/action consisted of a conjunction of events, we combined the events into a single token (in the alphabetical order by device), as those events would be expected to execute simultaneously, and (2) for attributes with continuous values (\eg temperature), we abstracted the user-provided values into ranges (\eg low, medium, and high temperature), to create semantically unique tokens.
+Two authors independently verified the correctness of the tokens.
+\myparagraph{Sequence generation} We constructed per-user event sequences using informed execution,
+%used the execution indicators to construct per-user event sequences, 
+ and further segmented these event sequences into smaller ``sentences'' (\ie the finite sequences estimated by the model) of 20 tokens each, to form the home automation (\ie the {\sf HOME}) corpus.
+Segmentation is a necessary and common step in NLP, but because user-driven routines do not have any syntactic indicators for sentence endings (\ie unlike software, where prior work~\cite{Hindle:ICSE12} uses a line of code as a sentence),  we choose 20 experimentally as an average-case sequence length (see Appendix~\ref{app:sequence_length}).
+ %given the size of our dataset 
+% (see Appendix~\ref{app:sequence_length} for more details).
+%%Findings from survey
+%% Methodology and dataset statistics

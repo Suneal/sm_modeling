@@ -1,0 +1,1726 @@
+	234
+<s>	81
+<Air_Conditioner,thermostat,auto>	9
+<Air_Conditioner,thermostat,decreased>	3
+<Air_Conditioner,thermostat,increased>	3
+<Air_Conditioner,thermostat,off>	7
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off>	1
+<Air_Conditioner-Fan,thermostat-switch,auto-on>	1
+<Air_Conditioner-Fan,thermostat-switch,off-off>	1
+<Air_Conditioner-Fan-Light_Bulb,thermostat-switch-switch,off-off-off>	1
+<Air_Conditioner-Heater,thermostat-switch,off-off>	1
+<Air_Conditioner-Light_Bulb,thermostat-colorValue,auto-fixed_value>	1
+<Air_Conditioner-Light_Bulb,thermostat-switch,auto-on>	1
+<Air_Conditioner-Oil_Warmer-Robot_Vacuum-Smart_TV,thermostat-switch-switch-switch,auto-on-on-on>	1
+<Air_Conditioner-Refrigerator-Water_Heater,thermostat-thermostat-switch,off-decreased-off>	1
+<Air_Conditioner-Security_Camera,thermostat-switch,off-on>	1
+<Air_Conditioner-Shades/Blinds,thermostat-contact,decreased-closed>	1
+<Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-greater>	6
+<Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser>	9
+<Air_Conditioner-null,thermostat-time,auto-morning>	5
+<Air_Conditioner-null,thermostat-time,auto-night>	7
+<Air_Conditioner-null,thermostat-time,off-evening>	6
+<Air_Cooler,switch,on>	1
+<Air_Cooler-Audio_Player-Phone-Shades/Blinds,switch-switch-notification-contact,off-on-notify-opened>	1
+<Air_Purifier,airQuality,greater>	11
+<Air_Purifier,airQuality,lesser>	33
+<Air_Purifier,switch,off>	1
+<Air_Purifier,switch,on>	1
+<Air_Purifier-Light_Bulb,switch-switch,off-off>	1
+<Audio_Player,mute,muted>	1
+<Audio_Player,switch,off>	2
+<Audio_Player,switch,on>	1
+<Audio_Player,volume,decreased>	1
+<Audio_Player-Light_Bulb-Phone,switch-colorValue-notification,on-fixed_value-notify>	2
+<Audio_Player-Light_Bulb-Phone-Shades/Blinds,switch-switch-notification-contact,on-on-notify-closed>	1
+<Audio_Player-null,switch-time,on-night>	4
+<Beacon_Device,presence,not_present>	8
+<Beacon_Device,presence,present>	14
+<Beacon_Device-Light_Bulb,presence-switch,not_present-on>	5
+<Beacon_Device-Light_Bulb,presence-switch,present-off>	6
+<Beacon_Device-null,presence-time,present-evening>	3
+<Blood_Pressure_Monitor,pressure,greater>	6
+<Blood_Pressure_Monitor,pressure,lesser>	5
+<Bread_Maker,switch,on>	1
+<Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,off-on-increased>	1
+<Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,on-off-decreased>	1
+<Bread_Maker-null,switch-time,off-morning>	5
+<Button,button,pushed>	10
+<Button-Car_Automation,button-presence,pushed-present>	5
+<CO_Detector,carbonMonoxide,detected>	8
+<CO_Detector-Gas_Sensor,alarm-alarm,siren-siren>	4
+<CO_Detector-Gas_Sensor,carbonMonoxide-odorLevel,detected-greater>	3
+<CO_Detector-null,carbonMonoxide-locationMode,detected-not_vacation>	5
+<CO_Detector-null,carbonMonoxide-locationMode,detected-vacation>	6
+<Car_Automation,presence,present>	6
+<Car_Automation-Garage_Door_Opener,switch-contact,on-opened>	1
+<Clothes_Dryer,completion,true>	4
+<Clothes_Dryer,mode,ready>	1
+<Coffee_Maker,switch,off>	1
+<Coffee_Maker,switch,on>	2
+<Coffee_Maker,temperature,greater>	4
+<Coffee_Maker-Door_Lock-Garage_Door_Opener-Gas_Stove-Light_Bulb-Shades/Blinds-Smart_TV-Speaker,switch-lock-contact-switch-switch-contact-switch-switch,off-locked-closed-off-off-closed-off-off>	1
+<Coffee_Maker-Light_Bulb-Robot_Vacuum,switch-switch-switch,on-on-on>	1
+<Coffee_Maker-Light_Bulb-Thermostat,switch-colorValue-thermostat,on-fixed_value-increased>	1
+<Coffee_Maker-Shades/Blinds,switch-contact,on-opened>	1
+<Coffee_Maker-null,switch-time,off-morning>	7
+<Contact_Sensor,contact,opened>	8
+<Contact_Sensor-null,contact-time,opened-night>	4
+<Dishwasher,mode,ready>	1
+<Dishwasher,weight,greater>	8
+<Door_Lock,lock,locked>	5
+<Door_Lock-Light_Bulb-Phone-Shades/Blinds-Smart_TV-Speaker,lock-colorValue-notification-contact-switch-volume,locked-fixed_value-notify-opened-on-fixed_value>	1
+<Door_Lock-Lighting_Remote-Robot_Vacuum-Thermostat,lock-switch-switch-thermostat,locked-off-on-auto>	1
+<Door_Lock-Phone-Shades/Blinds,lock-notification-contact,locked-notify-closed>	1
+<Door_Lock-Presence_Sensor-null,lock-presence-time,unlocked-not_present-night>	7
+<Door_Lock-null,lock-locationMode,unlocked-away>	7
+<Door_Lock-null,lock-time,unlocked-night>	6
+<Door_Sensor,contact,opened>	12
+<Door_Sensor-null,contact-locationMode,opened-away>	13
+<Door_Sensor-null,contact-locationMode,opened-vacation>	3
+<Door_Sensor-null,contact-time,opened-morning>	8
+<Door_Sensor-null-null,contact-locationMode-time,opened-away-evening>	3
+<Doorbell,button,pushed>	17
+<Dust_Detector,dust,greater>	5
+<Electric_Blanket,switch,on>	3
+<Energy_Meter,energy,greater>	6
+<External_API,news,notify>	1
+<External_API,traffic,notify>	1
+<External_API-null,traffic-time,heavy-morning>	3
+<Fan,switch,on>	1
+<Garage_Door_Opener,contact,closed>	2
+<Garage_Door_Opener,contact,opened>	3
+<Garage_Door_Opener,signalStrength,lesser>	6
+<Garage_Door_Opener-null,contact-locationMode,opened-away>	6
+<Garden_Sprinkler,switch,on>	1
+<Gas_Sensor,odorLevel,greater>	18
+<Gas_Sensor,odorLevel,lesser>	10
+<Gas_Sensor-null,odorLevel-locationMode,greater-not_vacation>	4
+<Gas_Sensor-null,odorLevel-locationMode,greater-vacation>	7
+<Gas_Stove,switch,off>	2
+<Gas_Stove-null,switch-timer,on-completed>	5
+<Glass_Break_Detector,shock,detected>	18
+<Glass_Break_Detector-null,shock-locationMode,detected-away>	7
+<Glass_Break_Detector-null,shock-locationMode,detected-night>	6
+<Glass_Break_Detector-null,shock-locationMode,detected-vacation>	3
+<Heater,switch,off>	1
+<Heater,switch,on>	2
+<Humidifier,switch,on>	3
+<Humidity_Sensor,humidity,greater>	14
+<Humidity_Sensor,humidity,lesser>	13
+<Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>	10
+<Illuminance_Sensor,illuminance,greater>	6
+<Illuminance_Sensor,illuminance,lesser>	7
+<Illuminance_Sensor-Motion_Sensor,illuminance-motion,lesser-detected>	8
+<Illuminance_Sensor-null,illuminance-time,lesser-night>	5
+<Induction_Cooktop-null,switch-locationMode,on-away>	8
+<Light_Bulb,colorValue,fixed_value>	4
+<Light_Bulb,switch,off>	12
+<Light_Bulb,switch,on>	9
+<Light_Bulb-Motion_Sensor,switch-motion,off-detected>	9
+<Light_Bulb-Motion_Sensor,switch-motion,on-not_detected>	9
+<Light_Bulb-Phone,switch-notification,on-notify>	1
+<Light_Bulb-Security_Alarm,mode-alarm,flash-strobe>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-closed>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-opened>	1
+<Light_Bulb-Shades/Blinds,switch-contact,on-closed>	1
+<Light_Bulb-Smart_Assistant,switch-notification,off-notify>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off>	3
+<Light_Bulb-Speaker,colorValue-switch,fixed_value-on>	1
+<Light_Bulb-Thermostat,switch-thermostat,off-auto>	1
+<Light_Bulb-Weather_Station,colorValue-weather,fixed_value-notify>	1
+<Light_Bulb-null,switch-locationMode,on-away>	6
+<Microwave_Oven,switch,off>	1
+<Moisture_Sensor,water,dry>	13
+<Moisture_Sensor,water,wet>	22
+<Motion_Sensor,motion,detected>	23
+<Motion_Sensor,motion,not_detected>	6
+<Motion_Sensor-Security_Camera,motion-image,detected-take>	5
+<Motion_Sensor-Shades/Blinds-null,motion-contact-time,not_detected-closed-day>	5
+<Oil_Warmer,switch,on>	1
+<Phone,notification,notify>	20
+<Phone-Security_Alarm,notification-alarm,notify-siren>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe>	9
+<Phone-Thermostat,notification-thermostat,notify-auto>	1
+<Presence_Sensor,presence,not_present>	7
+<Presence_Sensor,presence,present>	12
+<Pulse_Monitor,pulse,greater>	11
+<Pulse_Monitor,pulse,lesser>	4
+<Pulse_Monitor,switch,on>	1
+<Refrigerator,filterStatus,replace>	7
+<Refrigerator,switch,on>	1
+<Refrigerator,temperature,greater>	6
+<Refrigerator-null,contact-time,opened-evening>	5
+<Robot_Vacuum,switch,on>	3
+<Robot_Vacuum-Thermostat,switch-thermostat,off-auto>	1
+<Security_Alarm,alarm,off>	1
+<Security_Alarm,alarm,siren>	4
+<Security_Alarm,alarm,siren_strobe>	15
+<Security_Alarm,alarm,strobe>	1
+<Security_Alarm-Security_Camera,alarm-switch,siren_strobe-on>	1
+<Security_Alarm-null,alarm-locationMode,siren_strobe-away>	4
+<Security_Camera,image,take>	1
+<Security_Camera,switch,on>	5
+<Security_Camera,video,record>	1
+<Security_Camera-null,image-time,take-night>	5
+<Security_Camera-null,switch-locationMode,off-vacation>	3
+<Shades/Blinds,contact,closed>	2
+<Shades/Blinds,contact,opened>	3
+<Shades/Blinds,threeAxis,fixed_value>	2
+<Shades/Blinds-Speaker,threeAxis-mute,fixed_value-unmuted>	1
+<Shades/Blinds-null,contact-locationMode,opened-home>	1
+<Sleep_Monitor,sleeping,detected>	21
+<Sleep_Monitor,sleeping,not_detected>	6
+<Sleep_Monitor,switch,on>	1
+<Smart_Assistant,notification,notify>	1
+<Smart_Assistant,voice,command>	8
+<Smart_Mirror,switch,off>	1
+<Smart_Mirror-Speaker,switch-switch,on-on>	1
+<Smart_TV,channel,fixed_value>	2
+<Smart_TV,switch,off>	1
+<Smart_TV,switch,on>	12
+<Smoke_Detector,battery,lesser>	8
+<Smoke_Detector,smoke,detected>	16
+<Smoke_Detector,tamper,detected>	7
+<Smoke_Detector-Temperature_Sensor,smoke-temperature,greater-greater>	5
+<Speaker,switch,on>	2
+<Sprinker,switch,on>	2
+<Switches,switch,off>	3
+<Switches,switch,on>	3
+<Switches-null,switch-time,off-evening>	1
+<Temperature_Sensor,temperature,equal>	7
+<Temperature_Sensor,temperature,greater>	29
+<Temperature_Sensor,temperature,lesser>	34
+<Temperature_Sensor-null,temperature-locationMode,greater-away>	6
+<Temperature_Sensor-null,temperature-locationMode,greater-home>	6
+<Temperature_Sensor-null,temperature-locationMode,greater-not_vacation>	9
+<Temperature_Sensor-null,temperature-locationMode,lesser-away>	6
+<Temperature_Sensor-null,temperature-locationMode,lesser-home>	7
+<Temperature_Sensor-null,temperature-locationMode,lesser-not_vacation>	7
+<Temperature_Sensor-null,temperature-time,greater-night>	6
+<Temperature_Sensor-null,temperature-time,lesser-afternoon>	3
+<Temperature_Sensor-null,temperature-time,lesser-morning>	3
+<Temperature_Sensor-null,temperature-time,lesser-night>	14
+<Thermostat,thermostat,auto>	6
+<Thermostat,thermostat,decreased>	1
+<Thermostat,thermostat,increased>	4
+<Thermostat-Water_Heater,thermostat-switch,increased-on>	1
+<Washer,completion,true>	1
+<Water_Heater,switch,off>	1
+<Water_Heater,switch,on>	1
+<Water_Leak_Detector,water,wet>	16
+<Water_Leak_Detector-null,water-locationMode,wet-not_vacation>	4
+<Water_Leak_Detector-null,water-locationMode,wet-vacation>	5
+<Water_Valve,contact,closed>	1
+<Weather_Station,cold,true>	6
+<Weather_Station,rain,true>	12
+<Weather_Station,weather,notify>	1
+<Weather_Station-null,rain-time,false-morning>	6
+<Weather_Station-null,rain-time,false-night>	10
+<Weather_Station-null,rain-time,true-morning>	4
+<null,locationMode,away>	46
+<null,locationMode,home>	17
+<null,locationMode,night>	21
+<null,locationMode,vacation>	10
+<null,time,afternoon>	9
+<null,time,evening>	22
+<null,time,morning>	59
+<null,time,night>	45
+<null,time,noon>	5
+<null-null,locationMode-time,away-evening>	6
+<null-null,locationMode-time,away-morning>	1
+<null-null,locationMode-time,away-night>	6
+<null-null,locationMode-time,home-night>	7
+<null-null,locationMode-time,vacation-morning>	4
+<null-null,locationMode-time,vacation-night>	5
+<s> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser>	0
+<s> <Air_Conditioner-null,thermostat-time,auto-night>	0
+<s> <Air_Purifier,airQuality,greater>	0
+<s> <Air_Purifier,airQuality,lesser>	0
+<s> <Audio_Player-null,switch-time,on-night>	0
+<s> <Beacon_Device,presence,present>	0
+<s> <Beacon_Device-Light_Bulb,presence-switch,not_present-on>	0
+<s> <Beacon_Device-Light_Bulb,presence-switch,present-off>	0
+<s> <Blood_Pressure_Monitor,pressure,greater>	0
+<s> <Button,button,pushed>	0
+<s> <CO_Detector,carbonMonoxide,detected>	0
+<s> <CO_Detector-null,carbonMonoxide-locationMode,detected-vacation>	0
+<s> <Clothes_Dryer,completion,true>	0
+<s> <Coffee_Maker,temperature,greater>	0
+<s> <Contact_Sensor,contact,opened>	0
+<s> <Contact_Sensor-null,contact-time,opened-night>	0
+<s> <Dishwasher,weight,greater>	0
+<s> <Door_Lock-Presence_Sensor-null,lock-presence-time,unlocked-not_present-night>	0
+<s> <Door_Lock-null,lock-locationMode,unlocked-away>	0
+<s> <Door_Lock-null,lock-time,unlocked-night>	0
+<s> <Door_Sensor,contact,opened>	0
+<s> <Door_Sensor-null,contact-locationMode,opened-away>	0
+<s> <Door_Sensor-null,contact-time,opened-morning>	0
+<s> <Doorbell,button,pushed>	0
+<s> <Dust_Detector,dust,greater>	0
+<s> <Energy_Meter,energy,greater>	0
+<s> <External_API-null,traffic-time,heavy-morning>	0
+<s> <Garage_Door_Opener-null,contact-locationMode,opened-away>	0
+<s> <Gas_Sensor,odorLevel,greater>	0
+<s> <Gas_Sensor,odorLevel,lesser>	0
+<s> <Gas_Sensor-null,odorLevel-locationMode,greater-vacation>	0
+<s> <Gas_Stove-null,switch-timer,on-completed>	0
+<s> <Glass_Break_Detector,shock,detected>	0
+<s> <Glass_Break_Detector-null,shock-locationMode,detected-away>	0
+<s> <Humidity_Sensor,humidity,greater>	0
+<s> <Humidity_Sensor,humidity,lesser>	0
+<s> <Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>	0
+<s> <Illuminance_Sensor,illuminance,lesser>	0
+<s> <Illuminance_Sensor-Motion_Sensor,illuminance-motion,lesser-detected>	0
+<s> <Illuminance_Sensor-null,illuminance-time,lesser-night>	0
+<s> <Induction_Cooktop-null,switch-locationMode,on-away>	0
+<s> <Light_Bulb-Motion_Sensor,switch-motion,off-detected>	0
+<s> <Light_Bulb-Motion_Sensor,switch-motion,on-not_detected>	0
+<s> <Moisture_Sensor,water,dry>	0
+<s> <Moisture_Sensor,water,wet>	0
+<s> <Motion_Sensor,motion,detected>	0
+<s> <Motion_Sensor,motion,not_detected>	0
+<s> <Motion_Sensor-Security_Camera,motion-image,detected-take>	0
+<s> <Presence_Sensor,presence,not_present>	0
+<s> <Presence_Sensor,presence,present>	0
+<s> <Pulse_Monitor,pulse,greater>	0
+<s> <Pulse_Monitor,pulse,lesser>	0
+<s> <Refrigerator-null,contact-time,opened-evening>	0
+<s> <Security_Alarm-null,alarm-locationMode,siren_strobe-away>	0
+<s> <Security_Camera-null,image-time,take-night>	0
+<s> <Sleep_Monitor,sleeping,detected>	0
+<s> <Smart_Assistant,voice,command>	0
+<s> <Smart_TV,switch,on>	0
+<s> <Smoke_Detector,battery,lesser>	0
+<s> <Smoke_Detector,smoke,detected>	0
+<s> <Smoke_Detector,tamper,detected>	0
+<s> <Temperature_Sensor,temperature,greater>	0
+<s> <Temperature_Sensor,temperature,lesser>	0
+<s> <Temperature_Sensor-null,temperature-locationMode,greater-away>	0
+<s> <Temperature_Sensor-null,temperature-locationMode,greater-home>	0
+<s> <Temperature_Sensor-null,temperature-locationMode,greater-not_vacation>	0
+<s> <Temperature_Sensor-null,temperature-locationMode,lesser-away>	0
+<s> <Temperature_Sensor-null,temperature-locationMode,lesser-home>	0
+<s> <Temperature_Sensor-null,temperature-locationMode,lesser-not_vacation>	0
+<s> <Temperature_Sensor-null,temperature-time,greater-night>	0
+<s> <Temperature_Sensor-null,temperature-time,lesser-afternoon>	0
+<s> <Temperature_Sensor-null,temperature-time,lesser-morning>	0
+<s> <Temperature_Sensor-null,temperature-time,lesser-night>	0
+<s> <Water_Leak_Detector,water,wet>	0
+<s> <Weather_Station,rain,true>	0
+<s> <Weather_Station-null,rain-time,false-morning>	0
+<s> <Weather_Station-null,rain-time,false-night>	0
+<s> <Weather_Station-null,rain-time,true-morning>	0
+<s> <null,locationMode,away>	0
+<s> <null,locationMode,home>	0
+<s> <null,locationMode,night>	0
+<s> <null,locationMode,vacation>	0
+<s> <null,time,afternoon>	0
+<s> <null,time,evening>	0
+<s> <null,time,morning>	0
+<s> <null,time,night>	0
+<s> <null-null,locationMode-time,away-evening>	0
+<s> <null-null,locationMode-time,away-night>	0
+<s> <null-null,locationMode-time,vacation-morning>	0
+<s> <null-null,locationMode-time,vacation-night>	0
+<Air_Conditioner,thermostat,auto> </s>	6
+<Air_Conditioner,thermostat,auto> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-greater>	1
+<Air_Conditioner,thermostat,auto> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser>	1
+<Air_Conditioner,thermostat,auto> <Air_Conditioner-null,thermostat-time,auto-night>	1
+<Air_Conditioner,thermostat,auto> <Air_Conditioner-null,thermostat-time,off-evening>	1
+<Air_Conditioner,thermostat,auto> <Air_Purifier,airQuality,greater>	1
+<Air_Conditioner,thermostat,auto> <Air_Purifier,airQuality,lesser>	3
+<Air_Conditioner,thermostat,auto> <Bread_Maker-null,switch-time,off-morning>	1
+<Air_Conditioner,thermostat,auto> <Car_Automation,presence,present>	1
+<Air_Conditioner,thermostat,auto> <Coffee_Maker-null,switch-time,off-morning>	1
+<Air_Conditioner,thermostat,auto> <Dishwasher,weight,greater>	1
+<Air_Conditioner,thermostat,auto> <Door_Sensor,contact,opened>	1
+<Air_Conditioner,thermostat,auto> <Doorbell,button,pushed>	1
+<Air_Conditioner,thermostat,auto> <Dust_Detector,dust,greater>	1
+<Air_Conditioner,thermostat,auto> <Garage_Door_Opener,signalStrength,lesser>	1
+<Air_Conditioner,thermostat,auto> <Garage_Door_Opener-null,contact-locationMode,opened-away>	1
+<Air_Conditioner,thermostat,auto> <Gas_Sensor,odorLevel,greater>	2
+<Air_Conditioner,thermostat,auto> <Gas_Sensor,odorLevel,lesser>	1
+<Air_Conditioner,thermostat,auto> <Humidity_Sensor,humidity,greater>	2
+<Air_Conditioner,thermostat,auto> <Humidity_Sensor,humidity,lesser>	1
+<Air_Conditioner,thermostat,auto> <Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>	1
+<Air_Conditioner,thermostat,auto> <Illuminance_Sensor,illuminance,lesser>	1
+<Air_Conditioner,thermostat,auto> <Illuminance_Sensor-null,illuminance-time,lesser-night>	1
+<Air_Conditioner,thermostat,auto> <Light_Bulb-Motion_Sensor,switch-motion,off-detected>	1
+<Air_Conditioner,thermostat,auto> <Light_Bulb-Motion_Sensor,switch-motion,on-not_detected>	1
+<Air_Conditioner,thermostat,auto> <Light_Bulb-null,switch-locationMode,on-away>	1
+<Air_Conditioner,thermostat,auto> <Moisture_Sensor,water,dry>	1
+<Air_Conditioner,thermostat,auto> <Moisture_Sensor,water,wet>	2
+<Air_Conditioner,thermostat,auto> <Motion_Sensor,motion,detected>	1
+<Air_Conditioner,thermostat,auto> <Motion_Sensor,motion,not_detected>	1
+<Air_Conditioner,thermostat,auto> <Refrigerator,filterStatus,replace>	1
+<Air_Conditioner,thermostat,auto> <Refrigerator,temperature,greater>	1
+<Air_Conditioner,thermostat,auto> <Security_Camera-null,image-time,take-night>	1
+<Air_Conditioner,thermostat,auto> <Sleep_Monitor,sleeping,detected>	2
+<Air_Conditioner,thermostat,auto> <Smart_TV,switch,on>	1
+<Air_Conditioner,thermostat,auto> <Smoke_Detector,battery,lesser>	2
+<Air_Conditioner,thermostat,auto> <Smoke_Detector,smoke,detected>	1
+<Air_Conditioner,thermostat,auto> <Smoke_Detector,tamper,detected>	2
+<Air_Conditioner,thermostat,auto> <Smoke_Detector-Temperature_Sensor,smoke-temperature,greater-greater>	1
+<Air_Conditioner,thermostat,auto> <Temperature_Sensor,temperature,equal>	1
+<Air_Conditioner,thermostat,auto> <Temperature_Sensor,temperature,greater>	1
+<Air_Conditioner,thermostat,auto> <Temperature_Sensor,temperature,lesser>	2
+<Air_Conditioner,thermostat,auto> <Temperature_Sensor-null,temperature-locationMode,lesser-home>	1
+<Air_Conditioner,thermostat,auto> <Temperature_Sensor-null,temperature-time,greater-night>	1
+<Air_Conditioner,thermostat,auto> <Temperature_Sensor-null,temperature-time,lesser-night>	2
+<Air_Conditioner,thermostat,auto> <Washer,completion,true>	1
+<Air_Conditioner,thermostat,auto> <null,locationMode,away>	3
+<Air_Conditioner,thermostat,auto> <null,locationMode,home>	1
+<Air_Conditioner,thermostat,auto> <null,time,evening>	2
+<Air_Conditioner,thermostat,auto> <null,time,morning>	2
+<Air_Conditioner,thermostat,auto> <null,time,night>	4
+<Air_Conditioner,thermostat,auto> <null-null,locationMode-time,home-night>	1
+<Air_Conditioner,thermostat,decreased> </s>	3
+<Air_Conditioner,thermostat,decreased> <CO_Detector-null,carbonMonoxide-locationMode,detected-not_vacation>	1
+<Air_Conditioner,thermostat,decreased> <CO_Detector-null,carbonMonoxide-locationMode,detected-vacation>	1
+<Air_Conditioner,thermostat,decreased> <Door_Sensor-null,contact-locationMode,opened-away>	1
+<Air_Conditioner,thermostat,decreased> <Doorbell,button,pushed>	1
+<Air_Conditioner,thermostat,decreased> <Gas_Sensor-null,odorLevel-locationMode,greater-vacation>	1
+<Air_Conditioner,thermostat,decreased> <Glass_Break_Detector,shock,detected>	1
+<Air_Conditioner,thermostat,decreased> <Glass_Break_Detector-null,shock-locationMode,detected-away>	1
+<Air_Conditioner,thermostat,decreased> <Glass_Break_Detector-null,shock-locationMode,detected-night>	1
+<Air_Conditioner,thermostat,decreased> <Moisture_Sensor,water,wet>	1
+<Air_Conditioner,thermostat,decreased> <Smoke_Detector,smoke,detected>	1
+<Air_Conditioner,thermostat,decreased> <Temperature_Sensor,temperature,greater>	1
+<Air_Conditioner,thermostat,decreased> <Temperature_Sensor,temperature,lesser>	1
+<Air_Conditioner,thermostat,decreased> <Temperature_Sensor-null,temperature-locationMode,greater-away>	1
+<Air_Conditioner,thermostat,decreased> <Temperature_Sensor-null,temperature-locationMode,greater-home>	1
+<Air_Conditioner,thermostat,decreased> <Temperature_Sensor-null,temperature-locationMode,greater-not_vacation>	1
+<Air_Conditioner,thermostat,decreased> <Temperature_Sensor-null,temperature-locationMode,lesser-away>	1
+<Air_Conditioner,thermostat,decreased> <Temperature_Sensor-null,temperature-locationMode,lesser-home>	1
+<Air_Conditioner,thermostat,decreased> <Temperature_Sensor-null,temperature-locationMode,lesser-not_vacation>	1
+<Air_Conditioner,thermostat,decreased> <Water_Leak_Detector-null,water-locationMode,wet-not_vacation>	1
+<Air_Conditioner,thermostat,decreased> <Weather_Station-null,rain-time,false-night>	1
+<Air_Conditioner,thermostat,decreased> <null,locationMode,night>	1
+<Air_Conditioner,thermostat,decreased> <null,locationMode,vacation>	1
+<Air_Conditioner,thermostat,decreased> <null,time,evening>	1
+<Air_Conditioner,thermostat,decreased> <null,time,morning>	1
+<Air_Conditioner,thermostat,decreased> <null,time,night>	1
+<Air_Conditioner,thermostat,decreased> <null-null,locationMode-time,away-evening>	1
+<Air_Conditioner,thermostat,decreased> <null-null,locationMode-time,away-night>	1
+<Air_Conditioner,thermostat,increased> </s>	3
+<Air_Conditioner,thermostat,increased> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser>	1
+<Air_Conditioner,thermostat,increased> <Air_Conditioner-null,thermostat-time,auto-morning>	1
+<Air_Conditioner,thermostat,increased> <Bread_Maker-null,switch-time,off-morning>	1
+<Air_Conditioner,thermostat,increased> <CO_Detector-null,carbonMonoxide-locationMode,detected-not_vacation>	1
+<Air_Conditioner,thermostat,increased> <CO_Detector-null,carbonMonoxide-locationMode,detected-vacation>	1
+<Air_Conditioner,thermostat,increased> <Coffee_Maker-null,switch-time,off-morning>	1
+<Air_Conditioner,thermostat,increased> <Contact_Sensor,contact,opened>	1
+<Air_Conditioner,thermostat,increased> <Door_Sensor-null,contact-locationMode,opened-away>	1
+<Air_Conditioner,thermostat,increased> <Doorbell,button,pushed>	1
+<Air_Conditioner,thermostat,increased> <Gas_Sensor-null,odorLevel-locationMode,greater-not_vacation>	1
+<Air_Conditioner,thermostat,increased> <Gas_Sensor-null,odorLevel-locationMode,greater-vacation>	1
+<Air_Conditioner,thermostat,increased> <Glass_Break_Detector,shock,detected>	1
+<Air_Conditioner,thermostat,increased> <Glass_Break_Detector-null,shock-locationMode,detected-away>	1
+<Air_Conditioner,thermostat,increased> <Glass_Break_Detector-null,shock-locationMode,detected-night>	1
+<Air_Conditioner,thermostat,increased> <Light_Bulb-Motion_Sensor,switch-motion,off-detected>	1
+<Air_Conditioner,thermostat,increased> <Light_Bulb-Motion_Sensor,switch-motion,on-not_detected>	1
+<Air_Conditioner,thermostat,increased> <Moisture_Sensor,water,wet>	1
+<Air_Conditioner,thermostat,increased> <Smoke_Detector,smoke,detected>	1
+<Air_Conditioner,thermostat,increased> <Temperature_Sensor,temperature,greater>	1
+<Air_Conditioner,thermostat,increased> <Temperature_Sensor,temperature,lesser>	1
+<Air_Conditioner,thermostat,increased> <Temperature_Sensor-null,temperature-locationMode,greater-not_vacation>	1
+<Air_Conditioner,thermostat,increased> <Water_Leak_Detector-null,water-locationMode,wet-not_vacation>	1
+<Air_Conditioner,thermostat,increased> <Weather_Station-null,rain-time,false-night>	1
+<Air_Conditioner,thermostat,increased> <null,locationMode,night>	1
+<Air_Conditioner,thermostat,increased> <null,time,evening>	2
+<Air_Conditioner,thermostat,increased> <null,time,night>	1
+<Air_Conditioner,thermostat,off> </s>	4
+<Air_Conditioner,thermostat,off> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser>	1
+<Air_Conditioner,thermostat,off> <Air_Conditioner-null,thermostat-time,auto-morning>	1
+<Air_Conditioner,thermostat,off> <Air_Conditioner-null,thermostat-time,auto-night>	1
+<Air_Conditioner,thermostat,off> <Air_Purifier,airQuality,lesser>	1
+<Air_Conditioner,thermostat,off> <Car_Automation,presence,present>	1
+<Air_Conditioner,thermostat,off> <Contact_Sensor,contact,opened>	1
+<Air_Conditioner,thermostat,off> <Door_Sensor-null,contact-locationMode,opened-away>	1
+<Air_Conditioner,thermostat,off> <Door_Sensor-null-null,contact-locationMode-time,opened-away-evening>	1
+<Air_Conditioner,thermostat,off> <Doorbell,button,pushed>	1
+<Air_Conditioner,thermostat,off> <Garage_Door_Opener,signalStrength,lesser>	1
+<Air_Conditioner,thermostat,off> <Gas_Sensor,odorLevel,greater>	1
+<Air_Conditioner,thermostat,off> <Glass_Break_Detector-null,shock-locationMode,detected-away>	1
+<Air_Conditioner,thermostat,off> <Glass_Break_Detector-null,shock-locationMode,detected-night>	1
+<Air_Conditioner,thermostat,off> <Illuminance_Sensor,illuminance,lesser>	1
+<Air_Conditioner,thermostat,off> <Light_Bulb-Motion_Sensor,switch-motion,off-detected>	1
+<Air_Conditioner,thermostat,off> <Light_Bulb-Motion_Sensor,switch-motion,on-not_detected>	1
+<Air_Conditioner,thermostat,off> <Light_Bulb-null,switch-locationMode,on-away>	1
+<Air_Conditioner,thermostat,off> <Moisture_Sensor,water,wet>	1
+<Air_Conditioner,thermostat,off> <Sleep_Monitor,sleeping,detected>	1
+<Air_Conditioner,thermostat,off> <Smart_Assistant,voice,command>	1
+<Air_Conditioner,thermostat,off> <Smart_TV,switch,on>	1
+<Air_Conditioner,thermostat,off> <Smoke_Detector,battery,lesser>	1
+<Air_Conditioner,thermostat,off> <Smoke_Detector,tamper,detected>	1
+<Air_Conditioner,thermostat,off> <Temperature_Sensor,temperature,equal>	1
+<Air_Conditioner,thermostat,off> <Temperature_Sensor,temperature,greater>	2
+<Air_Conditioner,thermostat,off> <Temperature_Sensor,temperature,lesser>	3
+<Air_Conditioner,thermostat,off> <null,locationMode,away>	2
+<Air_Conditioner,thermostat,off> <null,locationMode,night>	1
+<Air_Conditioner,thermostat,off> <null,time,evening>	1
+<Air_Conditioner,thermostat,off> <null,time,morning>	1
+<Air_Conditioner,thermostat,off> <null,time,night>	2
+<Air_Conditioner,thermostat,off> <null-null,locationMode-time,home-night>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> </s>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> <CO_Detector,carbonMonoxide,detected>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> <Motion_Sensor,motion,detected>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> <Presence_Sensor,presence,present>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> <Pulse_Monitor,pulse,greater>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> <Water_Leak_Detector,water,wet>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> <null,locationMode,away>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> <null,locationMode,home>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> <null,locationMode,vacation>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> <null,time,afternoon>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> <null,time,morning>	1
+<Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off> <null,time,night>	1
+<Air_Conditioner-Fan,thermostat-switch,auto-on> </s>	1
+<Air_Conditioner-Fan,thermostat-switch,auto-on> <CO_Detector-Gas_Sensor,alarm-alarm,siren-siren>	1
+<Air_Conditioner-Fan,thermostat-switch,auto-on> <Motion_Sensor,motion,detected>	1
+<Air_Conditioner-Fan,thermostat-switch,auto-on> <Temperature_Sensor,temperature,greater>	1
+<Air_Conditioner-Fan,thermostat-switch,auto-on> <Temperature_Sensor,temperature,lesser>	1
+<Air_Conditioner-Fan,thermostat-switch,off-off> </s>	1
+<Air_Conditioner-Fan,thermostat-switch,off-off> <CO_Detector-Gas_Sensor,alarm-alarm,siren-siren>	1
+<Air_Conditioner-Fan,thermostat-switch,off-off> <Motion_Sensor,motion,detected>	1
+<Air_Conditioner-Fan,thermostat-switch,off-off> <Temperature_Sensor,temperature,greater>	1
+<Air_Conditioner-Fan,thermostat-switch,off-off> <Temperature_Sensor,temperature,lesser>	1
+<Air_Conditioner-Fan-Light_Bulb,thermostat-switch-switch,off-off-off> <Blood_Pressure_Monitor,pressure,greater>	1
+<Air_Conditioner-Fan-Light_Bulb,thermostat-switch-switch,off-off-off> <Blood_Pressure_Monitor,pressure,lesser>	1
+<Air_Conditioner-Fan-Light_Bulb,thermostat-switch-switch,off-off-off> <Dust_Detector,dust,greater>	1
+<Air_Conditioner-Fan-Light_Bulb,thermostat-switch-switch,off-off-off> <Motion_Sensor,motion,not_detected>	1
+<Air_Conditioner-Fan-Light_Bulb,thermostat-switch-switch,off-off-off> <Sleep_Monitor,sleeping,detected>	1
+<Air_Conditioner-Heater,thermostat-switch,off-off> </s>	1
+<Air_Conditioner-Heater,thermostat-switch,off-off> <Door_Lock-Presence_Sensor-null,lock-presence-time,unlocked-not_present-night>	1
+<Air_Conditioner-Heater,thermostat-switch,off-off> <Illuminance_Sensor-Motion_Sensor,illuminance-motion,lesser-detected>	1
+<Air_Conditioner-Heater,thermostat-switch,off-off> <Presence_Sensor,presence,not_present>	1
+<Air_Conditioner-Heater,thermostat-switch,off-off> <Temperature_Sensor,temperature,lesser>	1
+<Air_Conditioner-Light_Bulb,thermostat-colorValue,auto-fixed_value> </s>	1
+<Air_Conditioner-Light_Bulb,thermostat-colorValue,auto-fixed_value> <Moisture_Sensor,water,dry>	1
+<Air_Conditioner-Light_Bulb,thermostat-colorValue,auto-fixed_value> <Motion_Sensor-Security_Camera,motion-image,detected-take>	1
+<Air_Conditioner-Light_Bulb,thermostat-colorValue,auto-fixed_value> <Refrigerator-null,contact-time,opened-evening>	1
+<Air_Conditioner-Light_Bulb,thermostat-colorValue,auto-fixed_value> <null,time,night>	1
+<Air_Conditioner-Light_Bulb,thermostat-switch,auto-on> </s>	1
+<Air_Conditioner-Light_Bulb,thermostat-switch,auto-on> <Door_Sensor-null-null,contact-locationMode-time,opened-away-evening>	1
+<Air_Conditioner-Light_Bulb,thermostat-switch,auto-on> <Smart_Assistant,voice,command>	1
+<Air_Conditioner-Oil_Warmer-Robot_Vacuum-Smart_TV,thermostat-switch-switch-switch,auto-on-on-on> </s>	1
+<Air_Conditioner-Oil_Warmer-Robot_Vacuum-Smart_TV,thermostat-switch-switch-switch,auto-on-on-on> <CO_Detector,carbonMonoxide,detected>	1
+<Air_Conditioner-Oil_Warmer-Robot_Vacuum-Smart_TV,thermostat-switch-switch-switch,auto-on-on-on> <Pulse_Monitor,pulse,greater>	1
+<Air_Conditioner-Oil_Warmer-Robot_Vacuum-Smart_TV,thermostat-switch-switch-switch,auto-on-on-on> <Temperature_Sensor,temperature,lesser>	1
+<Air_Conditioner-Oil_Warmer-Robot_Vacuum-Smart_TV,thermostat-switch-switch-switch,auto-on-on-on> <null,locationMode,away>	1
+<Air_Conditioner-Oil_Warmer-Robot_Vacuum-Smart_TV,thermostat-switch-switch-switch,auto-on-on-on> <null,time,afternoon>	1
+<Air_Conditioner-Oil_Warmer-Robot_Vacuum-Smart_TV,thermostat-switch-switch-switch,auto-on-on-on> <null,time,night>	1
+<Air_Conditioner-Refrigerator-Water_Heater,thermostat-thermostat-switch,off-decreased-off> <Door_Sensor-null,contact-locationMode,opened-away>	1
+<Air_Conditioner-Refrigerator-Water_Heater,thermostat-thermostat-switch,off-decreased-off> <Temperature_Sensor-null,temperature-locationMode,greater-not_vacation>	1
+<Air_Conditioner-Refrigerator-Water_Heater,thermostat-thermostat-switch,off-decreased-off> <Weather_Station-null,rain-time,false-night>	1
+<Air_Conditioner-Security_Camera,thermostat-switch,off-on> </s>	1
+<Air_Conditioner-Security_Camera,thermostat-switch,off-on> <Blood_Pressure_Monitor,pressure,greater>	1
+<Air_Conditioner-Security_Camera,thermostat-switch,off-on> <Security_Camera-null,image-time,take-night>	1
+<Air_Conditioner-Security_Camera,thermostat-switch,off-on> <Smoke_Detector,smoke,detected>	1
+<Air_Conditioner-Security_Camera,thermostat-switch,off-on> <null,locationMode,away>	1
+<Air_Conditioner-Shades/Blinds,thermostat-contact,decreased-closed> </s>	1
+<Air_Conditioner-Shades/Blinds,thermostat-contact,decreased-closed> <Temperature_Sensor-null,temperature-locationMode,greater-away>	1
+<Air_Conditioner-Shades/Blinds,thermostat-contact,decreased-closed> <Temperature_Sensor-null,temperature-locationMode,greater-home>	1
+<Air_Conditioner-Shades/Blinds,thermostat-contact,decreased-closed> <Temperature_Sensor-null,temperature-locationMode,lesser-away>	1
+<Air_Conditioner-Shades/Blinds,thermostat-contact,decreased-closed> <Temperature_Sensor-null,temperature-locationMode,lesser-home>	1
+<Air_Conditioner-Shades/Blinds,thermostat-contact,decreased-closed> <null-null,locationMode-time,away-evening>	1
+<Air_Conditioner-Shades/Blinds,thermostat-contact,decreased-closed> <null-null,locationMode-time,away-night>	1
+<Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-greater> <Air_Conditioner,thermostat,auto>	6
+<Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser> <Air_Conditioner,thermostat,increased>	9
+<Air_Conditioner-null,thermostat-time,auto-morning> <Air_Conditioner,thermostat,off>	5
+<Air_Conditioner-null,thermostat-time,auto-night> <Air_Conditioner,thermostat,off>	7
+<Air_Conditioner-null,thermostat-time,off-evening> <Air_Conditioner,thermostat,auto>	6
+<Air_Cooler,switch,on> <Dishwasher,weight,greater>	1
+<Air_Cooler,switch,on> <Door_Lock-null,lock-time,unlocked-night>	1
+<Air_Cooler,switch,on> <Moisture_Sensor,water,wet>	1
+<Air_Cooler,switch,on> <Temperature_Sensor,temperature,greater>	1
+<Air_Cooler,switch,on> <null,time,evening>	1
+<Air_Cooler,switch,on> <null,time,night>	1
+<Air_Cooler-Audio_Player-Phone-Shades/Blinds,switch-switch-notification-contact,off-on-notify-opened> <Weather_Station,rain,true>	1
+<Air_Cooler-Audio_Player-Phone-Shades/Blinds,switch-switch-notification-contact,off-on-notify-opened> <null,locationMode,night>	1
+<Air_Cooler-Audio_Player-Phone-Shades/Blinds,switch-switch-notification-contact,off-on-notify-opened> <null-null,locationMode-time,vacation-morning>	1
+<Air_Purifier,airQuality,greater> <Air_Purifier,switch,off>	11
+<Air_Purifier,airQuality,lesser> <Air_Purifier,switch,on>	33
+<Air_Purifier,switch,off> </s>	1
+<Air_Purifier,switch,off> <Air_Purifier,airQuality,greater>	1
+<Air_Purifier,switch,off> <Air_Purifier,airQuality,lesser>	1
+<Air_Purifier,switch,off> <Gas_Sensor,odorLevel,greater>	1
+<Air_Purifier,switch,off> <Gas_Sensor,odorLevel,lesser>	1
+<Air_Purifier,switch,off> <Humidity_Sensor,humidity,greater>	1
+<Air_Purifier,switch,off> <Smoke_Detector,battery,lesser>	1
+<Air_Purifier,switch,off> <Smoke_Detector,tamper,detected>	1
+<Air_Purifier,switch,off> <Temperature_Sensor,temperature,lesser>	1
+<Air_Purifier,switch,off> <Temperature_Sensor-null,temperature-time,lesser-night>	1
+<Air_Purifier,switch,off> <null,time,evening>	1
+<Air_Purifier,switch,off> <null,time,morning>	1
+<Air_Purifier,switch,off> <null,time,night>	1
+<Air_Purifier,switch,on> </s>	1
+<Air_Purifier,switch,on> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-greater>	1
+<Air_Purifier,switch,on> <Air_Purifier,airQuality,greater>	1
+<Air_Purifier,switch,on> <Air_Purifier,airQuality,lesser>	1
+<Air_Purifier,switch,on> <Button,button,pushed>	1
+<Air_Purifier,switch,on> <Door_Sensor,contact,opened>	1
+<Air_Purifier,switch,on> <Door_Sensor-null,contact-time,opened-morning>	1
+<Air_Purifier,switch,on> <Gas_Sensor,odorLevel,greater>	1
+<Air_Purifier,switch,on> <Gas_Sensor,odorLevel,lesser>	1
+<Air_Purifier,switch,on> <Humidity_Sensor,humidity,greater>	1
+<Air_Purifier,switch,on> <Humidity_Sensor,humidity,lesser>	1
+<Air_Purifier,switch,on> <Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>	1
+<Air_Purifier,switch,on> <Induction_Cooktop-null,switch-locationMode,on-away>	1
+<Air_Purifier,switch,on> <Moisture_Sensor,water,dry>	1
+<Air_Purifier,switch,on> <Moisture_Sensor,water,wet>	1
+<Air_Purifier,switch,on> <Motion_Sensor,motion,detected>	1
+<Air_Purifier,switch,on> <Refrigerator,temperature,greater>	1
+<Air_Purifier,switch,on> <Security_Alarm,alarm,siren_strobe>	1
+<Air_Purifier,switch,on> <Sleep_Monitor,sleeping,detected>	1
+<Air_Purifier,switch,on> <Sleep_Monitor,sleeping,not_detected>	1
+<Air_Purifier,switch,on> <Smoke_Detector,tamper,detected>	1
+<Air_Purifier,switch,on> <Temperature_Sensor,temperature,lesser>	1
+<Air_Purifier,switch,on> <Temperature_Sensor-null,temperature-time,lesser-night>	1
+<Air_Purifier,switch,on> <null,locationMode,away>	1
+<Air_Purifier,switch,on> <null,time,evening>	1
+<Air_Purifier,switch,on> <null,time,morning>	1
+<Air_Purifier,switch,on> <null,time,night>	1
+<Air_Purifier,switch,on> <null,time,noon>	1
+<Air_Purifier,switch,on> <null-null,locationMode-time,away-morning>	1
+<Air_Purifier-Light_Bulb,switch-switch,off-off> </s>	1
+<Air_Purifier-Light_Bulb,switch-switch,off-off> <Air_Purifier,airQuality,lesser>	1
+<Air_Purifier-Light_Bulb,switch-switch,off-off> <Button,button,pushed>	1
+<Air_Purifier-Light_Bulb,switch-switch,off-off> <null,locationMode,away>	1
+<Audio_Player,mute,muted> </s>	1
+<Audio_Player,mute,muted> <Air_Conditioner-null,thermostat-time,auto-night>	1
+<Audio_Player,mute,muted> <Doorbell,button,pushed>	1
+<Audio_Player,mute,muted> <Light_Bulb-null,switch-locationMode,on-away>	1
+<Audio_Player,mute,muted> <Smoke_Detector,tamper,detected>	1
+<Audio_Player,mute,muted> <null,locationMode,away>	1
+<Audio_Player,mute,muted> <null,time,night>	1
+<Audio_Player,switch,off> </s>	2
+<Audio_Player,switch,off> <Beacon_Device,presence,not_present>	1
+<Audio_Player,switch,off> <Beacon_Device,presence,present>	1
+<Audio_Player,switch,off> <Button,button,pushed>	1
+<Audio_Player,switch,off> <Gas_Sensor,odorLevel,greater>	1
+<Audio_Player,switch,off> <Glass_Break_Detector,shock,detected>	1
+<Audio_Player,switch,off> <Moisture_Sensor,water,wet>	1
+<Audio_Player,switch,off> <Sleep_Monitor,sleeping,detected>	1
+<Audio_Player,switch,off> <Smart_TV,switch,on>	1
+<Audio_Player,switch,off> <Temperature_Sensor,temperature,equal>	1
+<Audio_Player,switch,off> <Temperature_Sensor,temperature,lesser>	1
+<Audio_Player,switch,off> <Water_Leak_Detector,water,wet>	1
+<Audio_Player,switch,off> <null,locationMode,away>	2
+<Audio_Player,switch,off> <null,locationMode,night>	1
+<Audio_Player,switch,off> <null,time,morning>	1
+<Audio_Player,switch,on> </s>	1
+<Audio_Player,switch,on> <Beacon_Device,presence,not_present>	1
+<Audio_Player,switch,on> <Beacon_Device,presence,present>	1
+<Audio_Player,switch,on> <Button,button,pushed>	1
+<Audio_Player,switch,on> <null,locationMode,away>	1
+<Audio_Player,switch,on> <null,locationMode,night>	1
+<Audio_Player,switch,on> <null,time,morning>	1
+<Audio_Player,volume,decreased> </s>	1
+<Audio_Player,volume,decreased> <Audio_Player-null,switch-time,on-night>	1
+<Audio_Player,volume,decreased> <Security_Camera-null,switch-locationMode,off-vacation>	1
+<Audio_Player,volume,decreased> <Weather_Station-null,rain-time,true-morning>	1
+<Audio_Player,volume,decreased> <null,locationMode,away>	1
+<Audio_Player-Light_Bulb-Phone,switch-colorValue-notification,on-fixed_value-notify> </s>	2
+<Audio_Player-Light_Bulb-Phone,switch-colorValue-notification,on-fixed_value-notify> <Blood_Pressure_Monitor,pressure,greater>	2
+<Audio_Player-Light_Bulb-Phone,switch-colorValue-notification,on-fixed_value-notify> <Blood_Pressure_Monitor,pressure,lesser>	2
+<Audio_Player-Light_Bulb-Phone,switch-colorValue-notification,on-fixed_value-notify> <Dust_Detector,dust,greater>	1
+<Audio_Player-Light_Bulb-Phone,switch-colorValue-notification,on-fixed_value-notify> <Sleep_Monitor,sleeping,detected>	2
+<Audio_Player-Light_Bulb-Phone-Shades/Blinds,switch-switch-notification-contact,on-on-notify-closed> </s>	1
+<Audio_Player-Light_Bulb-Phone-Shades/Blinds,switch-switch-notification-contact,on-on-notify-closed> <Weather_Station,cold,true>	1
+<Audio_Player-Light_Bulb-Phone-Shades/Blinds,switch-switch-notification-contact,on-on-notify-closed> <null,locationMode,night>	1
+<Audio_Player-Light_Bulb-Phone-Shades/Blinds,switch-switch-notification-contact,on-on-notify-closed> <null,time,morning>	1
+<Audio_Player-Light_Bulb-Phone-Shades/Blinds,switch-switch-notification-contact,on-on-notify-closed> <null-null,locationMode-time,vacation-night>	1
+<Audio_Player-null,switch-time,on-night> <Audio_Player,volume,decreased>	4
+<Beacon_Device,presence,not_present> <Smart_TV,switch,off>	2
+<Beacon_Device,presence,not_present> <null,locationMode,away>	6
+<Beacon_Device,presence,present> <Audio_Player,switch,off>	7
+<Beacon_Device,presence,present> <Audio_Player,switch,on>	7
+<Beacon_Device,presence,present> <Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,on-off-decreased>	3
+<Beacon_Device,presence,present> <Smart_TV,switch,on>	6
+<Beacon_Device,presence,present> <null,locationMode,home>	9
+<Beacon_Device-Light_Bulb,presence-switch,not_present-on> <Light_Bulb,switch,off>	5
+<Beacon_Device-Light_Bulb,presence-switch,present-off> <Light_Bulb,switch,on>	6
+<Beacon_Device-null,presence-time,present-evening> <Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,off-on-increased>	3
+<Blood_Pressure_Monitor,pressure,greater> <Audio_Player-Light_Bulb-Phone,switch-colorValue-notification,on-fixed_value-notify>	2
+<Blood_Pressure_Monitor,pressure,greater> <Phone,notification,notify>	4
+<Blood_Pressure_Monitor,pressure,lesser> <Audio_Player-Light_Bulb-Phone,switch-colorValue-notification,on-fixed_value-notify>	3
+<Blood_Pressure_Monitor,pressure,lesser> <Phone,notification,notify>	3
+<Bread_Maker,switch,on> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser>	1
+<Bread_Maker,switch,on> <Air_Conditioner-null,thermostat-time,off-evening>	1
+<Bread_Maker,switch,on> <Coffee_Maker-null,switch-time,off-morning>	1
+<Bread_Maker,switch,on> <Contact_Sensor,contact,opened>	1
+<Bread_Maker,switch,on> <Light_Bulb-Motion_Sensor,switch-motion,off-detected>	1
+<Bread_Maker,switch,on> <Light_Bulb-Motion_Sensor,switch-motion,on-not_detected>	1
+<Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,off-on-increased> </s>	1
+<Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,off-on-increased> <Beacon_Device-null,presence-time,present-evening>	1
+<Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,on-off-decreased> </s>	1
+<Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,on-off-decreased> <Beacon_Device,presence,present>	1
+<Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,on-off-decreased> <Beacon_Device-null,presence-time,present-evening>	1
+<Bread_Maker-Light_Bulb-Thermostat,switch-switch-thermostat,on-off-decreased> <null,time,morning>	1
+<Bread_Maker-null,switch-time,off-morning> <Bread_Maker,switch,on>	5
+<Button,button,pushed> <Light_Bulb,switch,off>	5
+<Button,button,pushed> <Light_Bulb-Smart_TV,switch-switch,off-off>	5
+<Button,button,pushed> <null,locationMode,night>	6
+<Button-Car_Automation,button-presence,pushed-present> <Garage_Door_Opener,contact,opened>	5
+<CO_Detector,carbonMonoxide,detected> <Phone-Security_Alarm,notification-alarm,notify-siren>	2
+<CO_Detector,carbonMonoxide,detected> <Phone-Security_Alarm,notification-alarm,notify-siren_strobe>	3
+<CO_Detector,carbonMonoxide,detected> <Security_Alarm,alarm,siren>	4
+<CO_Detector-Gas_Sensor,alarm-alarm,siren-siren> <Light_Bulb-Security_Alarm,mode-alarm,flash-strobe>	4
+<CO_Detector-Gas_Sensor,carbonMonoxide-odorLevel,detected-greater> <Light_Bulb-Speaker,colorValue-switch,fixed_value-on>	3
+<CO_Detector-null,carbonMonoxide-locationMode,detected-not_vacation> <Phone-Security_Alarm,notification-alarm,notify-siren_strobe>	5
+<CO_Detector-null,carbonMonoxide-locationMode,detected-vacation> <Phone,notification,notify>	6
+<Car_Automation,presence,present> <Garage_Door_Opener,contact,opened>	6
+<Car_Automation-Garage_Door_Opener,switch-contact,on-opened> </s>	1
+<Car_Automation-Garage_Door_Opener,switch-contact,on-opened> <Air_Purifier,airQuality,lesser>	1
+<Car_Automation-Garage_Door_Opener,switch-contact,on-opened> <Door_Sensor-null,contact-time,opened-morning>	1
+<Car_Automation-Garage_Door_Opener,switch-contact,on-opened> <Security_Alarm,alarm,siren_strobe>	1
+<Car_Automation-Garage_Door_Opener,switch-contact,on-opened> <Sleep_Monitor,sleeping,detected>	1
+<Car_Automation-Garage_Door_Opener,switch-contact,on-opened> <Sleep_Monitor,sleeping,not_detected>	1
+<Car_Automation-Garage_Door_Opener,switch-contact,on-opened> <null,time,night>	1
+<Car_Automation-Garage_Door_Opener,switch-contact,on-opened> <null,time,noon>	1
+<Clothes_Dryer,completion,true> <Phone,notification,notify>	4
+<Clothes_Dryer,mode,ready> </s>	1
+<Clothes_Dryer,mode,ready> <Dishwasher,weight,greater>	1
+<Clothes_Dryer,mode,ready> <Door_Lock-null,lock-time,unlocked-night>	1
+<Clothes_Dryer,mode,ready> <Moisture_Sensor,water,wet>	1
+<Clothes_Dryer,mode,ready> <null,time,night>	1
+<Coffee_Maker,switch,off> <Coffee_Maker,temperature,greater>	1
+<Coffee_Maker,switch,off> <Illuminance_Sensor,illuminance,greater>	1
+<Coffee_Maker,switch,off> <Refrigerator,filterStatus,replace>	1
+<Coffee_Maker,switch,off> <null,time,morning>	1
+<Coffee_Maker,switch,on> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser>	1
+<Coffee_Maker,switch,on> <Air_Conditioner-null,thermostat-time,off-evening>	1
+<Coffee_Maker,switch,on> <Air_Purifier,airQuality,lesser>	1
+<Coffee_Maker,switch,on> <Bread_Maker-null,switch-time,off-morning>	1
+<Coffee_Maker,switch,on> <Coffee_Maker,temperature,greater>	1
+<Coffee_Maker,switch,on> <Coffee_Maker-null,switch-time,off-morning>	1
+<Coffee_Maker,switch,on> <Contact_Sensor,contact,opened>	1
+<Coffee_Maker,switch,on> <Door_Sensor,contact,opened>	1
+<Coffee_Maker,switch,on> <Humidity_Sensor,humidity,lesser>	1
+<Coffee_Maker,switch,on> <Illuminance_Sensor,illuminance,greater>	1
+<Coffee_Maker,switch,on> <Induction_Cooktop-null,switch-locationMode,on-away>	1
+<Coffee_Maker,switch,on> <Light_Bulb-Motion_Sensor,switch-motion,off-detected>	1
+<Coffee_Maker,switch,on> <Light_Bulb-Motion_Sensor,switch-motion,on-not_detected>	1
+<Coffee_Maker,switch,on> <Motion_Sensor,motion,detected>	1
+<Coffee_Maker,switch,on> <Refrigerator,filterStatus,replace>	1
+<Coffee_Maker,switch,on> <Smoke_Detector,smoke,detected>	1
+<Coffee_Maker,switch,on> <Temperature_Sensor,temperature,greater>	1
+<Coffee_Maker,switch,on> <null,locationMode,away>	1
+<Coffee_Maker,switch,on> <null,time,morning>	1
+<Coffee_Maker,temperature,greater> <Coffee_Maker,switch,off>	4
+<Coffee_Maker-Door_Lock-Garage_Door_Opener-Gas_Stove-Light_Bulb-Shades/Blinds-Smart_TV-Speaker,switch-lock-contact-switch-switch-contact-switch-switch,off-locked-closed-off-off-closed-off-off> </s>	1
+<Coffee_Maker-Door_Lock-Garage_Door_Opener-Gas_Stove-Light_Bulb-Shades/Blinds-Smart_TV-Speaker,switch-lock-contact-switch-switch-contact-switch-switch,off-locked-closed-off-off-closed-off-off> <Security_Alarm-null,alarm-locationMode,siren_strobe-away>	1
+<Coffee_Maker-Door_Lock-Garage_Door_Opener-Gas_Stove-Light_Bulb-Shades/Blinds-Smart_TV-Speaker,switch-lock-contact-switch-switch-contact-switch-switch,off-locked-closed-off-off-closed-off-off> <Weather_Station,cold,true>	1
+<Coffee_Maker-Door_Lock-Garage_Door_Opener-Gas_Stove-Light_Bulb-Shades/Blinds-Smart_TV-Speaker,switch-lock-contact-switch-switch-contact-switch-switch,off-locked-closed-off-off-closed-off-off> <Weather_Station,rain,true>	1
+<Coffee_Maker-Door_Lock-Garage_Door_Opener-Gas_Stove-Light_Bulb-Shades/Blinds-Smart_TV-Speaker,switch-lock-contact-switch-switch-contact-switch-switch,off-locked-closed-off-off-closed-off-off> <null,locationMode,night>	1
+<Coffee_Maker-Door_Lock-Garage_Door_Opener-Gas_Stove-Light_Bulb-Shades/Blinds-Smart_TV-Speaker,switch-lock-contact-switch-switch-contact-switch-switch,off-locked-closed-off-off-closed-off-off> <null,time,morning>	1
+<Coffee_Maker-Door_Lock-Garage_Door_Opener-Gas_Stove-Light_Bulb-Shades/Blinds-Smart_TV-Speaker,switch-lock-contact-switch-switch-contact-switch-switch,off-locked-closed-off-off-closed-off-off> <null-null,locationMode-time,vacation-night>	1
+<Coffee_Maker-Light_Bulb-Robot_Vacuum,switch-switch-switch,on-on-on> <Temperature_Sensor-null,temperature-time,lesser-afternoon>	1
+<Coffee_Maker-Light_Bulb-Robot_Vacuum,switch-switch-switch,on-on-on> <Temperature_Sensor-null,temperature-time,lesser-morning>	1
+<Coffee_Maker-Light_Bulb-Robot_Vacuum,switch-switch-switch,on-on-on> <Temperature_Sensor-null,temperature-time,lesser-night>	1
+<Coffee_Maker-Light_Bulb-Robot_Vacuum,switch-switch-switch,on-on-on> <null,time,morning>	1
+<Coffee_Maker-Light_Bulb-Thermostat,switch-colorValue-thermostat,on-fixed_value-increased> </s>	1
+<Coffee_Maker-Light_Bulb-Thermostat,switch-colorValue-thermostat,on-fixed_value-increased> <Beacon_Device,presence,present>	1
+<Coffee_Maker-Light_Bulb-Thermostat,switch-colorValue-thermostat,on-fixed_value-increased> <Beacon_Device-null,presence-time,present-evening>	1
+<Coffee_Maker-Light_Bulb-Thermostat,switch-colorValue-thermostat,on-fixed_value-increased> <null,time,morning>	1
+<Coffee_Maker-Shades/Blinds,switch-contact,on-opened> </s>	1
+<Coffee_Maker-Shades/Blinds,switch-contact,on-opened> <Security_Alarm-null,alarm-locationMode,siren_strobe-away>	1
+<Coffee_Maker-Shades/Blinds,switch-contact,on-opened> <Weather_Station,cold,true>	1
+<Coffee_Maker-Shades/Blinds,switch-contact,on-opened> <Weather_Station,rain,true>	1
+<Coffee_Maker-Shades/Blinds,switch-contact,on-opened> <null,locationMode,night>	1
+<Coffee_Maker-Shades/Blinds,switch-contact,on-opened> <null,time,morning>	1
+<Coffee_Maker-Shades/Blinds,switch-contact,on-opened> <null-null,locationMode-time,vacation-morning>	1
+<Coffee_Maker-Shades/Blinds,switch-contact,on-opened> <null-null,locationMode-time,vacation-night>	1
+<Coffee_Maker-null,switch-time,off-morning> <Coffee_Maker,switch,on>	7
+<Contact_Sensor,contact,opened> <Security_Camera,image,take>	8
+<Contact_Sensor-null,contact-time,opened-night> <Security_Alarm,alarm,siren_strobe>	4
+<Dishwasher,mode,ready> </s>	1
+<Dishwasher,mode,ready> <Dishwasher,weight,greater>	1
+<Dishwasher,mode,ready> <Door_Lock-null,lock-time,unlocked-night>	1
+<Dishwasher,mode,ready> <Temperature_Sensor,temperature,greater>	1
+<Dishwasher,mode,ready> <null,time,morning>	1
+<Dishwasher,mode,ready> <null,time,night>	1
+<Dishwasher,weight,greater> <Dishwasher,mode,ready>	8
+<Door_Lock,lock,locked> </s>	5
+<Door_Lock,lock,locked> <Air_Conditioner-null,thermostat-time,auto-night>	1
+<Door_Lock,lock,locked> <Air_Purifier,airQuality,lesser>	1
+<Door_Lock,lock,locked> <CO_Detector,carbonMonoxide,detected>	1
+<Door_Lock,lock,locked> <Dishwasher,weight,greater>	1
+<Door_Lock,lock,locked> <Door_Lock-Presence_Sensor-null,lock-presence-time,unlocked-not_present-night>	1
+<Door_Lock,lock,locked> <Door_Lock-null,lock-locationMode,unlocked-away>	1
+<Door_Lock,lock,locked> <Door_Lock-null,lock-time,unlocked-night>	1
+<Door_Lock,lock,locked> <Door_Sensor,contact,opened>	1
+<Door_Lock,lock,locked> <Doorbell,button,pushed>	2
+<Door_Lock,lock,locked> <Garage_Door_Opener-null,contact-locationMode,opened-away>	1
+<Door_Lock,lock,locked> <Gas_Sensor,odorLevel,greater>	1
+<Door_Lock,lock,locked> <Glass_Break_Detector,shock,detected>	1
+<Door_Lock,lock,locked> <Humidity_Sensor,humidity,lesser>	1
+<Door_Lock,lock,locked> <Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>	1
+<Door_Lock,lock,locked> <Illuminance_Sensor-Motion_Sensor,illuminance-motion,lesser-detected>	1
+<Door_Lock,lock,locked> <Light_Bulb-null,switch-locationMode,on-away>	1
+<Door_Lock,lock,locked> <Moisture_Sensor,water,wet>	1
+<Door_Lock,lock,locked> <Motion_Sensor,motion,detected>	2
+<Door_Lock,lock,locked> <Motion_Sensor-Shades/Blinds-null,motion-contact-time,not_detected-closed-day>	1
+<Door_Lock,lock,locked> <Presence_Sensor,presence,not_present>	1
+<Door_Lock,lock,locked> <Presence_Sensor,presence,present>	1
+<Door_Lock,lock,locked> <Pulse_Monitor,pulse,greater>	1
+<Door_Lock,lock,locked> <Sleep_Monitor,sleeping,detected>	1
+<Door_Lock,lock,locked> <Smart_TV,switch,on>	1
+<Door_Lock,lock,locked> <Smoke_Detector,smoke,detected>	2
+<Door_Lock,lock,locked> <Temperature_Sensor,temperature,greater>	3
+<Door_Lock,lock,locked> <Temperature_Sensor,temperature,lesser>	2
+<Door_Lock,lock,locked> <Temperature_Sensor-null,temperature-time,greater-night>	1
+<Door_Lock,lock,locked> <Water_Leak_Detector,water,wet>	2
+<Door_Lock,lock,locked> <null,locationMode,away>	2
+<Door_Lock,lock,locked> <null,locationMode,home>	2
+<Door_Lock,lock,locked> <null,time,afternoon>	1
+<Door_Lock,lock,locked> <null,time,morning>	2
+<Door_Lock,lock,locked> <null,time,night>	3
+<Door_Lock,lock,locked> <null-null,locationMode-time,home-night>	1
+<Door_Lock-Light_Bulb-Phone-Shades/Blinds-Smart_TV-Speaker,lock-colorValue-notification-contact-switch-volume,locked-fixed_value-notify-opened-on-fixed_value> </s>	1
+<Door_Lock-Light_Bulb-Phone-Shades/Blinds-Smart_TV-Speaker,lock-colorValue-notification-contact-switch-volume,locked-fixed_value-notify-opened-on-fixed_value> <Security_Alarm-null,alarm-locationMode,siren_strobe-away>	1
+<Door_Lock-Light_Bulb-Phone-Shades/Blinds-Smart_TV-Speaker,lock-colorValue-notification-contact-switch-volume,locked-fixed_value-notify-opened-on-fixed_value> <Weather_Station,cold,true>	1
+<Door_Lock-Light_Bulb-Phone-Shades/Blinds-Smart_TV-Speaker,lock-colorValue-notification-contact-switch-volume,locked-fixed_value-notify-opened-on-fixed_value> <null,locationMode,night>	1
+<Door_Lock-Light_Bulb-Phone-Shades/Blinds-Smart_TV-Speaker,lock-colorValue-notification-contact-switch-volume,locked-fixed_value-notify-opened-on-fixed_value> <null,time,morning>	1
+<Door_Lock-Lighting_Remote-Robot_Vacuum-Thermostat,lock-switch-switch-thermostat,locked-off-on-auto> <Beacon_Device,presence,not_present>	1
+<Door_Lock-Lighting_Remote-Robot_Vacuum-Thermostat,lock-switch-switch-thermostat,locked-off-on-auto> <Beacon_Device,presence,present>	1
+<Door_Lock-Lighting_Remote-Robot_Vacuum-Thermostat,lock-switch-switch-thermostat,locked-off-on-auto> <null,locationMode,away>	1
+<Door_Lock-Lighting_Remote-Robot_Vacuum-Thermostat,lock-switch-switch-thermostat,locked-off-on-auto> <null,time,morning>	1
+<Door_Lock-Phone-Shades/Blinds,lock-notification-contact,locked-notify-closed> </s>	1
+<Door_Lock-Phone-Shades/Blinds,lock-notification-contact,locked-notify-closed> <Weather_Station,cold,true>	1
+<Door_Lock-Phone-Shades/Blinds,lock-notification-contact,locked-notify-closed> <Weather_Station,rain,true>	1
+<Door_Lock-Phone-Shades/Blinds,lock-notification-contact,locked-notify-closed> <null,locationMode,night>	1
+<Door_Lock-Phone-Shades/Blinds,lock-notification-contact,locked-notify-closed> <null,time,morning>	1
+<Door_Lock-Phone-Shades/Blinds,lock-notification-contact,locked-notify-closed> <null-null,locationMode-time,vacation-morning>	1
+<Door_Lock-Presence_Sensor-null,lock-presence-time,unlocked-not_present-night> <Door_Lock,lock,locked>	7
+<Door_Lock-null,lock-locationMode,unlocked-away> <Door_Lock,lock,locked>	7
+<Door_Lock-null,lock-time,unlocked-night> <Door_Lock,lock,locked>	6
+<Door_Sensor,contact,opened> <Light_Bulb,switch,on>	11
+<Door_Sensor,contact,opened> <Phone,notification,notify>	3
+<Door_Sensor-null,contact-locationMode,opened-away> <Air_Conditioner,thermostat,off>	4
+<Door_Sensor-null,contact-locationMode,opened-away> <Security_Alarm,alarm,siren_strobe>	10
+<Door_Sensor-null,contact-locationMode,opened-vacation> <Phone-Security_Alarm,notification-alarm,notify-siren_strobe>	3
+<Door_Sensor-null,contact-time,opened-morning> <Car_Automation-Garage_Door_Opener,switch-contact,on-opened>	8
+<Door_Sensor-null-null,contact-locationMode-time,opened-away-evening> <Air_Conditioner-Light_Bulb,thermostat-switch,auto-on>	3
+<Doorbell,button,pushed> <Phone,notification,notify>	6
+<Doorbell,button,pushed> <Security_Camera,switch,on>	13
+<Dust_Detector,dust,greater> <Phone,notification,notify>	5
+<Electric_Blanket,switch,on> </s>	3
+<Electric_Blanket,switch,on> <Air_Purifier,airQuality,greater>	1
+<Electric_Blanket,switch,on> <Air_Purifier,airQuality,lesser>	2
+<Electric_Blanket,switch,on> <Door_Sensor-null,contact-time,opened-morning>	1
+<Electric_Blanket,switch,on> <Doorbell,button,pushed>	1
+<Electric_Blanket,switch,on> <Gas_Sensor,odorLevel,greater>	1
+<Electric_Blanket,switch,on> <Gas_Sensor,odorLevel,lesser>	1
+<Electric_Blanket,switch,on> <Glass_Break_Detector,shock,detected>	1
+<Electric_Blanket,switch,on> <Humidity_Sensor,humidity,greater>	1
+<Electric_Blanket,switch,on> <Pulse_Monitor,pulse,greater>	1
+<Electric_Blanket,switch,on> <Security_Alarm,alarm,siren_strobe>	1
+<Electric_Blanket,switch,on> <Sleep_Monitor,sleeping,detected>	1
+<Electric_Blanket,switch,on> <Sleep_Monitor,sleeping,not_detected>	1
+<Electric_Blanket,switch,on> <Smoke_Detector,battery,lesser>	1
+<Electric_Blanket,switch,on> <Temperature_Sensor,temperature,greater>	1
+<Electric_Blanket,switch,on> <Temperature_Sensor,temperature,lesser>	2
+<Electric_Blanket,switch,on> <Temperature_Sensor-null,temperature-time,lesser-night>	1
+<Electric_Blanket,switch,on> <null,locationMode,home>	1
+<Electric_Blanket,switch,on> <null,time,morning>	1
+<Electric_Blanket,switch,on> <null,time,night>	3
+<Energy_Meter,energy,greater> <Phone,notification,notify>	6
+<External_API,news,notify> </s>	1
+<External_API,news,notify> <null,time,evening>	1
+<External_API,traffic,notify> <External_API-null,traffic-time,heavy-morning>	1
+<External_API,traffic,notify> <null,time,evening>	1
+<External_API,traffic,notify> <null,time,morning>	1
+<External_API-null,traffic-time,heavy-morning> <External_API,traffic,notify>	3
+<Fan,switch,on> </s>	1
+<Fan,switch,on> <Dishwasher,weight,greater>	1
+<Fan,switch,on> <Door_Lock-null,lock-time,unlocked-night>	1
+<Fan,switch,on> <Temperature_Sensor,temperature,greater>	1
+<Fan,switch,on> <null,time,morning>	1
+<Fan,switch,on> <null,time,night>	1
+<Garage_Door_Opener,contact,closed> </s>	2
+<Garage_Door_Opener,contact,closed> <Car_Automation,presence,present>	1
+<Garage_Door_Opener,contact,closed> <Clothes_Dryer,completion,true>	1
+<Garage_Door_Opener,contact,closed> <Door_Lock-null,lock-locationMode,unlocked-away>	1
+<Garage_Door_Opener,contact,closed> <Garage_Door_Opener,signalStrength,lesser>	1
+<Garage_Door_Opener,contact,closed> <Garage_Door_Opener-null,contact-locationMode,opened-away>	1
+<Garage_Door_Opener,contact,closed> <Illuminance_Sensor,illuminance,lesser>	1
+<Garage_Door_Opener,contact,closed> <Smoke_Detector,smoke,detected>	1
+<Garage_Door_Opener,contact,closed> <Temperature_Sensor,temperature,lesser>	1
+<Garage_Door_Opener,contact,closed> <Temperature_Sensor-null,temperature-time,greater-night>	1
+<Garage_Door_Opener,contact,closed> <Temperature_Sensor-null,temperature-time,lesser-night>	1
+<Garage_Door_Opener,contact,opened> </s>	3
+<Garage_Door_Opener,contact,opened> <Beacon_Device-Light_Bulb,presence-switch,not_present-on>	1
+<Garage_Door_Opener,contact,opened> <Beacon_Device-Light_Bulb,presence-switch,present-off>	1
+<Garage_Door_Opener,contact,opened> <Button-Car_Automation,button-presence,pushed-present>	1
+<Garage_Door_Opener,contact,opened> <CO_Detector-Gas_Sensor,carbonMonoxide-odorLevel,detected-greater>	1
+<Garage_Door_Opener,contact,opened> <Car_Automation,presence,present>	1
+<Garage_Door_Opener,contact,opened> <Garage_Door_Opener,signalStrength,lesser>	1
+<Garage_Door_Opener,contact,opened> <Gas_Sensor,odorLevel,greater>	1
+<Garage_Door_Opener,contact,opened> <Illuminance_Sensor,illuminance,lesser>	1
+<Garage_Door_Opener,contact,opened> <Motion_Sensor,motion,detected>	2
+<Garage_Door_Opener,contact,opened> <Presence_Sensor,presence,present>	1
+<Garage_Door_Opener,contact,opened> <Temperature_Sensor,temperature,lesser>	1
+<Garage_Door_Opener,contact,opened> <Weather_Station,rain,true>	1
+<Garage_Door_Opener,contact,opened> <null,locationMode,away>	1
+<Garage_Door_Opener,signalStrength,lesser> <Garage_Door_Opener,contact,closed>	6
+<Garage_Door_Opener-null,contact-locationMode,opened-away> <Garage_Door_Opener,contact,closed>	6
+<Garden_Sprinkler,switch,on> </s>	1
+<Garden_Sprinkler,switch,on> <CO_Detector-null,carbonMonoxide-locationMode,detected-not_vacation>	1
+<Garden_Sprinkler,switch,on> <CO_Detector-null,carbonMonoxide-locationMode,detected-vacation>	1
+<Garden_Sprinkler,switch,on> <Door_Sensor-null,contact-locationMode,opened-away>	1
+<Garden_Sprinkler,switch,on> <Door_Sensor-null,contact-locationMode,opened-vacation>	1
+<Garden_Sprinkler,switch,on> <Gas_Sensor-null,odorLevel-locationMode,greater-not_vacation>	1
+<Garden_Sprinkler,switch,on> <Glass_Break_Detector-null,shock-locationMode,detected-vacation>	1
+<Garden_Sprinkler,switch,on> <Temperature_Sensor-null,temperature-locationMode,greater-not_vacation>	1
+<Garden_Sprinkler,switch,on> <Temperature_Sensor-null,temperature-locationMode,lesser-not_vacation>	1
+<Garden_Sprinkler,switch,on> <Water_Leak_Detector-null,water-locationMode,wet-not_vacation>	1
+<Garden_Sprinkler,switch,on> <Water_Leak_Detector-null,water-locationMode,wet-vacation>	1
+<Garden_Sprinkler,switch,on> <Weather_Station-null,rain-time,false-night>	1
+<Garden_Sprinkler,switch,on> <null,locationMode,vacation>	1
+<Garden_Sprinkler,switch,on> <null,time,evening>	1
+<Garden_Sprinkler,switch,on> <null,time,morning>	1
+<Gas_Sensor,odorLevel,greater> <Security_Alarm,alarm,siren_strobe>	18
+<Gas_Sensor,odorLevel,lesser> <Security_Alarm,alarm,off>	10
+<Gas_Sensor-null,odorLevel-locationMode,greater-not_vacation> <Phone-Security_Alarm,notification-alarm,notify-siren_strobe>	4
+<Gas_Sensor-null,odorLevel-locationMode,greater-vacation> <Phone,notification,notify>	7
+<Gas_Stove,switch,off> </s>	2
+<Gas_Stove,switch,off> <Air_Purifier,airQuality,lesser>	1
+<Gas_Stove,switch,off> <Door_Sensor,contact,opened>	1
+<Gas_Stove,switch,off> <Gas_Stove-null,switch-timer,on-completed>	1
+<Gas_Stove,switch,off> <Humidity_Sensor,humidity,lesser>	1
+<Gas_Stove,switch,off> <null,locationMode,away>	1
+<Gas_Stove,switch,off> <null,time,morning>	1
+<Gas_Stove,switch,off> <null,time,night>	2
+<Gas_Stove-null,switch-timer,on-completed> <Gas_Stove,switch,off>	5
+<Glass_Break_Detector,shock,detected> <Security_Alarm,alarm,siren>	6
+<Glass_Break_Detector,shock,detected> <Security_Alarm,alarm,siren_strobe>	4
+<Glass_Break_Detector,shock,detected> <Security_Camera,switch,on>	12
+<Glass_Break_Detector-null,shock-locationMode,detected-away> <Phone-Security_Alarm,notification-alarm,notify-siren_strobe>	7
+<Glass_Break_Detector-null,shock-locationMode,detected-night> <Security_Alarm,alarm,siren_strobe>	6
+<Glass_Break_Detector-null,shock-locationMode,detected-vacation> <Phone-Security_Alarm,notification-alarm,notify-siren_strobe>	3
+<Heater,switch,off> </s>	1
+<Heater,switch,off> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-greater>	1
+<Heater,switch,off> <Air_Purifier,airQuality,lesser>	1
+<Heater,switch,off> <Moisture_Sensor,water,dry>	1
+<Heater,switch,off> <Moisture_Sensor,water,wet>	1
+<Heater,switch,off> <Refrigerator,temperature,greater>	1
+<Heater,switch,off> <null,time,morning>	1
+<Heater,switch,off> <null,time,night>	1
+<Heater,switch,on> </s>	2
+<Heater,switch,on> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-greater>	1
+<Heater,switch,on> <Air_Purifier,airQuality,lesser>	1
+<Heater,switch,on> <Clothes_Dryer,completion,true>	1
+<Heater,switch,on> <Door_Lock-null,lock-locationMode,unlocked-away>	1
+<Heater,switch,on> <Garage_Door_Opener-null,contact-locationMode,opened-away>	1
+<Heater,switch,on> <Moisture_Sensor,water,dry>	1
+<Heater,switch,on> <Moisture_Sensor,water,wet>	1
+<Heater,switch,on> <Refrigerator,temperature,greater>	1
+<Heater,switch,on> <Temperature_Sensor-null,temperature-time,greater-night>	1
+<Heater,switch,on> <Temperature_Sensor-null,temperature-time,lesser-night>	1
+<Heater,switch,on> <null,time,morning>	1
+<Heater,switch,on> <null,time,night>	1
+<Humidifier,switch,on> </s>	3
+<Humidifier,switch,on> <Air_Purifier,airQuality,lesser>	1
+<Humidifier,switch,on> <Blood_Pressure_Monitor,pressure,lesser>	1
+<Humidifier,switch,on> <Door_Sensor,contact,opened>	1
+<Humidifier,switch,on> <Gas_Stove-null,switch-timer,on-completed>	1
+<Humidifier,switch,on> <Humidity_Sensor,humidity,greater>	1
+<Humidifier,switch,on> <Humidity_Sensor,humidity,lesser>	1
+<Humidifier,switch,on> <Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>	1
+<Humidifier,switch,on> <Illuminance_Sensor-null,illuminance-time,lesser-night>	1
+<Humidifier,switch,on> <Moisture_Sensor,water,dry>	1
+<Humidifier,switch,on> <Motion_Sensor,motion,detected>	1
+<Humidifier,switch,on> <Motion_Sensor-Security_Camera,motion-image,detected-take>	1
+<Humidifier,switch,on> <Refrigerator-null,contact-time,opened-evening>	1
+<Humidifier,switch,on> <Sleep_Monitor,sleeping,detected>	1
+<Humidifier,switch,on> <Temperature_Sensor,temperature,greater>	1
+<Humidifier,switch,on> <null,locationMode,away>	1
+<Humidifier,switch,on> <null,time,morning>	1
+<Humidifier,switch,on> <null,time,night>	2
+<Humidity_Sensor,humidity,greater> <Air_Conditioner,thermostat,auto>	11
+<Humidity_Sensor,humidity,greater> <Humidifier,switch,on>	5
+<Humidity_Sensor,humidity,greater> <Smart_Mirror,switch,off>	3
+<Humidity_Sensor,humidity,lesser> <Humidifier,switch,on>	13
+<Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater> <Air_Conditioner,thermostat,auto>	10
+<Illuminance_Sensor,illuminance,greater> <Light_Bulb,switch,off>	6
+<Illuminance_Sensor,illuminance,lesser> <Light_Bulb,switch,on>	7
+<Illuminance_Sensor-Motion_Sensor,illuminance-motion,lesser-detected> <Light_Bulb,switch,on>	8
+<Illuminance_Sensor-null,illuminance-time,lesser-night> <Light_Bulb,colorValue,fixed_value>	5
+<Induction_Cooktop-null,switch-locationMode,on-away> <Phone,notification,notify>	8
+<Light_Bulb,colorValue,fixed_value> </s>	4
+<Light_Bulb,colorValue,fixed_value> <Air_Purifier,airQuality,greater>	2
+<Light_Bulb,colorValue,fixed_value> <Air_Purifier,airQuality,lesser>	2
+<Light_Bulb,colorValue,fixed_value> <Blood_Pressure_Monitor,pressure,lesser>	1
+<Light_Bulb,colorValue,fixed_value> <Button-Car_Automation,button-presence,pushed-present>	1
+<Light_Bulb,colorValue,fixed_value> <CO_Detector-Gas_Sensor,carbonMonoxide-odorLevel,detected-greater>	1
+<Light_Bulb,colorValue,fixed_value> <Gas_Sensor,odorLevel,greater>	2
+<Light_Bulb,colorValue,fixed_value> <Gas_Sensor,odorLevel,lesser>	2
+<Light_Bulb,colorValue,fixed_value> <Gas_Stove-null,switch-timer,on-completed>	1
+<Light_Bulb,colorValue,fixed_value> <Glass_Break_Detector-null,shock-locationMode,detected-away>	1
+<Light_Bulb,colorValue,fixed_value> <Glass_Break_Detector-null,shock-locationMode,detected-night>	1
+<Light_Bulb,colorValue,fixed_value> <Humidity_Sensor,humidity,greater>	3
+<Light_Bulb,colorValue,fixed_value> <Humidity_Sensor,humidity,lesser>	1
+<Light_Bulb,colorValue,fixed_value> <Illuminance_Sensor-null,illuminance-time,lesser-night>	1
+<Light_Bulb,colorValue,fixed_value> <Motion_Sensor,motion,detected>	1
+<Light_Bulb,colorValue,fixed_value> <Smoke_Detector-Temperature_Sensor,smoke-temperature,greater-greater>	1
+<Light_Bulb,colorValue,fixed_value> <Temperature_Sensor,temperature,greater>	2
+<Light_Bulb,colorValue,fixed_value> <Temperature_Sensor,temperature,lesser>	2
+<Light_Bulb,colorValue,fixed_value> <Temperature_Sensor-null,temperature-time,lesser-night>	2
+<Light_Bulb,colorValue,fixed_value> <Weather_Station,rain,true>	1
+<Light_Bulb,colorValue,fixed_value> <null,locationMode,away>	1
+<Light_Bulb,colorValue,fixed_value> <null,locationMode,night>	1
+<Light_Bulb,colorValue,fixed_value> <null,time,evening>	1
+<Light_Bulb,colorValue,fixed_value> <null,time,morning>	1
+<Light_Bulb,colorValue,fixed_value> <null,time,night>	2
+<Light_Bulb,switch,off> </s>	7
+<Light_Bulb,switch,off> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser>	1
+<Light_Bulb,switch,off> <Air_Conditioner-null,thermostat-time,auto-morning>	1
+<Light_Bulb,switch,off> <Air_Conditioner-null,thermostat-time,auto-night>	1
+<Light_Bulb,switch,off> <Air_Conditioner-null,thermostat-time,off-evening>	1
+<Light_Bulb,switch,off> <Air_Purifier,airQuality,greater>	1
+<Light_Bulb,switch,off> <Air_Purifier,airQuality,lesser>	4
+<Light_Bulb,switch,off> <Beacon_Device-Light_Bulb,presence-switch,not_present-on>	1
+<Light_Bulb,switch,off> <Beacon_Device-Light_Bulb,presence-switch,present-off>	1
+<Light_Bulb,switch,off> <Bread_Maker-null,switch-time,off-morning>	1
+<Light_Bulb,switch,off> <Button,button,pushed>	1
+<Light_Bulb,switch,off> <Car_Automation,presence,present>	1
+<Light_Bulb,switch,off> <Coffee_Maker-null,switch-time,off-morning>	1
+<Light_Bulb,switch,off> <Contact_Sensor,contact,opened>	1
+<Light_Bulb,switch,off> <Door_Sensor,contact,opened>	2
+<Light_Bulb,switch,off> <Door_Sensor-null,contact-locationMode,opened-away>	1
+<Light_Bulb,switch,off> <Garage_Door_Opener,signalStrength,lesser>	1
+<Light_Bulb,switch,off> <Gas_Sensor,odorLevel,greater>	1
+<Light_Bulb,switch,off> <Gas_Sensor,odorLevel,lesser>	1
+<Light_Bulb,switch,off> <Glass_Break_Detector,shock,detected>	1
+<Light_Bulb,switch,off> <Humidity_Sensor,humidity,greater>	1
+<Light_Bulb,switch,off> <Humidity_Sensor,humidity,lesser>	2
+<Light_Bulb,switch,off> <Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>	3
+<Light_Bulb,switch,off> <Illuminance_Sensor,illuminance,greater>	1
+<Light_Bulb,switch,off> <Induction_Cooktop-null,switch-locationMode,on-away>	2
+<Light_Bulb,switch,off> <Light_Bulb-Motion_Sensor,switch-motion,off-detected>	1
+<Light_Bulb,switch,off> <Light_Bulb-Motion_Sensor,switch-motion,on-not_detected>	1
+<Light_Bulb,switch,off> <Motion_Sensor,motion,detected>	3
+<Light_Bulb,switch,off> <Motion_Sensor,motion,not_detected>	2
+<Light_Bulb,switch,off> <Presence_Sensor,presence,present>	1
+<Light_Bulb,switch,off> <Pulse_Monitor,pulse,lesser>	1
+<Light_Bulb,switch,off> <Refrigerator,filterStatus,replace>	1
+<Light_Bulb,switch,off> <Sleep_Monitor,sleeping,detected>	2
+<Light_Bulb,switch,off> <Smart_Assistant,voice,command>	1
+<Light_Bulb,switch,off> <Smoke_Detector,battery,lesser>	1
+<Light_Bulb,switch,off> <Smoke_Detector,smoke,detected>	1
+<Light_Bulb,switch,off> <Temperature_Sensor,temperature,greater>	1
+<Light_Bulb,switch,off> <Temperature_Sensor,temperature,lesser>	1
+<Light_Bulb,switch,off> <Temperature_Sensor-null,temperature-locationMode,greater-away>	1
+<Light_Bulb,switch,off> <Temperature_Sensor-null,temperature-locationMode,greater-home>	1
+<Light_Bulb,switch,off> <Temperature_Sensor-null,temperature-locationMode,lesser-away>	1
+<Light_Bulb,switch,off> <null,locationMode,away>	5
+<Light_Bulb,switch,off> <null,locationMode,home>	1
+<Light_Bulb,switch,off> <null,time,evening>	1
+<Light_Bulb,switch,off> <null,time,morning>	4
+<Light_Bulb,switch,off> <null-null,locationMode-time,away-evening>	1
+<Light_Bulb,switch,off> <null-null,locationMode-time,away-night>	1
+<Light_Bulb,switch,on> </s>	6
+<Light_Bulb,switch,on> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser>	1
+<Light_Bulb,switch,on> <Air_Conditioner-null,thermostat-time,auto-morning>	1
+<Light_Bulb,switch,on> <Air_Conditioner-null,thermostat-time,off-evening>	1
+<Light_Bulb,switch,on> <Air_Purifier,airQuality,lesser>	1
+<Light_Bulb,switch,on> <Beacon_Device-Light_Bulb,presence-switch,not_present-on>	1
+<Light_Bulb,switch,on> <Beacon_Device-Light_Bulb,presence-switch,present-off>	1
+<Light_Bulb,switch,on> <Bread_Maker-null,switch-time,off-morning>	1
+<Light_Bulb,switch,on> <Button-Car_Automation,button-presence,pushed-present>	1
+<Light_Bulb,switch,on> <CO_Detector-Gas_Sensor,carbonMonoxide-odorLevel,detected-greater>	1
+<Light_Bulb,switch,on> <Coffee_Maker,temperature,greater>	1
+<Light_Bulb,switch,on> <Coffee_Maker-null,switch-time,off-morning>	1
+<Light_Bulb,switch,on> <Contact_Sensor,contact,opened>	1
+<Light_Bulb,switch,on> <Door_Lock-Presence_Sensor-null,lock-presence-time,unlocked-not_present-night>	1
+<Light_Bulb,switch,on> <Door_Sensor,contact,opened>	1
+<Light_Bulb,switch,on> <Door_Sensor-null,contact-locationMode,opened-away>	1
+<Light_Bulb,switch,on> <Gas_Sensor,odorLevel,greater>	2
+<Light_Bulb,switch,on> <Glass_Break_Detector,shock,detected>	2
+<Light_Bulb,switch,on> <Humidity_Sensor,humidity,lesser>	1
+<Light_Bulb,switch,on> <Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>	1
+<Light_Bulb,switch,on> <Illuminance_Sensor,illuminance,greater>	1
+<Light_Bulb,switch,on> <Illuminance_Sensor,illuminance,lesser>	1
+<Light_Bulb,switch,on> <Illuminance_Sensor-Motion_Sensor,illuminance-motion,lesser-detected>	1
+<Light_Bulb,switch,on> <Induction_Cooktop-null,switch-locationMode,on-away>	1
+<Light_Bulb,switch,on> <Light_Bulb-Motion_Sensor,switch-motion,off-detected>	1
+<Light_Bulb,switch,on> <Light_Bulb-Motion_Sensor,switch-motion,on-not_detected>	1
+<Light_Bulb,switch,on> <Moisture_Sensor,water,wet>	1
+<Light_Bulb,switch,on> <Motion_Sensor,motion,detected>	3
+<Light_Bulb,switch,on> <Motion_Sensor-Shades/Blinds-null,motion-contact-time,not_detected-closed-day>	1
+<Light_Bulb,switch,on> <Presence_Sensor,presence,not_present>	1
+<Light_Bulb,switch,on> <Presence_Sensor,presence,present>	1
+<Light_Bulb,switch,on> <Refrigerator,filterStatus,replace>	1
+<Light_Bulb,switch,on> <Sleep_Monitor,sleeping,detected>	2
+<Light_Bulb,switch,on> <Smart_Assistant,voice,command>	1
+<Light_Bulb,switch,on> <Smart_TV,switch,on>	1
+<Light_Bulb,switch,on> <Smoke_Detector,smoke,detected>	2
+<Light_Bulb,switch,on> <Temperature_Sensor,temperature,greater>	2
+<Light_Bulb,switch,on> <Temperature_Sensor,temperature,lesser>	1
+<Light_Bulb,switch,on> <Temperature_Sensor-null,temperature-locationMode,greater-away>	1
+<Light_Bulb,switch,on> <Temperature_Sensor-null,temperature-locationMode,greater-home>	1
+<Light_Bulb,switch,on> <Temperature_Sensor-null,temperature-locationMode,lesser-away>	1
+<Light_Bulb,switch,on> <Temperature_Sensor-null,temperature-locationMode,lesser-home>	1
+<Light_Bulb,switch,on> <Weather_Station,rain,true>	1
+<Light_Bulb,switch,on> <null,locationMode,away>	3
+<Light_Bulb,switch,on> <null,time,morning>	2
+<Light_Bulb,switch,on> <null-null,locationMode-time,away-evening>	1
+<Light_Bulb,switch,on> <null-null,locationMode-time,away-night>	1
+<Light_Bulb,switch,on> <null-null,locationMode-time,home-night>	1
+<Light_Bulb-Motion_Sensor,switch-motion,off-detected> <Light_Bulb,switch,on>	9
+<Light_Bulb-Motion_Sensor,switch-motion,on-not_detected> <Light_Bulb,switch,off>	9
+<Light_Bulb-Phone,switch-notification,on-notify> </s>	1
+<Light_Bulb-Phone,switch-notification,on-notify> <Air_Purifier,airQuality,lesser>	1
+<Light_Bulb-Phone,switch-notification,on-notify> <Door_Sensor,contact,opened>	1
+<Light_Bulb-Phone,switch-notification,on-notify> <Humidity_Sensor,humidity,lesser>	1
+<Light_Bulb-Phone,switch-notification,on-notify> <Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>	1
+<Light_Bulb-Phone,switch-notification,on-notify> <Induction_Cooktop-null,switch-locationMode,on-away>	1
+<Light_Bulb-Phone,switch-notification,on-notify> <Motion_Sensor,motion,detected>	1
+<Light_Bulb-Phone,switch-notification,on-notify> <Sleep_Monitor,sleeping,detected>	1
+<Light_Bulb-Phone,switch-notification,on-notify> <null,locationMode,away>	1
+<Light_Bulb-Phone,switch-notification,on-notify> <null,time,morning>	1
+<Light_Bulb-Security_Alarm,mode-alarm,flash-strobe> <CO_Detector-Gas_Sensor,alarm-alarm,siren-siren>	1
+<Light_Bulb-Security_Alarm,mode-alarm,flash-strobe> <Motion_Sensor,motion,detected>	1
+<Light_Bulb-Security_Alarm,mode-alarm,flash-strobe> <Temperature_Sensor,temperature,greater>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-closed> <CO_Detector-null,carbonMonoxide-locationMode,detected-not_vacation>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-closed> <Door_Sensor-null,contact-locationMode,opened-away>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-closed> <Gas_Sensor-null,odorLevel-locationMode,greater-not_vacation>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-closed> <Gas_Sensor-null,odorLevel-locationMode,greater-vacation>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-closed> <Temperature_Sensor-null,temperature-locationMode,lesser-not_vacation>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-closed> <Weather_Station-null,rain-time,false-night>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-closed> <null,time,evening>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-opened> <Door_Sensor-null,contact-locationMode,opened-away>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-opened> <Gas_Sensor-null,odorLevel-locationMode,greater-vacation>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-opened> <Temperature_Sensor-null,temperature-locationMode,greater-not_vacation>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-opened> <Water_Leak_Detector-null,water-locationMode,wet-vacation>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-opened> <Weather_Station-null,rain-time,false-night>	1
+<Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-opened> <null,time,morning>	1
+<Light_Bulb-Shades/Blinds,switch-contact,on-closed> <Beacon_Device,presence,not_present>	1
+<Light_Bulb-Shades/Blinds,switch-contact,on-closed> <Beacon_Device,presence,present>	1
+<Light_Bulb-Shades/Blinds,switch-contact,on-closed> <Button,button,pushed>	1
+<Light_Bulb-Shades/Blinds,switch-contact,on-closed> <null,locationMode,home>	1
+<Light_Bulb-Shades/Blinds,switch-contact,on-closed> <null,locationMode,night>	1
+<Light_Bulb-Shades/Blinds,switch-contact,on-closed> <null,time,evening>	1
+<Light_Bulb-Smart_Assistant,switch-notification,off-notify> </s>	1
+<Light_Bulb-Smart_Assistant,switch-notification,off-notify> <Smart_Assistant,voice,command>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> </s>	3
+<Light_Bulb-Smart_TV,switch-switch,off-off> <Air_Purifier,airQuality,lesser>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> <Button,button,pushed>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> <Gas_Sensor,odorLevel,greater>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> <Glass_Break_Detector,shock,detected>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> <Moisture_Sensor,water,wet>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> <Sleep_Monitor,sleeping,detected>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> <Smart_TV,switch,on>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> <Smoke_Detector,smoke,detected>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> <Temperature_Sensor,temperature,equal>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> <Temperature_Sensor,temperature,lesser>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> <null,locationMode,away>	2
+<Light_Bulb-Smart_TV,switch-switch,off-off> <null,time,morning>	1
+<Light_Bulb-Smart_TV,switch-switch,off-off> <null,time,night>	1
+<Light_Bulb-Speaker,colorValue-switch,fixed_value-on> <Button-Car_Automation,button-presence,pushed-present>	1
+<Light_Bulb-Speaker,colorValue-switch,fixed_value-on> <Motion_Sensor,motion,detected>	1
+<Light_Bulb-Speaker,colorValue-switch,fixed_value-on> <Weather_Station,rain,true>	1
+<Light_Bulb-Thermostat,switch-thermostat,off-auto> </s>	1
+<Light_Bulb-Thermostat,switch-thermostat,off-auto> <Beacon_Device,presence,present>	1
+<Light_Bulb-Thermostat,switch-thermostat,off-auto> <Button,button,pushed>	1
+<Light_Bulb-Thermostat,switch-thermostat,off-auto> <null,locationMode,away>	1
+<Light_Bulb-Thermostat,switch-thermostat,off-auto> <null,locationMode,night>	1
+<Light_Bulb-Weather_Station,colorValue-weather,fixed_value-notify> <Smart_Assistant,voice,command>	1
+<Light_Bulb-null,switch-locationMode,on-away> <Light_Bulb,switch,off>	6
+<Microwave_Oven,switch,off> </s>	1
+<Microwave_Oven,switch,off> <Air_Purifier,airQuality,lesser>	1
+<Microwave_Oven,switch,off> <null,locationMode,away>	1
+<Microwave_Oven,switch,off> <null,time,morning>	1
+<Microwave_Oven,switch,off> <null,time,night>	1
+<Moisture_Sensor,water,dry> <Heater,switch,off>	9
+<Moisture_Sensor,water,dry> <Humidifier,switch,on>	5
+<Moisture_Sensor,water,wet> <Clothes_Dryer,mode,ready>	3
+<Moisture_Sensor,water,wet> <Heater,switch,on>	9
+<Moisture_Sensor,water,wet> <Security_Alarm,alarm,siren_strobe>	11
+<Moisture_Sensor,water,wet> <Security_Alarm,alarm,strobe>	4
+<Motion_Sensor,motion,detected> <Light_Bulb,switch,on>	7
+<Motion_Sensor,motion,detected> <Light_Bulb-Phone,switch-notification,on-notify>	10
+<Motion_Sensor,motion,detected> <Security_Alarm,alarm,siren_strobe>	5
+<Motion_Sensor,motion,detected> <Security_Camera,switch,on>	6
+<Motion_Sensor,motion,detected> <Security_Camera,video,record>	5
+<Motion_Sensor,motion,not_detected> <Air_Conditioner-Fan-Light_Bulb,thermostat-switch-switch,off-off-off>	4
+<Motion_Sensor,motion,not_detected> <Light_Bulb,switch,off>	4
+<Motion_Sensor,motion,not_detected> <Robot_Vacuum,switch,on>	3
+<Motion_Sensor-Security_Camera,motion-image,detected-take> <Smart_Assistant,notification,notify>	5
+<Motion_Sensor-Shades/Blinds-null,motion-contact-time,not_detected-closed-day> <Shades/Blinds,contact,opened>	5
+<Oil_Warmer,switch,on> <Presence_Sensor,presence,present>	1
+<Oil_Warmer,switch,on> <Pulse_Monitor,pulse,greater>	1
+<Oil_Warmer,switch,on> <Smoke_Detector,smoke,detected>	1
+<Oil_Warmer,switch,on> <Temperature_Sensor,temperature,lesser>	1
+<Oil_Warmer,switch,on> <Water_Leak_Detector,water,wet>	1
+<Oil_Warmer,switch,on> <null,locationMode,away>	1
+<Oil_Warmer,switch,on> <null,locationMode,home>	1
+<Oil_Warmer,switch,on> <null,time,afternoon>	1
+<Oil_Warmer,switch,on> <null,time,morning>	1
+<Oil_Warmer,switch,on> <null,time,night>	1
+<Phone,notification,notify> </s>	12
+<Phone,notification,notify> <Air_Conditioner-null,thermostat-time,auto-night>	2
+<Phone,notification,notify> <Air_Purifier,airQuality,greater>	2
+<Phone,notification,notify> <Air_Purifier,airQuality,lesser>	2
+<Phone,notification,notify> <Audio_Player-null,switch-time,on-night>	1
+<Phone,notification,notify> <Blood_Pressure_Monitor,pressure,greater>	1
+<Phone,notification,notify> <Blood_Pressure_Monitor,pressure,lesser>	2
+<Phone,notification,notify> <CO_Detector,carbonMonoxide,detected>	1
+<Phone,notification,notify> <CO_Detector-null,carbonMonoxide-locationMode,detected-vacation>	1
+<Phone,notification,notify> <Clothes_Dryer,completion,true>	2
+<Phone,notification,notify> <Door_Lock-null,lock-locationMode,unlocked-away>	1
+<Phone,notification,notify> <Door_Sensor,contact,opened>	3
+<Phone,notification,notify> <Door_Sensor-null,contact-locationMode,opened-away>	3
+<Phone,notification,notify> <Doorbell,button,pushed>	4
+<Phone,notification,notify> <Dust_Detector,dust,greater>	1
+<Phone,notification,notify> <Energy_Meter,energy,greater>	2
+<Phone,notification,notify> <Garage_Door_Opener-null,contact-locationMode,opened-away>	1
+<Phone,notification,notify> <Gas_Sensor-null,odorLevel-locationMode,greater-vacation>	2
+<Phone,notification,notify> <Gas_Stove-null,switch-timer,on-completed>	1
+<Phone,notification,notify> <Glass_Break_Detector,shock,detected>	1
+<Phone,notification,notify> <Glass_Break_Detector-null,shock-locationMode,detected-vacation>	1
+<Phone,notification,notify> <Humidity_Sensor,humidity,greater>	1
+<Phone,notification,notify> <Humidity_Sensor,humidity,lesser>	4
+<Phone,notification,notify> <Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>	1
+<Phone,notification,notify> <Illuminance_Sensor,illuminance,greater>	1
+<Phone,notification,notify> <Induction_Cooktop-null,switch-locationMode,on-away>	1
+<Phone,notification,notify> <Light_Bulb-null,switch-locationMode,on-away>	2
+<Phone,notification,notify> <Motion_Sensor,motion,detected>	2
+<Phone,notification,notify> <Motion_Sensor,motion,not_detected>	2
+<Phone,notification,notify> <Pulse_Monitor,pulse,lesser>	1
+<Phone,notification,notify> <Refrigerator,filterStatus,replace>	1
+<Phone,notification,notify> <Security_Camera-null,image-time,take-night>	1
+<Phone,notification,notify> <Security_Camera-null,switch-locationMode,off-vacation>	1
+<Phone,notification,notify> <Sleep_Monitor,sleeping,detected>	2
+<Phone,notification,notify> <Smoke_Detector,battery,lesser>	2
+<Phone,notification,notify> <Smoke_Detector,smoke,detected>	1
+<Phone,notification,notify> <Smoke_Detector,tamper,detected>	2
+<Phone,notification,notify> <Smoke_Detector-Temperature_Sensor,smoke-temperature,greater-greater>	1
+<Phone,notification,notify> <Temperature_Sensor-null,temperature-locationMode,greater-not_vacation>	1
+<Phone,notification,notify> <Temperature_Sensor-null,temperature-locationMode,lesser-home>	2
+<Phone,notification,notify> <Temperature_Sensor-null,temperature-locationMode,lesser-not_vacation>	2
+<Phone,notification,notify> <Temperature_Sensor-null,temperature-time,greater-night>	1
+<Phone,notification,notify> <Temperature_Sensor-null,temperature-time,lesser-night>	2
+<Phone,notification,notify> <Water_Leak_Detector,water,wet>	1
+<Phone,notification,notify> <Water_Leak_Detector-null,water-locationMode,wet-vacation>	1
+<Phone,notification,notify> <Weather_Station-null,rain-time,false-morning>	1
+<Phone,notification,notify> <Weather_Station-null,rain-time,false-night>	3
+<Phone,notification,notify> <Weather_Station-null,rain-time,true-morning>	1
+<Phone,notification,notify> <null,locationMode,away>	7
+<Phone,notification,notify> <null,locationMode,home>	2
+<Phone,notification,notify> <null,locationMode,vacation>	2
+<Phone,notification,notify> <null,time,evening>	1
+<Phone,notification,notify> <null,time,morning>	5
+<Phone,notification,notify> <null,time,night>	5
+<Phone-Security_Alarm,notification-alarm,notify-siren> </s>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren> <Blood_Pressure_Monitor,pressure,greater>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> </s>	5
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <CO_Detector,carbonMonoxide,detected>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Door_Sensor-null,contact-locationMode,opened-away>	4
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Door_Sensor-null,contact-locationMode,opened-vacation>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Doorbell,button,pushed>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Energy_Meter,energy,greater>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Glass_Break_Detector,shock,detected>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Glass_Break_Detector-null,shock-locationMode,detected-away>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Glass_Break_Detector-null,shock-locationMode,detected-night>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Security_Camera-null,image-time,take-night>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Temperature_Sensor,temperature,greater>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Temperature_Sensor,temperature,lesser>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Temperature_Sensor-null,temperature-locationMode,greater-not_vacation>	2
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Temperature_Sensor-null,temperature-locationMode,lesser-not_vacation>	2
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Water_Leak_Detector,water,wet>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Water_Leak_Detector-null,water-locationMode,wet-vacation>	2
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Weather_Station-null,rain-time,false-morning>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <Weather_Station-null,rain-time,false-night>	3
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <null,locationMode,away>	2
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <null,locationMode,night>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <null,locationMode,vacation>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <null,time,evening>	1
+<Phone-Security_Alarm,notification-alarm,notify-siren_strobe> <null,time,morning>	1
+<Phone-Thermostat,notification-thermostat,notify-auto> </s>	1
+<Phone-Thermostat,notification-thermostat,notify-auto> <Weather_Station,cold,true>	1
+<Phone-Thermostat,notification-thermostat,notify-auto> <Weather_Station,rain,true>	1
+<Phone-Thermostat,notification-thermostat,notify-auto> <null,locationMode,night>	1
+<Phone-Thermostat,notification-thermostat,notify-auto> <null-null,locationMode-time,vacation-night>	1
+<Presence_Sensor,presence,not_present> <Air_Conditioner-Heater,thermostat-switch,off-off>	5
+<Presence_Sensor,presence,not_present> <Switches,switch,off>	3
+<Presence_Sensor,presence,present> <Garage_Door_Opener,contact,opened>	6
+<Presence_Sensor,presence,present> <Smart_Mirror-Speaker,switch-switch,on-on>	6
+<Pulse_Monitor,pulse,greater> <Oil_Warmer,switch,on>	11
+<Pulse_Monitor,pulse,lesser> <Phone,notification,notify>	4
+<Pulse_Monitor,switch,on> <Air_Purifier,airQuality,lesser>	1
+<Pulse_Monitor,switch,on> <Moisture_Sensor,water,dry>	1
+<Pulse_Monitor,switch,on> <Moisture_Sensor,water,wet>	1
+<Pulse_Monitor,switch,on> <null,time,morning>	1
+<Refrigerator,filterStatus,replace> <Phone,notification,notify>	7
+<Refrigerator,switch,on> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-greater>	1
+<Refrigerator,switch,on> <Air_Purifier,airQuality,lesser>	1
+<Refrigerator,switch,on> <Moisture_Sensor,water,dry>	1
+<Refrigerator,switch,on> <Moisture_Sensor,water,wet>	1
+<Refrigerator,switch,on> <null,time,morning>	1
+<Refrigerator,temperature,greater> <Refrigerator,switch,on>	6
+<Refrigerator-null,contact-time,opened-evening> <Speaker,switch,on>	5
+<Robot_Vacuum,switch,on> </s>	2
+<Robot_Vacuum,switch,on> <Air_Purifier,airQuality,lesser>	2
+<Robot_Vacuum,switch,on> <Button-Car_Automation,button-presence,pushed-present>	1
+<Robot_Vacuum,switch,on> <Door_Sensor-null,contact-time,opened-morning>	1
+<Robot_Vacuum,switch,on> <Motion_Sensor,motion,detected>	1
+<Robot_Vacuum,switch,on> <Motion_Sensor,motion,not_detected>	1
+<Robot_Vacuum,switch,on> <Pulse_Monitor,pulse,lesser>	1
+<Robot_Vacuum,switch,on> <Sleep_Monitor,sleeping,detected>	1
+<Robot_Vacuum,switch,on> <Weather_Station,rain,true>	1
+<Robot_Vacuum,switch,on> <null,locationMode,away>	1
+<Robot_Vacuum,switch,on> <null,time,morning>	1
+<Robot_Vacuum,switch,on> <null,time,night>	2
+<Robot_Vacuum,switch,on> <null,time,noon>	1
+<Robot_Vacuum-Thermostat,switch-thermostat,off-auto> </s>	1
+<Robot_Vacuum-Thermostat,switch-thermostat,off-auto> <Beacon_Device,presence,present>	1
+<Robot_Vacuum-Thermostat,switch-thermostat,off-auto> <null,locationMode,home>	1
+<Robot_Vacuum-Thermostat,switch-thermostat,off-auto> <null,locationMode,night>	1
+<Robot_Vacuum-Thermostat,switch-thermostat,off-auto> <null,time,evening>	1
+<Security_Alarm,alarm,off> <Air_Purifier,airQuality,greater>	1
+<Security_Alarm,alarm,off> <Air_Purifier,airQuality,lesser>	1
+<Security_Alarm,alarm,off> <Gas_Sensor,odorLevel,lesser>	1
+<Security_Alarm,alarm,off> <Humidity_Sensor,humidity,greater>	1
+<Security_Alarm,alarm,off> <Smoke_Detector-Temperature_Sensor,smoke-temperature,greater-greater>	1
+<Security_Alarm,alarm,off> <Temperature_Sensor,temperature,lesser>	1
+<Security_Alarm,alarm,off> <Temperature_Sensor-null,temperature-time,lesser-night>	1
+<Security_Alarm,alarm,off> <null,time,morning>	1
+<Security_Alarm,alarm,siren> </s>	1
+<Security_Alarm,alarm,siren> <Doorbell,button,pushed>	2
+<Security_Alarm,alarm,siren> <Glass_Break_Detector,shock,detected>	1
+<Security_Alarm,alarm,siren> <Presence_Sensor,presence,present>	2
+<Security_Alarm,alarm,siren> <Pulse_Monitor,pulse,greater>	2
+<Security_Alarm,alarm,siren> <Smoke_Detector,smoke,detected>	1
+<Security_Alarm,alarm,siren> <Temperature_Sensor,temperature,greater>	2
+<Security_Alarm,alarm,siren> <Temperature_Sensor,temperature,lesser>	2
+<Security_Alarm,alarm,siren> <Water_Leak_Detector,water,wet>	1
+<Security_Alarm,alarm,siren> <null,locationMode,away>	2
+<Security_Alarm,alarm,siren> <null,time,morning>	1
+<Security_Alarm,alarm,siren> <null,time,night>	4
+<Security_Alarm,alarm,siren_strobe> </s>	6
+<Security_Alarm,alarm,siren_strobe> <Air_Purifier,airQuality,greater>	1
+<Security_Alarm,alarm,siren_strobe> <Air_Purifier,airQuality,lesser>	2
+<Security_Alarm,alarm,siren_strobe> <Beacon_Device-Light_Bulb,presence-switch,present-off>	1
+<Security_Alarm,alarm,siren_strobe> <CO_Detector-null,carbonMonoxide-locationMode,detected-not_vacation>	1
+<Security_Alarm,alarm,siren_strobe> <CO_Detector-null,carbonMonoxide-locationMode,detected-vacation>	1
+<Security_Alarm,alarm,siren_strobe> <Car_Automation,presence,present>	1
+<Security_Alarm,alarm,siren_strobe> <Contact_Sensor-null,contact-time,opened-night>	1
+<Security_Alarm,alarm,siren_strobe> <Door_Sensor-null,contact-locationMode,opened-away>	1
+<Security_Alarm,alarm,siren_strobe> <Door_Sensor-null,contact-locationMode,opened-vacation>	1
+<Security_Alarm,alarm,siren_strobe> <Garage_Door_Opener,signalStrength,lesser>	1
+<Security_Alarm,alarm,siren_strobe> <Gas_Sensor,odorLevel,greater>	3
+<Security_Alarm,alarm,siren_strobe> <Gas_Sensor,odorLevel,lesser>	1
+<Security_Alarm,alarm,siren_strobe> <Gas_Sensor-null,odorLevel-locationMode,greater-not_vacation>	1
+<Security_Alarm,alarm,siren_strobe> <Gas_Sensor-null,odorLevel-locationMode,greater-vacation>	1
+<Security_Alarm,alarm,siren_strobe> <Glass_Break_Detector,shock,detected>	3
+<Security_Alarm,alarm,siren_strobe> <Glass_Break_Detector-null,shock-locationMode,detected-away>	1
+<Security_Alarm,alarm,siren_strobe> <Glass_Break_Detector-null,shock-locationMode,detected-night>	1
+<Security_Alarm,alarm,siren_strobe> <Glass_Break_Detector-null,shock-locationMode,detected-vacation>	1
+<Security_Alarm,alarm,siren_strobe> <Humidity_Sensor,humidity,greater>	3
+<Security_Alarm,alarm,siren_strobe> <Illuminance_Sensor,illuminance,greater>	1
+<Security_Alarm,alarm,siren_strobe> <Illuminance_Sensor,illuminance,lesser>	1
+<Security_Alarm,alarm,siren_strobe> <Moisture_Sensor,water,wet>	2
+<Security_Alarm,alarm,siren_strobe> <Motion_Sensor,motion,detected>	2
+<Security_Alarm,alarm,siren_strobe> <Presence_Sensor,presence,present>	2
+<Security_Alarm,alarm,siren_strobe> <Refrigerator,filterStatus,replace>	1
+<Security_Alarm,alarm,siren_strobe> <Shades/Blinds,contact,opened>	6
+<Security_Alarm,alarm,siren_strobe> <Sleep_Monitor,sleeping,detected>	3
+<Security_Alarm,alarm,siren_strobe> <Smart_TV,switch,on>	2
+<Security_Alarm,alarm,siren_strobe> <Smoke_Detector,battery,lesser>	1
+<Security_Alarm,alarm,siren_strobe> <Smoke_Detector,smoke,detected>	2
+<Security_Alarm,alarm,siren_strobe> <Smoke_Detector-Temperature_Sensor,smoke-temperature,greater-greater>	1
+<Security_Alarm,alarm,siren_strobe> <Temperature_Sensor,temperature,equal>	1
+<Security_Alarm,alarm,siren_strobe> <Temperature_Sensor,temperature,greater>	4
+<Security_Alarm,alarm,siren_strobe> <Temperature_Sensor,temperature,lesser>	4
+<Security_Alarm,alarm,siren_strobe> <Temperature_Sensor-null,temperature-locationMode,greater-not_vacation>	1
+<Security_Alarm,alarm,siren_strobe> <Temperature_Sensor-null,temperature-locationMode,lesser-not_vacation>	1
+<Security_Alarm,alarm,siren_strobe> <Temperature_Sensor-null,temperature-time,lesser-night>	1
+<Security_Alarm,alarm,siren_strobe> <Water_Leak_Detector,water,wet>	2
+<Security_Alarm,alarm,siren_strobe> <Water_Leak_Detector-null,water-locationMode,wet-not_vacation>	1
+<Security_Alarm,alarm,siren_strobe> <Water_Leak_Detector-null,water-locationMode,wet-vacation>	1
+<Security_Alarm,alarm,siren_strobe> <Weather_Station-null,rain-time,false-night>	1
+<Security_Alarm,alarm,siren_strobe> <null,locationMode,away>	3
+<Security_Alarm,alarm,siren_strobe> <null,locationMode,night>	1
+<Security_Alarm,alarm,siren_strobe> <null,locationMode,vacation>	1
+<Security_Alarm,alarm,siren_strobe> <null,time,evening>	3
+<Security_Alarm,alarm,siren_strobe> <null,time,morning>	5
+<Security_Alarm,alarm,siren_strobe> <null,time,night>	2
+<Security_Alarm,alarm,siren_strobe> <null-null,locationMode-time,home-night>	3
+<Security_Alarm,alarm,strobe> <Doorbell,button,pushed>	1
+<Security_Alarm-Security_Camera,alarm-switch,siren_strobe-on> </s>	1
+<Security_Alarm-Security_Camera,alarm-switch,siren_strobe-on> <Doorbell,button,pushed>	1
+<Security_Alarm-Security_Camera,alarm-switch,siren_strobe-on> <Energy_Meter,energy,greater>	1
+<Security_Alarm-Security_Camera,alarm-switch,siren_strobe-on> <Glass_Break_Detector,shock,detected>	1
+<Security_Alarm-Security_Camera,alarm-switch,siren_strobe-on> <Water_Leak_Detector,water,wet>	1
+<Security_Alarm-Security_Camera,alarm-switch,siren_strobe-on> <Weather_Station-null,rain-time,false-morning>	1
+<Security_Alarm-Security_Camera,alarm-switch,siren_strobe-on> <null,locationMode,vacation>	1
+<Security_Alarm-null,alarm-locationMode,siren_strobe-away> <Door_Lock-Light_Bulb-Phone-Shades/Blinds-Smart_TV-Speaker,lock-colorValue-notification-contact-switch-volume,locked-fixed_value-notify-opened-on-fixed_value>	4
+<Security_Camera,image,take> </s>	1
+<Security_Camera,image,take> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-lesser>	1
+<Security_Camera,image,take> <Air_Conditioner-null,thermostat-time,auto-morning>	1
+<Security_Camera,image,take> <Air_Conditioner-null,thermostat-time,off-evening>	1
+<Security_Camera,image,take> <Coffee_Maker-null,switch-time,off-morning>	1
+<Security_Camera,image,take> <Contact_Sensor,contact,opened>	1
+<Security_Camera,image,take> <Light_Bulb-Motion_Sensor,switch-motion,off-detected>	1
+<Security_Camera,image,take> <Light_Bulb-Motion_Sensor,switch-motion,on-not_detected>	1
+<Security_Camera,switch,on> </s>	4
+<Security_Camera,switch,on> <Audio_Player-null,switch-time,on-night>	1
+<Security_Camera,switch,on> <Beacon_Device-Light_Bulb,presence-switch,not_present-on>	1
+<Security_Camera,switch,on> <Beacon_Device-Light_Bulb,presence-switch,present-off>	1
+<Security_Camera,switch,on> <Contact_Sensor-null,contact-time,opened-night>	1
+<Security_Camera,switch,on> <Doorbell,button,pushed>	1
+<Security_Camera,switch,on> <Gas_Sensor,odorLevel,greater>	1
+<Security_Camera,switch,on> <Glass_Break_Detector,shock,detected>	2
+<Security_Camera,switch,on> <Light_Bulb-null,switch-locationMode,on-away>	1
+<Security_Camera,switch,on> <Moisture_Sensor,water,wet>	2
+<Security_Camera,switch,on> <Motion_Sensor,motion,detected>	2
+<Security_Camera,switch,on> <Presence_Sensor,presence,present>	1
+<Security_Camera,switch,on> <Security_Camera-null,switch-locationMode,off-vacation>	2
+<Security_Camera,switch,on> <Sleep_Monitor,sleeping,detected>	1
+<Security_Camera,switch,on> <Smart_TV,switch,on>	1
+<Security_Camera,switch,on> <Temperature_Sensor,temperature,greater>	1
+<Security_Camera,switch,on> <Temperature_Sensor,temperature,lesser>	1
+<Security_Camera,switch,on> <Water_Leak_Detector,water,wet>	1
+<Security_Camera,switch,on> <Weather_Station,rain,true>	1
+<Security_Camera,switch,on> <Weather_Station-null,rain-time,true-morning>	2
+<Security_Camera,switch,on> <null,locationMode,away>	4
+<Security_Camera,switch,on> <null,locationMode,home>	1
+<Security_Camera,switch,on> <null,time,night>	1
+<Security_Camera,video,record> </s>	1
+<Security_Camera,video,record> <CO_Detector-Gas_Sensor,alarm-alarm,siren-siren>	1
+<Security_Camera,video,record> <Motion_Sensor,motion,detected>	1
+<Security_Camera,video,record> <Temperature_Sensor,temperature,greater>	1
+<Security_Camera,video,record> <Temperature_Sensor,temperature,lesser>	1
+<Security_Camera-null,image-time,take-night> <Phone,notification,notify>	5
+<Security_Camera-null,switch-locationMode,off-vacation> <Security_Camera,switch,on>	3
+<Shades/Blinds,contact,closed> </s>	2
+<Shades/Blinds,contact,closed> <Air_Conditioner-Temperature_Sensor,thermostat-temperature,auto-greater>	1
+<Shades/Blinds,contact,closed> <Air_Purifier,airQuality,lesser>	1
+<Shades/Blinds,contact,closed> <Moisture_Sensor,water,dry>	1
+<Shades/Blinds,contact,closed> <Moisture_Sensor,water,wet>	1
+<Shades/Blinds,contact,closed> <Pulse_Monitor,pulse,greater>	1
+<Shades/Blinds,contact,closed> <Refrigerator,temperature,greater>	1
+<Shades/Blinds,contact,closed> <null,locationMode,away>	2
+<Shades/Blinds,contact,closed> <null,locationMode,home>	1
+<Shades/Blinds,contact,closed> <null,time,morning>	1
+<Shades/Blinds,contact,closed> <null,time,night>	2
+<Shades/Blinds,contact,opened> </s>	1
+<Shades/Blinds,contact,opened> <Air_Purifier,airQuality,lesser>	2
+<Shades/Blinds,contact,opened> <Door_Lock-Presence_Sensor-null,lock-presence-time,unlocked-not_present-night>	1
+<Shades/Blinds,contact,opened> <Door_Sensor-null,contact-time,opened-morning>	1
+<Shades/Blinds,contact,opened> <Illuminance_Sensor-Motion_Sensor,illuminance-motion,lesser-detected>	1
+<Shades/Blinds,contact,opened> <Moisture_Sensor,water,dry>	1
+<Shades/Blinds,contact,opened> <Moisture_Sensor,water,wet>	1
+<Shades/Blinds,contact,opened> <Motion_Sensor-Shades/Blinds-null,motion-contact-time,not_detected-closed-day>	1
+<Shades/Blinds,contact,opened> <Presence_Sensor,presence,not_present>	1
+<Shades/Blinds,contact,opened> <Refrigerator,temperature,greater>	1
+<Shades/Blinds,contact,opened> <Security_Alarm,alarm,siren_strobe>	1
+<Shades/Blinds,contact,opened> <Sleep_Monitor,sleeping,not_detected>	1
+<Shades/Blinds,contact,opened> <Temperature_Sensor,temperature,greater>	1
+<Shades/Blinds,contact,opened> <Temperature_Sensor,temperature,lesser>	1
+<Shades/Blinds,contact,opened> <null,locationMode,away>	1
+<Shades/Blinds,contact,opened> <null,time,morning>	1
+<Shades/Blinds,threeAxis,fixed_value> <CO_Detector,carbonMonoxide,detected>	1
+<Shades/Blinds,threeAxis,fixed_value> <Presence_Sensor,presence,present>	2
+<Shades/Blinds,threeAxis,fixed_value> <Pulse_Monitor,pulse,greater>	2
+<Shades/Blinds,threeAxis,fixed_value> <Smoke_Detector,smoke,detected>	1
+<Shades/Blinds,threeAxis,fixed_value> <Water_Leak_Detector,water,wet>	2
+<Shades/Blinds,threeAxis,fixed_value> <null,locationMode,away>	1
+<Shades/Blinds,threeAxis,fixed_value> <null,locationMode,vacation>	1
+<Shades/Blinds,threeAxis,fixed_value> <null,time,morning>	2
+<Shades/Blinds,threeAxis,fixed_value> <null,time,night>	2
+<Shades/Blinds-Speaker,threeAxis-mute,fixed_value-unmuted> </s>	1
+<Shades/Blinds-Speaker,threeAxis-mute,fixed_value-unmuted> <null,time,morning>	1
+<Shades/Blinds-Speaker,threeAxis-mute,fixed_value-unmuted> <null,time,night>	1
+<Shades/Blinds-null,contact-locationMode,opened-home> <Beacon_Device,presence,not_present>	1
+<Shades/Blinds-null,contact-locationMode,opened-home> <Beacon_Device,presence,present>	1
+<Shades/Blinds-null,contact-locationMode,opened-home> <null,locationMode,away>	1
+<Shades/Blinds-null,contact-locationMode,opened-home> <null,locationMode,home>	1
+<Shades/Blinds-null,contact-locationMode,opened-home> <null,time,morning>	1
+<Sleep_Monitor,sleeping,detected> <Air_Conditioner,thermostat,auto>	5
+<Sleep_Monitor,sleeping,detected> <Electric_Blanket,switch,on>	6
+<Sleep_Monitor,sleeping,detected> <Light_Bulb,switch,off>	10
+<Sleep_Monitor,sleeping,detected> <Light_Bulb-Smart_TV,switch-switch,off-off>	9
+<Sleep_Monitor,sleeping,not_detected> <Smart_TV,channel,fixed_value>	4
+<Sleep_Monitor,sleeping,not_detected> <Water_Heater,switch,on>	6
+<Sleep_Monitor,switch,on> </s>	1
+<Sleep_Monitor,switch,on> <Motion_Sensor,motion,detected>	1
+<Sleep_Monitor,switch,on> <Pulse_Monitor,pulse,greater>	1
+<Sleep_Monitor,switch,on> <Temperature_Sensor,temperature,lesser>	1
+<Sleep_Monitor,switch,on> <null,locationMode,away>	1
+<Sleep_Monitor,switch,on> <null,locationMode,home>	1
+<Sleep_Monitor,switch,on> <null,time,afternoon>	1
+<Sleep_Monitor,switch,on> <null,time,night>	1
+<Smart_Assistant,notification,notify> </s>	1
+<Smart_Assistant,notification,notify> <Moisture_Sensor,water,dry>	1
+<Smart_Assistant,notification,notify> <Motion_Sensor-Security_Camera,motion-image,detected-take>	1
+<Smart_Assistant,notification,notify> <Refrigerator-null,contact-time,opened-evening>	1
+<Smart_Assistant,notification,notify> <null,time,night>	1
+<Smart_Assistant,voice,command> <Light_Bulb,switch,off>	5
+<Smart_Assistant,voice,command> <Light_Bulb,switch,on>	7
+<Smart_Assistant,voice,command> <Light_Bulb-Smart_Assistant,switch-notification,off-notify>	4
+<Smart_Assistant,voice,command> <Light_Bulb-Weather_Station,colorValue-weather,fixed_value-notify>	3
+<Smart_Assistant,voice,command> <Speaker,switch,on>	2
+<Smart_Mirror,switch,off> </s>	1
+<Smart_Mirror,switch,off> <Contact_Sensor-null,contact-time,opened-night>	1
+<Smart_Mirror,switch,off> <Doorbell,button,pushed>	1
+<Smart_Mirror,switch,off> <Humidity_Sensor,humidity,greater>	1
+<Smart_Mirror-Speaker,switch-switch,on-on> <Glass_Break_Detector,shock,detected>	1
+<Smart_Mirror-Speaker,switch-switch,on-on> <Presence_Sensor,presence,present>	1
+<Smart_Mirror-Speaker,switch-switch,on-on> <Pulse_Monitor,pulse,greater>	1
+<Smart_Mirror-Speaker,switch-switch,on-on> <Water_Leak_Detector,water,wet>	1
+<Smart_Mirror-Speaker,switch-switch,on-on> <null,locationMode,away>	1
+<Smart_Mirror-Speaker,switch-switch,on-on> <null,time,morning>	1
+<Smart_Mirror-Speaker,switch-switch,on-on> <null,time,night>	1
+<Smart_TV,channel,fixed_value> </s>	1
+<Smart_TV,channel,fixed_value> <Air_Purifier,airQuality,lesser>	2
+<Smart_TV,channel,fixed_value> <Door_Sensor-null,contact-time,opened-morning>	2
+<Smart_TV,channel,fixed_value> <Security_Alarm,alarm,siren_strobe>	2
+<Smart_TV,channel,fixed_value> <Sleep_Monitor,sleeping,detected>	1
+<Smart_TV,channel,fixed_value> <Sleep_Monitor,sleeping,not_detected>	2
+<Smart_TV,channel,fixed_value> <null,time,night>	1
+<Smart_TV,channel,fixed_value> <null,time,noon>	1
+<Smart_TV,switch,off> <Beacon_Device,presence,present>	1
+<Smart_TV,switch,off> <null,locationMode,home>	1
+<Smart_TV,switch,on> <Audio_Player,switch,off>	11
+<Smart_TV,switch,on> <Beacon_Device,presence,not_present>	1
+<Smart_TV,switch,on> <Beacon_Device,presence,present>	1
+<Smoke_Detector,battery,lesser> <Phone,notification,notify>	8
+<Smoke_Detector,smoke,detected> <Phone-Security_Alarm,notification-alarm,notify-siren_strobe>	3
+<Smoke_Detector,smoke,detected> <Security_Alarm,alarm,siren>	6
+<Smoke_Detector,smoke,detected> <Security_Alarm,alarm,siren_strobe>	9
+<Smoke_Detector,tamper,detected> <Phone,notification,notify>	7
+<Smoke_Detector-Temperature_Sensor,smoke-temperature,greater-greater> <Security_Alarm,alarm,siren_strobe>	5
+<Speaker,switch,on> </s>	2
+<Speaker,switch,on> <Door_Sensor-null-null,contact-locationMode-time,opened-away-evening>	1
+<Speaker,switch,on> <Moisture_Sensor,water,dry>	1
+<Speaker,switch,on> <Motion_Sensor-Security_Camera,motion-image,detected-take>	1
+<Speaker,switch,on> <Refrigerator-null,contact-time,opened-evening>	1
+<Speaker,switch,on> <Smart_Assistant,voice,command>	1
+<Speaker,switch,on> <null,time,night>	1
+<Sprinker,switch,on> </s>	2
+<Sprinker,switch,on> <Dishwasher,weight,greater>	1
+<Sprinker,switch,on> <Door_Lock-null,lock-locationMode,unlocked-away>	1
+<Sprinker,switch,on> <Doorbell,button,pushed>	1
+<Sprinker,switch,on> <Energy_Meter,energy,greater>	1
+<Sprinker,switch,on> <Water_Leak_Detector,water,wet>	1
+<Sprinker,switch,on> <Weather_Station-null,rain-time,false-morning>	1
+<Sprinker,switch,on> <null,locationMode,away>	1
+<Sprinker,switch,on> <null,locationMode,vacation>	1
+<Sprinker,switch,on> <null,time,evening>	1
+<Sprinker,switch,on> <null,time,night>	1
+<Switches,switch,off> </s>	2
+<Switches,switch,off> <Illuminance_Sensor-Motion_Sensor,illuminance-motion,lesser-detected>	1
+<Switches,switch,off> <Presence_Sensor,presence,not_present>	1
+<Switches,switch,off> <Temperature_Sensor,temperature,greater>	2
+<Switches,switch,off> <Temperature_Sensor,temperature,lesser>	3
+<Switches,switch,off> <null,time,afternoon>	2
+<Switches,switch,off> <null,time,morning>	2
+<Switches,switch,off> <null,time,night>	2
+<Switches,switch,on> </s>	1
+<Switches,switch,on> <Switches-null,switch-time,off-evening>	2
+<Switches,switch,on> <Temperature_Sensor,temperature,greater>	1
+<Switches,switch,on> <null,time,afternoon>	1
+<Switches,switch,on> <null,time,morning>	2
+<Switches,switch,on> <null,time,night>	1
+<Switches-null,switch-time,off-evening> <Switches,switch,on>	1
+<Temperature_Sensor,temperature,equal> <Air_Conditioner,thermostat,off>	7
+<Temperature_Sensor,temperature,greater> <Air_Conditioner,thermostat,auto>	15
+<Temperature_Sensor,temperature,greater> <Air_Conditioner,thermostat,decreased>	11
+<Temperature_Sensor,temperature,greater> <Air_Conditioner-Fan,thermostat-switch,auto-on>	4
+<Temperature_Sensor,temperature,greater> <Air_Cooler,switch,on>	6
+<Temperature_Sensor,temperature,greater> <Thermostat,thermostat,auto>	4
+<Temperature_Sensor,temperature,greater> <Thermostat,thermostat,decreased>	8
+<Temperature_Sensor,temperature,lesser> <Air_Conditioner,thermostat,increased>	11
+<Temperature_Sensor,temperature,lesser> <Air_Conditioner,thermostat,off>	5
+<Temperature_Sensor,temperature,lesser> <Air_Conditioner-Fan,thermostat-switch,off-off>	4
+<Temperature_Sensor,temperature,lesser> <Electric_Blanket,switch,on>	10
+<Temperature_Sensor,temperature,lesser> <Thermostat,thermostat,auto>	10
+<Temperature_Sensor,temperature,lesser> <Thermostat,thermostat,increased>	8
+<Temperature_Sensor,temperature,lesser> <Thermostat-Water_Heater,thermostat-switch,increased-on>	8
+<Temperature_Sensor-null,temperature-locationMode,greater-away> <Air_Conditioner-Shades/Blinds,thermostat-contact,decreased-closed>	6
+<Temperature_Sensor-null,temperature-locationMode,greater-home> <Air_Conditioner,thermostat,decreased>	6
+<Temperature_Sensor-null,temperature-locationMode,greater-not_vacation> <Air_Conditioner,thermostat,decreased>	9
+<Temperature_Sensor-null,temperature-locationMode,lesser-away> <Thermostat,thermostat,increased>	6
+<Temperature_Sensor-null,temperature-locationMode,lesser-home> <Air_Conditioner,thermostat,auto>	3
+<Temperature_Sensor-null,temperature-locationMode,lesser-home> <Thermostat,thermostat,increased>	5
+<Temperature_Sensor-null,temperature-locationMode,lesser-not_vacation> <Air_Conditioner,thermostat,increased>	7
+<Temperature_Sensor-null,temperature-time,greater-night> <Air_Conditioner,thermostat,auto>	6
+<Temperature_Sensor-null,temperature-time,lesser-afternoon> <Thermostat,thermostat,auto>	3
+<Temperature_Sensor-null,temperature-time,lesser-morning> <Thermostat,thermostat,auto>	3
+<Temperature_Sensor-null,temperature-time,lesser-night> <Electric_Blanket,switch,on>	10
+<Temperature_Sensor-null,temperature-time,lesser-night> <Heater,switch,on>	5
+<Temperature_Sensor-null,temperature-time,lesser-night> <Thermostat,thermostat,auto>	3
+<Thermostat,thermostat,auto> </s>	4
+<Thermostat,thermostat,auto> <Air_Purifier,airQuality,lesser>	1
+<Thermostat,thermostat,auto> <Door_Sensor,contact,opened>	1
+<Thermostat,thermostat,auto> <Gas_Sensor,odorLevel,greater>	1
+<Thermostat,thermostat,auto> <Glass_Break_Detector,shock,detected>	1
+<Thermostat,thermostat,auto> <Humidity_Sensor,humidity,lesser>	1
+<Thermostat,thermostat,auto> <Humidity_Sensor-Temperature_Sensor,humidity-temperature,greater-greater>	1
+<Thermostat,thermostat,auto> <Induction_Cooktop-null,switch-locationMode,on-away>	1
+<Thermostat,thermostat,auto> <Moisture_Sensor,water,wet>	1
+<Thermostat,thermostat,auto> <Motion_Sensor,motion,detected>	1
+<Thermostat,thermostat,auto> <Sleep_Monitor,sleeping,detected>	2
+<Thermostat,thermostat,auto> <Smart_TV,switch,on>	1
+<Thermostat,thermostat,auto> <Temperature_Sensor,temperature,equal>	1
+<Thermostat,thermostat,auto> <Temperature_Sensor,temperature,greater>	1
+<Thermostat,thermostat,auto> <Temperature_Sensor,temperature,lesser>	2
+<Thermostat,thermostat,auto> <Temperature_Sensor-null,temperature-time,lesser-afternoon>	3
+<Thermostat,thermostat,auto> <Temperature_Sensor-null,temperature-time,lesser-morning>	3
+<Thermostat,thermostat,auto> <Temperature_Sensor-null,temperature-time,lesser-night>	3
+<Thermostat,thermostat,auto> <Water_Leak_Detector,water,wet>	1
+<Thermostat,thermostat,auto> <null,locationMode,away>	1
+<Thermostat,thermostat,auto> <null,time,afternoon>	2
+<Thermostat,thermostat,auto> <null,time,morning>	3
+<Thermostat,thermostat,auto> <null,time,night>	2
+<Thermostat,thermostat,auto> <null-null,locationMode-time,home-night>	1
+<Thermostat,thermostat,decreased> </s>	1
+<Thermostat,thermostat,decreased> <Door_Lock-Presence_Sensor-null,lock-presence-time,unlocked-not_present-night>	1
+<Thermostat,thermostat,decreased> <Humidity_Sensor,humidity,greater>	1
+<Thermostat,thermostat,decreased> <Illuminance_Sensor-Motion_Sensor,illuminance-motion,lesser-detected>	1
+<Thermostat,thermostat,decreased> <Illuminance_Sensor-null,illuminance-time,lesser-night>	1
+<Thermostat,thermostat,decreased> <Motion_Sensor-Shades/Blinds-null,motion-contact-time,not_detected-closed-day>	1
+<Thermostat,thermostat,decreased> <Temperature_Sensor,temperature,greater>	1
+<Thermostat,thermostat,decreased> <Temperature_Sensor,temperature,lesser>	1
+<Thermostat,thermostat,increased> </s>	4
+<Thermostat,thermostat,increased> <CO_Detector,carbonMonoxide,detected>	1
+<Thermostat,thermostat,increased> <Door_Lock-Presence_Sensor-null,lock-presence-time,unlocked-not_present-night>	1
+<Thermostat,thermostat,increased> <Door_Lock-null,lock-locationMode,unlocked-away>	1
+<Thermostat,thermostat,increased> <Doorbell,button,pushed>	1
+<Thermostat,thermostat,increased> <Energy_Meter,energy,greater>	1
+<Thermostat,thermostat,increased> <Illuminance_Sensor-Motion_Sensor,illuminance-motion,lesser-detected>	1
+<Thermostat,thermostat,increased> <Motion_Sensor-Shades/Blinds-null,motion-contact-time,not_detected-closed-day>	1
+<Thermostat,thermostat,increased> <Presence_Sensor,presence,not_present>	1
+<Thermostat,thermostat,increased> <Temperature_Sensor,temperature,greater>	1
+<Thermostat,thermostat,increased> <Temperature_Sensor,temperature,lesser>	1
+<Thermostat,thermostat,increased> <Temperature_Sensor-null,temperature-locationMode,greater-away>	2
+<Thermostat,thermostat,increased> <Temperature_Sensor-null,temperature-locationMode,greater-home>	2
+<Thermostat,thermostat,increased> <Temperature_Sensor-null,temperature-locationMode,lesser-away>	2
+<Thermostat,thermostat,increased> <Temperature_Sensor-null,temperature-locationMode,lesser-home>	2
+<Thermostat,thermostat,increased> <Weather_Station-null,rain-time,false-morning>	1
+<Thermostat,thermostat,increased> <null,locationMode,away>	1
+<Thermostat,thermostat,increased> <null-null,locationMode-time,away-evening>	1
+<Thermostat,thermostat,increased> <null-null,locationMode-time,away-night>	2
+<Thermostat-Water_Heater,thermostat-switch,increased-on> </s>	1
+<Thermostat-Water_Heater,thermostat-switch,increased-on> <Air_Purifier,airQuality,greater>	1
+<Thermostat-Water_Heater,thermostat-switch,increased-on> <Air_Purifier,airQuality,lesser>	1
+<Thermostat-Water_Heater,thermostat-switch,increased-on> <Gas_Sensor,odorLevel,greater>	1
+<Thermostat-Water_Heater,thermostat-switch,increased-on> <Gas_Sensor,odorLevel,lesser>	1
+<Thermostat-Water_Heater,thermostat-switch,increased-on> <Humidity_Sensor,humidity,greater>	1
+<Thermostat-Water_Heater,thermostat-switch,increased-on> <Temperature_Sensor-null,temperature-time,lesser-night>	1
+<Thermostat-Water_Heater,thermostat-switch,increased-on> <null,time,morning>	1
+<Thermostat-Water_Heater,thermostat-switch,increased-on> <null,time,night>	1
+<Washer,completion,true> <Phone,notification,notify>	1
+<Water_Heater,switch,off> </s>	1
+<Water_Heater,switch,off> <Air_Purifier,airQuality,lesser>	1
+<Water_Heater,switch,off> <null,locationMode,away>	1
+<Water_Heater,switch,off> <null,time,morning>	1
+<Water_Heater,switch,off> <null,time,night>	1
+<Water_Heater,switch,on> <Air_Purifier,airQuality,lesser>	1
+<Water_Heater,switch,on> <Door_Sensor-null,contact-time,opened-morning>	1
+<Water_Heater,switch,on> <Security_Alarm,alarm,siren_strobe>	1
+<Water_Heater,switch,on> <Sleep_Monitor,sleeping,not_detected>	1
+<Water_Heater,switch,on> <null,time,noon>	1
+<Water_Leak_Detector,water,wet> <Phone,notification,notify>	2
+<Water_Leak_Detector,water,wet> <Phone-Security_Alarm,notification-alarm,notify-siren_strobe>	5
+<Water_Leak_Detector,water,wet> <Security_Alarm,alarm,siren>	6
+<Water_Leak_Detector,water,wet> <Water_Valve,contact,closed>	6
+<Water_Leak_Detector-null,water-locationMode,wet-not_vacation> <Phone-Security_Alarm,notification-alarm,notify-siren_strobe>	4
+<Water_Leak_Detector-null,water-locationMode,wet-vacation> <Phone,notification,notify>	5
+<Water_Valve,contact,closed> </s>	1
+<Water_Valve,contact,closed> <Gas_Sensor,odorLevel,greater>	1
+<Water_Valve,contact,closed> <Glass_Break_Detector,shock,detected>	1
+<Water_Valve,contact,closed> <Moisture_Sensor,water,wet>	1
+<Water_Valve,contact,closed> <Smart_TV,switch,on>	1
+<Water_Valve,contact,closed> <Temperature_Sensor,temperature,equal>	1
+<Water_Valve,contact,closed> <Temperature_Sensor,temperature,lesser>	1
+<Water_Valve,contact,closed> <Water_Leak_Detector,water,wet>	1
+<Water_Valve,contact,closed> <null,locationMode,away>	1
+<Water_Valve,contact,closed> <null-null,locationMode-time,home-night>	1
+<Weather_Station,cold,true> <Phone-Thermostat,notification-thermostat,notify-auto>	6
+<Weather_Station,rain,true> <Door_Lock-Phone-Shades/Blinds,lock-notification-contact,locked-notify-closed>	6
+<Weather_Station,rain,true> <Light_Bulb,colorValue,fixed_value>	7
+<Weather_Station,weather,notify> <External_API-null,traffic-time,heavy-morning>	1
+<Weather_Station,weather,notify> <null,time,evening>	1
+<Weather_Station,weather,notify> <null,time,morning>	1
+<Weather_Station-null,rain-time,false-morning> <Sprinker,switch,on>	6
+<Weather_Station-null,rain-time,false-night> <Garden_Sprinkler,switch,on>	10
+<Weather_Station-null,rain-time,true-morning> <Phone,notification,notify>	4
+<null,locationMode,away> <Air_Conditioner,thermostat,off>	9
+<null,locationMode,away> <Air_Conditioner-Electric_Blanket-Robot_Vacuum-Oil_Warmer,thermostat-switch-switch-switch,off-off-off-off>	11
+<null,locationMode,away> <Air_Conditioner-Security_Camera,thermostat-switch,off-on>	5
+<null,locationMode,away> <Air_Purifier-Light_Bulb,switch-switch,off-off>	4
+<null,locationMode,away> <Beacon_Device,presence,not_present>	1
+<null,locationMode,away> <Beacon_Device,presence,present>	1
+<null,locationMode,away> <Door_Lock,lock,locked>	18
+<null,locationMode,away> <Door_Lock-Lighting_Remote-Robot_Vacuum-Thermostat,lock-switch-switch-thermostat,locked-off-on-auto>	8
+<null,locationMode,away> <Gas_Stove,switch,off>	9
+<null,locationMode,away> <Light_Bulb,switch,off>	11
+<null,locationMode,away> <Microwave_Oven,switch,off>	9
+<null,locationMode,away> <Robot_Vacuum,switch,on>	12
+<null,locationMode,away> <Security_Camera,switch,on>	6
+<null,locationMode,away> <Thermostat,thermostat,auto>	11
+<null,locationMode,away> <Thermostat,thermostat,increased>	5
+<null,locationMode,away> <Water_Heater,switch,off>	9
+<null,locationMode,away> <null,locationMode,away>	1
+<null,locationMode,away> <null,time,morning>	1
+<null,locationMode,home> <Air_Conditioner,thermostat,auto>	5
+<null,locationMode,home> <Air_Conditioner-Oil_Warmer-Robot_Vacuum-Smart_TV,thermostat-switch-switch-switch,auto-on-on-on>	8
+<null,locationMode,home> <Robot_Vacuum-Thermostat,switch-thermostat,off-auto>	5
+<null,locationMode,home> <null,locationMode,home>	1
+<null,locationMode,home> <null,time,evening>	1
+<null,locationMode,night> </s>	1
+<null,locationMode,night> <Air_Conditioner,thermostat,off>	7
+<null,locationMode,night> <Beacon_Device,presence,not_present>	1
+<null,locationMode,night> <Beacon_Device,presence,present>	1
+<null,locationMode,night> <Button,button,pushed>	1
+<null,locationMode,night> <Coffee_Maker-Door_Lock-Garage_Door_Opener-Gas_Stove-Light_Bulb-Shades/Blinds-Smart_TV-Speaker,switch-lock-contact-switch-switch-contact-switch-switch,off-locked-closed-off-off-closed-off-off>	8
+<null,locationMode,night> <Light_Bulb-Thermostat,switch-thermostat,off-auto>	7
+<null,locationMode,night> <null,locationMode,away>	1
+<null,locationMode,night> <null,locationMode,night>	1
+<null,locationMode,vacation> <Air_Conditioner-Refrigerator-Water_Heater,thermostat-thermostat-switch,off-decreased-off>	3
+<null,locationMode,vacation> <Phone,notification,notify>	2
+<null,locationMode,vacation> <Security_Alarm-Security_Camera,alarm-switch,siren_strobe-on>	5
+<null,time,afternoon> <Shades/Blinds,contact,closed>	6
+<null,time,afternoon> <Switches,switch,off>	5
+<null,time,afternoon> <Switches,switch,on>	4
+<null,time,evening> <External_API,news,notify>	3
+<null,time,evening> <Light_Bulb,colorValue,fixed_value>	12
+<null,time,evening> <Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-closed>	4
+<null,time,evening> <Light_Bulb-Shades/Blinds,switch-contact,on-closed>	3
+<null,time,evening> <Sprinker,switch,on>	3
+<null,time,morning> <Coffee_Maker,switch,on>	15
+<null,time,morning> <Coffee_Maker-Light_Bulb-Robot_Vacuum,switch-switch-switch,on-on-on>	2
+<null,time,morning> <Coffee_Maker-Light_Bulb-Thermostat,switch-colorValue-thermostat,on-fixed_value-increased>	3
+<null,time,morning> <Coffee_Maker-Shades/Blinds,switch-contact,on-opened>	6
+<null,time,morning> <Light_Bulb,switch,off>	11
+<null,time,morning> <Light_Bulb-Shades/Blinds,colorValue-contact,fixed_value-opened>	5
+<null,time,morning> <Pulse_Monitor,switch,on>	6
+<null,time,morning> <Shades/Blinds,contact,opened>	13
+<null,time,morning> <Shades/Blinds,threeAxis,fixed_value>	8
+<null,time,morning> <Shades/Blinds-Speaker,threeAxis-mute,fixed_value-unmuted>	3
+<null,time,morning> <Shades/Blinds-null,contact-locationMode,opened-home>	5
+<null,time,morning> <Switches,switch,off>	5
+<null,time,morning> <Switches,switch,on>	2
+<null,time,morning> <Weather_Station,weather,notify>	3
+<null,time,night> <Air_Conditioner-Light_Bulb,thermostat-colorValue,auto-fixed_value>	5
+<null,time,night> <Audio_Player,mute,muted>	6
+<null,time,night> <Door_Lock,lock,locked>	19
+<null,time,night> <Fan,switch,on>	8
+<null,time,night> <Light_Bulb,colorValue,fixed_value>	10
+<null,time,night> <Light_Bulb-Smart_TV,switch-switch,off-off>	3
+<null,time,night> <Shades/Blinds,contact,closed>	11
+<null,time,night> <Shades/Blinds,threeAxis,fixed_value>	8
+<null,time,night> <Sleep_Monitor,switch,on>	10
+<null,time,night> <Smart_TV,channel,fixed_value>	6
+<null,time,noon> <Robot_Vacuum,switch,on>	5
+<null-null,locationMode-time,away-evening> <Light_Bulb,switch,on>	6
+<null-null,locationMode-time,away-morning> <Light_Bulb,switch,off>	1
+<null-null,locationMode-time,away-night> <Light_Bulb,switch,off>	6
+<null-null,locationMode-time,home-night> <Light_Bulb,switch,on>	7
+<null-null,locationMode-time,vacation-morning> <Air_Cooler-Audio_Player-Phone-Shades/Blinds,switch-switch-notification-contact,off-on-notify-opened>	4
+<null-null,locationMode-time,vacation-night> <Audio_Player-Light_Bulb-Phone-Shades/Blinds,switch-switch-notification-contact,on-on-notify-closed>	5
